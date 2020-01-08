@@ -6,9 +6,11 @@
       <div class="column has-text-centered">
 
         <div class="versions ">
-          {{pkg.name}} v{{pkg.version}}
-          | {{buefy.name}} v{{buefy.version}}
-          | {{bulma.name}} v{{bulma.version}}
+
+          <b-tag>{{pkg.name}} v{{pkg.version}}</b-tag>
+          <b-tag>{{buefy.name}} v{{buefy.version}}</b-tag>
+          <b-tag>{{bulma.name}} v{{bulma.version}}</b-tag>
+          
         </div>
 
       </div>

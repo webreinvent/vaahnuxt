@@ -2,7 +2,7 @@
   <section class="section">
     <div class="columns is-mobile">
 
-      <h1>Buefy UI Elements</h1>
+      <h1>Docs UI Elements</h1>
 
     </div>
   </section>

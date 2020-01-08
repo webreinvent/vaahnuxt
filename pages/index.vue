@@ -12,8 +12,6 @@
 
 
 export default {
-  layout: 'ui',
-  name: 'HomePage',
   components: {
 
   },
