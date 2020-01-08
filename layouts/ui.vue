@@ -7,22 +7,7 @@
 
       <section class="main-content columns">
         <aside class="column is-2 section">
-          <p class="menu-label is-hidden-touch">
-            General
-          </p>
-          <ul class="menu-list">
-            <li
-              v-for="(item, key) of items"
-              :key="key"
-            >
-              <nuxt-link
-                :to="item.to"
-                exact-active-class="is-active"
-              >
-                <b-icon :icon="item.icon" /> {{ item.title }}
-              </nuxt-link>
-            </li>
-          </ul>
+          <UiSideMenu></UiSideMenu>
         </aside>
 
         <div class="container column is-10">
@@ -39,12 +24,14 @@
 
 <script>
 
-import TopMenu from './partials/TopMenu'
-import Footer from './partials/Footer'
+  import TopMenu from './partials/TopMenu'
+  import UiSideMenu from './partials/UiSideMenu'
+  import Footer from './partials/Footer'
 
-export default {
+  export default {
     components:{
       TopMenu,
+      UiSideMenu,
       Footer,
     },
 
@@ -64,5 +51,5 @@ export default {
         ]
       }
     }
-}
+  }
 </script>

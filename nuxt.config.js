@@ -57,6 +57,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/vaah'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -81,7 +82,7 @@ export default {
     '@nuxtjs/sentry',
     '@nuxtjs/auth',
     '@nuxtjs/redirect-module',
-    '@nuxtjs/recaptcha',
+    //'@nuxtjs/recaptcha',
     ['@nuxtjs/google-analytics',
       {
         id: '',
