@@ -2,7 +2,7 @@
   <section class="section">
     <div class="columns is-mobile">
 
-      <h1>Docs UI Elements</h1>
+      <h1>Buefy UI Blocks</h1>
 
     </div>
   </section>
@@ -11,15 +11,11 @@
 <script>
 
   export default {
+    layout: 'ui/buefy',
     components: {
     },
     methods:{
-      clickMe: function () {
 
-        this.$vaah.toastErrors(['testing'])
-        this.$vaah.toastSuccess(['testing'])
-
-      }
     }
   }
 </script>

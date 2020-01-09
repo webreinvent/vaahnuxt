@@ -2,7 +2,7 @@
   <section class="section">
     <div class="columns is-mobile">
 
-      <h1>NuxtJs Boilerplate</h1>
+      <h1>UI Blocks</h1>
 
     </div>
   </section>
@@ -10,13 +10,11 @@
 
 <script>
 
-
-export default {
-  components: {
-
-  },
-  methods:{
-
+  export default {
+    layout: 'ui/blocks',
+    components: {
+    },
+    methods:{
+    }
   }
-}
 </script>

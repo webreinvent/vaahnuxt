@@ -17,13 +17,17 @@
 
     <template slot="end">
 
-      <b-navbar-dropdown label="Docs">
-        <b-navbar-item href="/guide">
-          Guide
+      <b-navbar-dropdown label="UI Guide">
+        <b-navbar-item href="/buefy">
+          Buefy
         </b-navbar-item>
-        <b-navbar-item href="/ui">
-          UI
+        <b-navbar-item href="/blocks">
+          Blocks
         </b-navbar-item>
+        <b-navbar-item href="/docs">
+          Docs
+        </b-navbar-item>
+
       </b-navbar-dropdown>
 
       <b-navbar-item tag="div">

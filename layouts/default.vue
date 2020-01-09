@@ -30,7 +30,7 @@
         </div>
       </section>
 
-      <Footer></Footer>
+      <UIFooter></UIFooter>
 
     </div>
 
@@ -40,12 +40,12 @@
 <script>
 
 import TopMenu from './partials/TopMenu'
-import Footer from './partials/Footer'
+import UIFooter from './../ui/partials/Footer'
 
 export default {
     components:{
       TopMenu,
-      Footer,
+      UIFooter,
     },
 
     data () {

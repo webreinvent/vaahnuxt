@@ -1,6 +1,6 @@
 <template>
   <b-menu>
-    <b-menu-list label="Menu">
+    <b-menu-list label="Docs">
       <b-menu-item icon="information-outline" label="Info"></b-menu-item>
       <b-menu-item
         icon="settings"
