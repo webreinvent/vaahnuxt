@@ -12,6 +12,11 @@
 
   export default {
     layout: 'ui/docs',
+    head () {
+      return {
+        title: 'Docs UI Blocks',
+      }
+    },
     components: {
     },
     methods:{

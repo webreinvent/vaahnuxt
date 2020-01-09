@@ -12,10 +12,16 @@
 
   export default {
     layout: 'ui/buefy',
+    head () {
+      return {
+        title: 'Buefy Block',
+      }
+    },
     components: {
     },
     methods:{
 
-    }
+    },
+
   }
 </script>

@@ -40,7 +40,7 @@
 
 <script>
 
-  import TopMenu from './../partials/TopMenu'
+  import TopMenu from './../../components/partials/TopMenu'
   import SideMenu from './../../ui/docs/partials/SideMenu'
   import Footer from './../../ui/partials/Footer'
 

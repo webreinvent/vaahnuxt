@@ -22,14 +22,18 @@
     "@nuxtjs/recaptcha": "^0.6.1",
     "@nuxtjs/redirect-module": "^0.3.1",
     "@nuxtjs/sentry": "^3.0.1",
-    "fs": "0.0.1-security",
     "nuxt": "^2.0.0",
     "nuxt-buefy": "^0.3.2",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "vue-codemirror": "^4.0.6"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^1.0.1",
     "@nuxtjs/eslint-module": "^1.0.0",
-    "babel-eslint": "^10.0.1"
+    "babel-eslint": "^10.0.1",
+    "fs": "0.0.1-security",
+    "node-sass": "^4.13.0",
+    "path": "^0.12.7",
+    "sass-loader": "^8.0.0"
   }
 }

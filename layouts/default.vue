@@ -39,7 +39,7 @@
 
 <script>
 
-import TopMenu from './partials/TopMenu'
+import TopMenu from './../components/partials/TopMenu'
 import UIFooter from './../ui/partials/Footer'
 
 export default {

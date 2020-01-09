@@ -52,6 +52,7 @@ export default {
   ** Global CSS
   */
   css: [
+    '@/ui/assets/scss/vaahnuxt.scss',
   ],
   /*
   ** Plugins to load before mounting the App
