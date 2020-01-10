@@ -52,13 +52,16 @@ export default {
   ** Global CSS
   */
   css: [
+    '~/node_modules/highlight.js/styles/github.css',
     '@/ui/assets/scss/vaahnuxt.scss',
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~/plugins/vaah'
+    '~/plugins/vaah',
+    '~/plugins/vue-highlightjs',
+    '~/plugins/vh-copy',
   ],
   /*
   ** Nuxt.js dev-modules
@@ -96,6 +99,18 @@ export default {
     ]
 
   ],
+  markdownit: {
+    preset: 'default',
+    linkify: true,
+    html: true,
+    breaks: true,
+    use: [
+      'markdown-it-div',
+      'markdown-it-attrs',
+      'markdown-it-highlightjs',
+
+    ]
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options

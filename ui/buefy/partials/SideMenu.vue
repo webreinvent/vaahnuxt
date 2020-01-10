@@ -7,6 +7,14 @@
     <ul class="menu-list">
       <li><nuxt-link to="/ui/buefy/button">Button</nuxt-link></li>
     </ul>
+
+    <p class="menu-label">UI COMPONENTS</p>
+    <ul class="menu-list">
+      <li><nuxt-link to="/ui/buefy/button">Button</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/carousel">Carousel</nuxt-link></li>
+    </ul>
+
+
     <p class="menu-label">Form Controls</p>
     <ul class="menu-list">
       <li><nuxt-link to="/ui/buefy/button">Button</nuxt-link></li>

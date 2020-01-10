@@ -14,34 +14,39 @@
     </section>
 
 
-    <hr/>
-    Code View<br/>
-    <div v-html="hello"></div>
+
+    <section>
+
+      <b-tabs >
+        <b-tab-item label="Preview">
+          <Button></Button>
+        </b-tab-item>
+
+        <b-tab-item label="Code">
+
+          <div class="docs code">
 
 
-    <hr/>
+            <b-button type="is-text">
+              <vh-copy
+                :data="hello"
+                :label="'copy'"
+                :confirm_dialog="'buefy'">
+              </vh-copy>
+            </b-button>
 
+            <pre v-highlightjs="hello">
+            <code class="vue">
+            </code>
+          </pre>
 
+          </div>
 
-        <section>
+        </b-tab-item>
 
-          <b-tabs >
-            <b-tab-item label="Preview">
-              <Button></Button>
-            </b-tab-item>
+      </b-tabs>
 
-            <b-tab-item label="Code">
-              Lorem <br>
-              ipsum <br>
-              dolor <br>
-              sit <br>
-              amet.
-            </b-tab-item>
-
-
-
-          </b-tabs>
-        </section>
+    </section>
 
 
   </div>
@@ -53,8 +58,7 @@
 <script>
 
   import Button from '../../../ui/buefy/components/Buttons/Button'
-  import readme from './readme.md';
-  import md_button from '../../../ui/buefy/components/Buttons/Button.vue.md';
+  import ButtonCode from "!raw-loader!../../../ui/buefy/components/Buttons/Button";
 
 
   export default {
@@ -66,7 +70,7 @@
     },
     computed: {
       hello() {
-        return md_button
+        return ButtonCode
       }
     },
     components: {
