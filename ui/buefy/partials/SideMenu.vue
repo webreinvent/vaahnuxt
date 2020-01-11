@@ -14,6 +14,7 @@
       <li><nuxt-link to="/ui/buefy/carousel">Carousel</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/collapse">Collapse</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/dialog">Dialog</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/dropdown">Dropdown</nuxt-link></li>
     </ul>
 
 
