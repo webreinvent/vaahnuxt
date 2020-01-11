@@ -1,10 +1,10 @@
 <template>
 
-  <section>
+  <section class="docs section">
 
-    <p class="title">
-      <a :href="'#'+name.toLowerCase()" class="">#</a>
-      <a :name="name.toLowerCase()"></a>
+    <p class="title is-4">
+      <a :href="'#'+link" class="">#</a>
+      <a :name="link"></a>
       {{name}}
     </p>
 
@@ -44,17 +44,24 @@
 </template>
 
 <script>
-
+  let slugify = require('slugify')
   export default {
     props: ['name', 'code'],
     components:{
     },
     data(){
 
-      let obj = {};
+      let obj = {
+        link: null,
+      };
 
       return obj;
 
+    },
+    mounted () {
+      this.link = slugify(this.name.toLowerCase());
+    },
+    methods:{
     }
   }
 </script>
