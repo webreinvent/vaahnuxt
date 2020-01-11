@@ -31,6 +31,7 @@
       <li><nuxt-link to="/ui/buefy/formcontrol/radio">Radio</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/formcontrol/rate">Rate</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/formcontrol/select">Select</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/formcontrol/slider">Slider</nuxt-link></li>
     </ul>
 
   </aside>
