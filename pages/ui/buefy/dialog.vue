@@ -2,33 +2,23 @@
 
   <div class="main-content">
 
-    <SectionTitle title="Buefy - Collapse"
-                  link="https://buefy.org/documentation/collapse">
+    <SectionTitle title="Buefy - Dialog"
+                  link="https://buefy.org/documentation/dialog">
     </SectionTitle>
 
 
-    <SectionCode name="Collapse" :code="CollapseCode">
-      <Collapse></Collapse>
+    <SectionCode name="Alert" :code="AlertCode">
+      <Alert></Alert>
     </SectionCode>
 
 
-    <SectionCode name="Panel" :code="PanelCode">
-      <Panel></Panel>
+    <SectionCode name="Confirm" :code="ConfirmCode">
+      <Confirm></Confirm>
     </SectionCode>
 
 
-    <SectionCode name="Card" :code="CardCode">
-      <Card></Card>
-    </SectionCode>
-
-
-    <SectionCode name="Position" :code="PositionCode">
-      <Position></Position>
-    </SectionCode>
-
-
-    <SectionCode name="Accordion Effect" :code="AccordionEffectCode">
-      <AccordionEffect></AccordionEffect>
+    <SectionCode name="Prompt" :code="PromptCode">
+      <Prompt></Prompt>
     </SectionCode>
 
   </div>

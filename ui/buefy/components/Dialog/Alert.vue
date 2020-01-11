@@ -1,55 +1,41 @@
 <template>
   <section>
-
-    <b-collapse
-      class="card"
-      v-for="(collapse, index) of collapses"
-      :key="index"
-      :open="isOpen == index"
-      @open="isOpen = index">
-      <div
-        slot="trigger"
-        slot-scope="props"
-        class="card-header"
-        role="button">
-        <p class="card-header-title">
-          {{ collapse.title }}
-        </p>
-        <a class="card-header-icon">
-          <b-icon
-            :icon="props.open ? 'menu-down' : 'menu-up'">
-          </b-icon>
-        </a>
-      </div>
-      <div class="card-content">
-        <div class="content">
-          {{ collapse.text }}
-        </div>
-      </div>
-    </b-collapse>
-
+    <button class="button is-medium is-primary" @click="alert">
+      Launch alert (default)
+    </button>
+    <button class="button is-medium is-primary" @click="alertCustom">
+      Launch alert (custom)
+    </button>
+    <button class="button is-medium is-danger" @click="alertCustomError">
+      Launch alert (custom)
+    </button>
   </section>
 </template>
 
 <script>
   export default {
-    data() {
-      return {
-        isOpen: 0,
-        collapses: [
-          {
-            title: 'Title 1',
-            text: 'Text 1'
-          },
-          {
-            title: 'Title 2',
-            text: 'Text 2'
-          },
-          {
-            title: 'Title 3',
-            text: 'Text 3'
-          }
-        ]
+    methods: {
+      alert() {
+        this.$buefy.dialog.alert('Everything looks fine!')
+      },
+      alertCustom() {
+        this.$buefy.dialog.alert({
+          title: 'Title Alert',
+          message: 'I have a title, a custom button and <b>HTML</b>!',
+          confirmText: 'Cool!'
+        })
+      },
+      alertCustomError() {
+        this.$buefy.dialog.alert({
+          title: 'Error',
+          message: 'Something\'s not good but I have a custom <b>icon</b> and <b>type</b>',
+          type: 'is-danger',
+          hasIcon: true,
+          icon: 'times-circle',
+          iconPack: 'fa',
+          ariaRole: 'alertdialog',
+          ariaModal: true
+        })
       }
     }
   }
