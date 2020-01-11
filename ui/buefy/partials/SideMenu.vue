@@ -20,7 +20,7 @@
 
     <p class="menu-label">Form Controls</p>
     <ul class="menu-list">
-      <li><nuxt-link to="/ui/buefy/button">Button</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/formcontrol/autocomplete">Autocomplete</nuxt-link></li>
     </ul>
 
   </aside>
