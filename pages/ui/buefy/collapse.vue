@@ -7,8 +7,28 @@
     </SectionTitle>
 
 
-    <SectionCode name="Carousel" :code="CarouselCode">
-      <Carousel></Carousel>
+    <SectionCode name="Collapse" :code="CollapseCode">
+      <Collapse></Collapse>
+    </SectionCode>
+
+
+    <SectionCode name="Panel" :code="PanelCode">
+      <Panel></Panel>
+    </SectionCode>
+
+
+    <SectionCode name="Card" :code="CardCode">
+      <Card></Card>
+    </SectionCode>
+
+
+    <SectionCode name="Position" :code="PositionCode">
+      <Position></Position>
+    </SectionCode>
+
+
+    <SectionCode name="Accordion Effect" :code="AccordionEffectCode">
+      <AccordionEffect></AccordionEffect>
     </SectionCode>
 
   </div>
