@@ -24,6 +24,7 @@
       <li><nuxt-link to="/ui/buefy/formcontrol/checkbox">Checkbox</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/formcontrol/clockpicker">Clockpicker</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/formcontrol/datepicker">Datepicker</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/formcontrol/datetimepicker">Datetimepicker</nuxt-link></li>
     </ul>
 
   </aside>
