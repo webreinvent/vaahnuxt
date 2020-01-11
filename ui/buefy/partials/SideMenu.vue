@@ -28,6 +28,8 @@
       <li><nuxt-link to="/ui/buefy/formcontrol/field">Field</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/formcontrol/input">Input</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/formcontrol/numberinput">Numberinput</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/formcontrol/radio">Radio</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/formcontrol/rate">Rate</nuxt-link></li>
     </ul>
 
   </aside>
