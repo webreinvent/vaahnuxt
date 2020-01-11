@@ -16,6 +16,22 @@
       <TypesAndStates></TypesAndStates>
     </SectionCode>
 
+    <SectionCode name="Size" :code="SizeCode">
+      <Size></Size>
+    </SectionCode>
+
+    <SectionCode name="Icons" :code="IconsCode">
+      <Icons></Icons>
+    </SectionCode>
+
+    <SectionCode name="Tags" :code="TagsCode">
+      <Tags></Tags>
+    </SectionCode>
+
+    <SectionCode name="Router" :code="RouterCode">
+      <Router></Router>
+    </SectionCode>
+
 
   </div>
 
