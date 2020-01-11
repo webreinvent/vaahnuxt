@@ -22,6 +22,8 @@
     <ul class="menu-list">
       <li><nuxt-link to="/ui/buefy/formcontrol/autocomplete">Autocomplete</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/formcontrol/checkbox">Checkbox</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/formcontrol/clockpicker">Clockpicker</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/formcontrol/datepicker">Datepicker</nuxt-link></li>
     </ul>
 
   </aside>
