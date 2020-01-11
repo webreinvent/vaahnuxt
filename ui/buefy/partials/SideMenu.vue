@@ -26,6 +26,7 @@
       <li><nuxt-link to="/ui/buefy/formcontrol/datepicker">Datepicker</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/formcontrol/datetimepicker">Datetimepicker</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/formcontrol/field">Field</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/formcontrol/input">Input</nuxt-link></li>
     </ul>
 
   </aside>
