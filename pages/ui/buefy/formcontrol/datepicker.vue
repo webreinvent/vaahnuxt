@@ -66,4 +66,4 @@
 
 </template>
 
-<script src="./datepicker.js"></script>
+<script src="./datepickerjs.js"></script>

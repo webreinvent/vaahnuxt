@@ -36,4 +36,4 @@
 
 </template>
 
-<script src="./clockpicker.js"></script>
+<script src="./clockpickerjs.js"></script>
