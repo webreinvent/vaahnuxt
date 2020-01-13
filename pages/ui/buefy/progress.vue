@@ -36,4 +36,4 @@
 
 </template>
 
-<script src="./progress.js"></script>
+<script src="./progressjs.js"></script>
