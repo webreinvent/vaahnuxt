@@ -73,7 +73,13 @@
 
 
     <SectionCode name="Async Data" :code="AsyncDataCode">
-      <AsyncData></AsyncData>
+      <b-notification
+        type="is-warning"
+        aria-close-label="Close notification"
+        role="alert">
+        Async Data Generating errors and needs to be fixed.
+      </b-notification>
+<!--      <AsyncData></AsyncData>-->
     </SectionCode>
 
 

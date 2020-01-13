@@ -28,6 +28,9 @@
       <li><nuxt-link to="/ui/buefy/steps">Steps</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/table">Table</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/toast">Toast</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/tooltip">ToolTip</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/tag">Tag</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/tabs">Tabs</nuxt-link></li>
     </ul>
 
 
