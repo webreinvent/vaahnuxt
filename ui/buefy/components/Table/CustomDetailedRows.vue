@@ -210,7 +210,7 @@
     },
     methods: {
       toggle(row) {
-        this.$refs.table.toggleDetails(row)
+        this.$refs.table.toggleDetails(row);
       }
     }
   }
