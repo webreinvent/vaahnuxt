@@ -21,6 +21,7 @@
       <li><nuxt-link to="/ui/buefy/message">Message</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/modal">Modal</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/navbar">Navbar</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/notification">Notification</nuxt-link></li>
     </ul>
 
 
