@@ -15,6 +15,9 @@
       <li><nuxt-link to="/ui/buefy/collapse">Collapse</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/dialog">Dialog</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/dropdown">Dropdown</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/icon">Icon</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/loading">Loading</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/menu">Menu</nuxt-link></li>
     </ul>
 
 
@@ -32,6 +35,10 @@
       <li><nuxt-link to="/ui/buefy/formcontrol/rate">Rate</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/formcontrol/select">Select</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/formcontrol/slider">Slider</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/formcontrol/switch">Switch</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/formcontrol/taginput">Taginput</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/formcontrol/timepicker">TimePicker</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/formcontrol/upload">Upload</nuxt-link></li>
     </ul>
 
   </aside>
