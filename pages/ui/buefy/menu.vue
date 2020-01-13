@@ -3,12 +3,17 @@
   <div class="main-content">
 
     <SectionTitle title="Buefy - Menu"
-                  link="https://buefy.org/documentation/menu/">
+                  link="https://bulma.io/documentation/components/menu/">
     </SectionTitle>
 
 
     <SectionCode name="Menu" :code="MenuCode">
-      <Menu></Menu>
+      <b-notification
+        type="is-warning"
+        aria-close-label="Close notification"
+        role="alert">
+        Need to use menu from the Bulma.
+      </b-notification>
     </SectionCode>
 
 

@@ -18,6 +18,7 @@
       <li><nuxt-link to="/ui/buefy/icon">Icon</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/loading">Loading</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/menu">Menu</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/message">Message</nuxt-link></li>
     </ul>
 
 
