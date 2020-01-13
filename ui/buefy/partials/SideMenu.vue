@@ -23,6 +23,7 @@
       <li><nuxt-link to="/ui/buefy/navbar">Navbar</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/notification">Notification</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/pagination">Pagination</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/progress">Progress</nuxt-link></li>
     </ul>
 
 
