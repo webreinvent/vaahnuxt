@@ -16,6 +16,9 @@ import HeaderlessCode from "!raw-loader!../../../ui/buefy/components/Message/Hea
 import Sizes from '../../../ui/buefy/components/Message/Sizes'
 import SizesCode from "!raw-loader!../../../ui/buefy/components/Message/Sizes";
 
+import AutoClose from '../../../ui/buefy/components/Message/AutoClose'
+import AutoCloseCode from "!raw-loader!../../../ui/buefy/components/Message/AutoClose";
+
 export default {
   layout: 'ui/buefy',
   head () {
@@ -29,6 +32,7 @@ export default {
     IconsCode() {return IconsCode},
     HeaderlessCode() {return HeaderlessCode},
     SizesCode() {return SizesCode},
+    AutoCloseCode() {return AutoCloseCode},
   },
   components: {
     SectionTitle,
@@ -38,6 +42,7 @@ export default {
     Icons,
     Headerless,
     Sizes,
+    AutoClose
 
   },
   methods:{

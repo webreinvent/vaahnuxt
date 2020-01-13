@@ -32,6 +32,11 @@
     </SectionCode>
 
 
+    <SectionCode name="Auto Close" :code="AutoCloseCode">
+      <AutoClose></AutoClose>
+    </SectionCode>
+
+
   </div>
 
 </template>
