@@ -27,6 +27,7 @@
       <li><nuxt-link to="/ui/buefy/snackbar">Snackbar</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/steps">Steps</nuxt-link></li>
       <li><nuxt-link to="/ui/buefy/table">Table</nuxt-link></li>
+      <li><nuxt-link to="/ui/buefy/toast">Toast</nuxt-link></li>
     </ul>
 
 
