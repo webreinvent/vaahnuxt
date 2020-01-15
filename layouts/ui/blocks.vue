@@ -28,6 +28,9 @@
                 </button>
 
                 <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks">Blocks</nuxt-link></b-dropdown-item>
+                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/others">Blocks Two</nuxt-link></b-dropdown-item>
+                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/cards">Cards</nuxt-link></b-dropdown-item>
+                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/cards-two">Cards Two</nuxt-link></b-dropdown-item>
                 <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/banner">Banner</nuxt-link></b-dropdown-item>
                 <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/pricing">Pricing</nuxt-link></b-dropdown-item>
                 <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/tabs">Tabs & Pills</nuxt-link></b-dropdown-item>
@@ -36,7 +39,12 @@
                 <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/blogs">Blogs</nuxt-link></b-dropdown-item>
                 <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/clientele">Clientele</nuxt-link></b-dropdown-item>
                 <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/faq">Frequently Asked Questions</nuxt-link></b-dropdown-item>
-                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/others">Blocks Two</nuxt-link></b-dropdown-item>
+                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/list">List</nuxt-link></b-dropdown-item>
+                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/testimonials">Testimonials</nuxt-link></b-dropdown-item>
+                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/counter">Counter</nuxt-link></b-dropdown-item>
+                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/process">Process</nuxt-link></b-dropdown-item>
+                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/team">Team</nuxt-link></b-dropdown-item>
+                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/portfolio">Portfolio</nuxt-link></b-dropdown-item>
               </b-dropdown>
             </div>
 

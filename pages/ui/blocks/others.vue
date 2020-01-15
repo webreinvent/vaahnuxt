@@ -6,12 +6,6 @@
 
 
 
-    <SectionCode name="ServiceFeaturesFourColouredBoxes UI Block" :code="ServiceFeaturesFourColouredBoxesCode">
-      <ServiceFeaturesFourColouredBoxes :content="c.ServiceFeaturesFourColouredBoxes"></ServiceFeaturesFourColouredBoxes>
-    </SectionCode>
-
-
-
     <SectionCode name="ServiceFeaturesNumbersTop UI Block" :code="ServiceFeaturesNumbersTopCode">
       <ServiceFeaturesNumbersTop :content="c.ServiceFeaturesNumbersTop"></ServiceFeaturesNumbersTop>
     </SectionCode>
@@ -49,9 +43,6 @@
 
   import SectionCode from '../../../ui/resuable/SectionCode';
 
-  import ServiceFeaturesFourColouredBoxes from "../../../ui/blocks/ServiceFeaturesFourColouredBoxes";
-  import ServiceFeaturesFourColouredBoxesCode from "!raw-loader!../../../ui/blocks/ServiceFeaturesFourColouredBoxes";
-
   import ServiceFeaturesNumbersTop from "../../../ui/blocks/ServiceFeaturesNumbersTop";
   import ServiceFeaturesNumbersTopCode from "!raw-loader!../../../ui/blocks/ServiceFeaturesNumbersTop";
 
@@ -74,9 +65,6 @@
       }
     },
     computed: {
-      ServiceFeaturesFourColouredBoxesCode() {
-        return ServiceFeaturesFourColouredBoxesCode
-      },
       ServiceFeaturesNumbersTopCode() {
         return ServiceFeaturesNumbersTopCode
       },
@@ -93,7 +81,6 @@
     components: {
       SectionTitle,
       SectionCode,
-      ServiceFeaturesFourColouredBoxes,
       ServiceFeaturesNumbersTop,
       ServiceFeaturesNumbersTopThreeColumns,
       ServiceLoopFive,
