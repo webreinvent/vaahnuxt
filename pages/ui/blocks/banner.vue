@@ -26,7 +26,7 @@
   import SectionCode from '../../../ui/resuable/SectionCode';
 
   import Banner from "../../../ui/blocks/Banner";
-  import BannerCode from "!raw-loader!../../../ui/blocks/Sample";
+  import BannerCode from "!raw-loader!../../../ui/blocks/Banner";
 
 
 
