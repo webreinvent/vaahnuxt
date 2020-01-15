@@ -54,7 +54,12 @@ export default {
   css: [
     '~/node_modules/highlight.js/styles/github.css',
     '@/ui/assets/scss/vaahnuxt.scss',
+    {
+      src: '~/static/style.css',
+      lang: 'css', rel:'preload', as: 'style'
+    }
   ],
+
   /*
   ** Plugins to load before mounting the App
   */

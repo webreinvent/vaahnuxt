@@ -6,36 +6,42 @@
     <section class="hero is-primary">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title">
-            UI Blocks
-          </h1>
-          <h2 class="subtitle">
-            List Of UI Blocks
-            <a target="_blank" href="https://www.froala.com/design-blocks">view</a>
-          </h2>
+
+          <div class="level">
+
+            <div class="level-left">
+
+              <h1 class="title">
+                VaahNuxt - Reusable UI Blocks<br/>
+              </h1>
+              <h2 class="subtitle">
+                Reference for UI Blocks Future:
+                <a target="_blank" href="https://www.froala.com/design-blocks">view</a>
+              </h2>
+
+            </div>
+            <div class="level-right">
+              <b-dropdown position="is-bottom-left" aria-role="list">
+                <button class="button" slot="trigger">
+                  <span>More Items!!</span>
+                  <b-icon icon="menu-down"></b-icon>
+                </button>
+
+                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks">Blocks</nuxt-link></b-dropdown-item>
+                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/banner">Banner</nuxt-link></b-dropdown-item>
+              </b-dropdown>
+            </div>
+
+          </div>
+
+
         </div>
       </div>
     </section>
 
-    <div class="container" >
+    <div class="">
 
-
-
-      <section class="main-content columns">
-        <aside class="column is-2 section">
-          <SideMenu></SideMenu>
-        </aside>
-
-        <div class="container column is-10">
-
-
-
-          <nuxt />
-
-        </div>
-      </section>
-
-      <Footer></Footer>
+      <nuxt />
 
     </div>
 
