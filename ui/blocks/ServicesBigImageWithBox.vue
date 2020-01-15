@@ -1,5 +1,5 @@
 <template>
-  <div class="spacer">
+  <div class="spacer ServicesBigImageWithBox">
     <div class="container">
       <div class="columns is-centered">
         <div class="column is-10 has-text-centered">

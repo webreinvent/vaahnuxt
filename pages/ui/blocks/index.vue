@@ -41,6 +41,54 @@
     </SectionCode>
 
 
+
+    <SectionCode name="ServicesLoopEight UI Block" :code="ServicesLoopEightCode">
+      <ServicesLoopEight :content="c.ServicesLoopEight"></ServicesLoopEight>
+    </SectionCode>
+
+
+
+    <SectionCode name="ServicesLoopEightLeftImage UI Block" :code="ServicesLoopEightLeftImageCode">
+      <ServicesLoopEightLeftImage :content="c.ServicesLoopEightLeftImage"></ServicesLoopEightLeftImage>
+    </SectionCode>
+
+
+
+    <SectionCode name="ServicesLoopNine UI Block" :code="ServicesLoopNineCode">
+      <ServicesLoopNine :content="c.ServicesLoopNine"></ServicesLoopNine>
+    </SectionCode>
+
+
+
+    <SectionCode name="ServicesLoopTen UI Block" :code="ServicesLoopTenCode">
+      <ServicesLoopTen :content="c.ServicesLoopTen"></ServicesLoopTen>
+    </SectionCode>
+
+
+
+    <SectionCode name="ServicesLoopSeven UI Block" :code="ServicesLoopSevenCode">
+      <ServicesLoopSeven :content="c.ServicesLoopSeven"></ServicesLoopSeven>
+    </SectionCode>
+
+
+
+    <SectionCode name="ServicesLoopOnlyData UI Block" :code="ServicesLoopOnlyDataCode">
+      <ServicesLoopOnlyData :content="c.ServicesLoopOnlyData"></ServicesLoopOnlyData>
+    </SectionCode>
+
+
+
+    <SectionCode name="ServicesLoopThree UI Block" :code="ServicesLoopThreeCode">
+      <ServicesLoopThree :content="c.ServicesLoopThree"></ServicesLoopThree>
+    </SectionCode>
+
+
+
+    <SectionCode name="ServicesLoopThreeOnlyPList UI Block" :code="ServicesLoopThreeOnlyPListCode">
+      <ServicesLoopThreeOnlyPList :content="c.ServicesLoopThreeOnlyPList"></ServicesLoopThreeOnlyPList>
+    </SectionCode>
+
+
   </div>
 
 
@@ -73,6 +121,30 @@
   import ServicesBigImageWithBox from "../../../ui/blocks/ServicesBigImageWithBox";
   import ServicesBigImageWithBoxCode from "!raw-loader!../../../ui/blocks/ServicesBigImageWithBox";
 
+  import ServicesLoopEight from "../../../ui/blocks/ServicesLoopEight";
+  import ServicesLoopEightCode from "!raw-loader!../../../ui/blocks/ServicesLoopEight";
+
+  import ServicesLoopEightLeftImage from "../../../ui/blocks/ServicesLoopEightLeftImage";
+  import ServicesLoopEightLeftImageCode from "!raw-loader!../../../ui/blocks/ServicesLoopEightLeftImage";
+
+  import ServicesLoopNine from "../../../ui/blocks/ServicesLoopNine";
+  import ServicesLoopNineCode from "!raw-loader!../../../ui/blocks/ServicesLoopNine";
+
+  import ServicesLoopTen from "../../../ui/blocks/ServicesLoopTen";
+  import ServicesLoopTenCode from "!raw-loader!../../../ui/blocks/ServicesLoopTen";
+
+  import ServicesLoopSeven from "../../../ui/blocks/ServicesLoopSeven";
+  import ServicesLoopSevenCode from "!raw-loader!../../../ui/blocks/ServicesLoopSeven";
+
+  import ServicesLoopOnlyData from "../../../ui/blocks/ServicesLoopOnlyData";
+  import ServicesLoopOnlyDataCode from "!raw-loader!../../../ui/blocks/ServicesLoopOnlyData";
+
+  import ServicesLoopThree from "../../../ui/blocks/ServicesLoopThree";
+  import ServicesLoopThreeCode from "!raw-loader!../../../ui/blocks/ServicesLoopThree";
+
+  import ServicesLoopThreeOnlyPList from "../../../ui/blocks/ServicesLoopThreeOnlyPList";
+  import ServicesLoopThreeOnlyPListCode from "!raw-loader!../../../ui/blocks/ServicesLoopThreeOnlyPList";
+
 
 
   export default {
@@ -100,6 +172,30 @@
       },
       ServicesBigImageWithBoxCode() {
         return ServicesBigImageWithBoxCode
+      },
+      ServicesLoopEightCode() {
+        return ServicesLoopEightCode
+      },
+      ServicesLoopEightLeftImageCode() {
+        return ServicesLoopEightLeftImageCode
+      },
+      ServicesLoopNineCode() {
+        return ServicesLoopNineCode
+      },
+      ServicesLoopTenCode() {
+        return ServicesLoopTenCode
+      },
+      ServicesLoopSevenCode() {
+        return ServicesLoopSevenCode
+      },
+      ServicesLoopOnlyDataCode() {
+        return ServicesLoopOnlyDataCode
+      },
+      ServicesLoopThreeCode() {
+        return ServicesLoopThreeCode
+      },
+      ServicesLoopThreeOnlyPListCode() {
+        return ServicesLoopThreeOnlyPListCode
       }
     },
     components: {
@@ -111,6 +207,14 @@
       SectionTitle,
       SectionCode,
       Sample,
+      ServicesLoopEight,
+      ServicesLoopEightLeftImage,
+      ServicesLoopNine,
+      ServicesLoopTen,
+      ServicesLoopSeven,
+      ServicesLoopOnlyData,
+      ServicesLoopThree,
+      ServicesLoopThreeOnlyPList,
     },
     data(){
       let obj = {

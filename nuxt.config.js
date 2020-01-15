@@ -53,11 +53,7 @@ export default {
   */
   css: [
     '~/node_modules/highlight.js/styles/github.css',
-    '@/ui/assets/scss/vaahnuxt.scss',
-    {
-      src: '~/static/style.css',
-      lang: 'css', rel:'preload', as: 'style'
-    }
+    '@/ui/assets/scss/vaahnuxt.scss'
   ],
 
   /*

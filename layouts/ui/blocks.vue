@@ -29,6 +29,14 @@
 
                 <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks">Blocks</nuxt-link></b-dropdown-item>
                 <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/banner">Banner</nuxt-link></b-dropdown-item>
+                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/pricing">Pricing</nuxt-link></b-dropdown-item>
+                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/tabs">Tabs & Pills</nuxt-link></b-dropdown-item>
+                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/calltoactions">Call To Actions</nuxt-link></b-dropdown-item>
+                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/forms">Forms</nuxt-link></b-dropdown-item>
+                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/blogs">Blogs</nuxt-link></b-dropdown-item>
+                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/clientele">Clientele</nuxt-link></b-dropdown-item>
+                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/faq">Frequently Asked Questions</nuxt-link></b-dropdown-item>
+                <b-dropdown-item has-link aria-role="listitem"><nuxt-link to="/ui/blocks/others">Blocks Two</nuxt-link></b-dropdown-item>
               </b-dropdown>
             </div>
 
