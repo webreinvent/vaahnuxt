@@ -1,45 +1,61 @@
 <template>
 
-  <section class="docs section">
+  <div>
 
-    <p class="title is-4">
-      <a :href="'#'+link" class="">#</a>
-      <a :name="link"></a>
-      {{name}}
-    </p>
+    <div class="container is-fullhd">
+      <div class="columns">
+        <div class="column">
+          <section class="docs section">
 
-    <b-tabs :animated="false">
-      <b-tab-item label="Preview">
-        <slot></slot>
-      </b-tab-item>
+            <p class="title is-4 has-text-centered">
+              <a :href="'#'+link" class="">#</a>
+              <a :name="link"></a>
+              {{name}}
+            </p>
 
-      <b-tab-item label="Code">
+            <b-tabs position="is-centered" :animated="false">
+              <b-tab-item label="Preview" style="padding: 10px 0px;">
 
-        <div class="docs code">
+                <slot></slot>
 
-          <b-button type="is-text">
-            <vh-copy
-              :data="code"
-              :label="'copy'"
-              :confirm_dialog="'buefy'">
-            </vh-copy>
-          </b-button>
+              </b-tab-item>
 
-          <pre v-highlightjs="code">
+              <b-tab-item label="Code">
+
+                <div class="docs code">
+
+                  <b-button type="is-text">
+                    <vh-copy
+                      :data="code"
+                      :label="'copy'"
+                      :confirm_dialog="'buefy'">
+                    </vh-copy>
+                  </b-button>
+
+                  <pre v-highlightjs="code">
             <code class="vue">
             </code>
           </pre>
 
+                </div>
+
+              </b-tab-item>
+
+            </b-tabs>
+
+
+
+
+          </section>
         </div>
+      </div>
+    </div>
 
-      </b-tab-item>
-
-    </b-tabs>
-
-
+  </div>
 
 
-  </section>
+
+
 
 </template>
 
@@ -67,5 +83,7 @@
 </script>
 
 <style scoped>
-
+  .tab-content{
+    padding: 10px 0px;
+  }
 </style>
