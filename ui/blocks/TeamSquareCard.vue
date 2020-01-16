@@ -4,8 +4,8 @@
       <div class="container">
         <div class="columns is-centered m-b-30">
           <div class="column is-7 has-text-centered">
-            <h2 class="title">{{content.heading}}</h2>
-            <h6 class="subtitle">{{content.details}}</h6>
+            <h2 class="title is-1">{{content.heading}}</h2>
+            <h6 class="subtitle is-6">{{content.details}}</h6>
           </div>
         </div>
         <div class="columns m-t-30">
@@ -19,8 +19,8 @@
                 </div>
                 <div class="column is-7 bg-white">
                   <div class="p-30">
-                    <h5 class="title m-t-0 font-medium">{{items.name}}</h5>
-                    <p>{{items.designation}}</p>
+                    <h5 class="title is-4 m-t-0 font-medium">{{items.name}}</h5>
+                    <p class="content">{{items.designation}}</p>
                   </div>
                 </div>
               </div>

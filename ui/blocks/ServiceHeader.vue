@@ -3,8 +3,8 @@
     <div class="container">
       <div class="columns">
         <div class="column is-6">
-          <h1 class="has-text-dark"><strong>{{content.heading}}</strong></h1>
-          <p>{{content.details}}</p>
+          <h1 class="has-text-dark title is-4"><strong>{{content.heading}}</strong></h1>
+          <p class="content">{{content.details}}</p>
         </div>
         <div class="column is-6">
           <div class="columns">

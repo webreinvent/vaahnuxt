@@ -5,8 +5,8 @@
       <div class="container">
         <div class="columns is-centered">
           <div class="column is-7 has-text-centered">
-            <h2 class="title">{{content.main_heading}}</h2>
-            <h6 class="subtitle">{{content.sub_text}}</h6>
+            <h2 class="title is-1">{{content.main_heading}}</h2>
+            <h6 class="subtitle is-6">{{content.sub_text}}</h6>
           </div>
         </div>
         <div class="columns is-gapless m-t-40">
@@ -17,8 +17,8 @@
                 <div class="has-text-centered">
                   <div class="p-3">
                     <div class="icon-space"><i class="display-5 text-info-gradiant icon-Target"></i></div>
-                    <h4 class="font-medium">{{service.heading}}</h4>
-                    <p>{{service.details}}</p>
+                    <h4 class="title is-4">{{service.heading}}</h4>
+                    <p class="content">{{service.details}}</p>
                   </div>
                 </div>
               </div>
