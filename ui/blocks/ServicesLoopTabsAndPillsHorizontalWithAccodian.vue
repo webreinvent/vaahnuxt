@@ -6,7 +6,7 @@
           <div class="column is-10">
             <b-tabs type="is-boxed">
               <b-tab-item v-if="content.tabs" v-for="(tab, index) in content.tabs" v-bind:key="index" :label="tab.heading">
-                <p class="m-t-20 text-justify">{{tab.details}}</p>
+                <p class="content">{{tab.details}}</p>
                 <div class="columns">
                   <div class="column is-12">
                     <b-collapse

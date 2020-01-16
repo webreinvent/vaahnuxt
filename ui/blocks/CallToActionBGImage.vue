@@ -3,13 +3,13 @@
     <div class="container">
       <div class="columns is-centered">
         <div class="column is-10 has-text-centered">
-          <h1><strong class="has-text-white">{{content.heading}}</strong></h1>
-          <p><strong class="has-text-white">{{content.details}}</strong></p>
+          <h1><strong class="has-text-white is-4 title">{{content.heading}}</strong></h1>
+          <p><strong class="has-text-white content">{{content.details}}</strong></p>
         </div>
       </div>
       <div class="columns is-centered">
         <div class="column is-2 has-text-centered">
-          <nuxt-link  v-if="content.link" class="button is-danger" to="/contact">
+          <nuxt-link  v-if="content.link" class="button is-danger is-medium" to="/contact">
             {{content.link.label}} <i class="ti-arrow-right"></i>
           </nuxt-link>
         </div>

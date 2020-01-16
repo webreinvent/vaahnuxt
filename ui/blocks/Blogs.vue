@@ -3,9 +3,9 @@
     <div class="blogs spacer">
       <div class="container">
         <div class="columns is-centered">
-          <div class="column is-half">
-            <h2 class="title has-text-centered">{{content.heading}}</h2>
-            <h6 class="subtitle has-text-centered">{{content.details}}</h6>
+          <div class="column">
+            <h2 class="title is-1 has-text-centered">{{content.heading}}</h2>
+            <h6 class="subtitle is-6 has-text-centered">{{content.details}}</h6>
           </div>
         </div>
         <div class="columns">
@@ -19,13 +19,13 @@
               <div class="card-content">
                 <div class="media">
                   <div class="media-content">
-                    <p class="title is-4">{{items.name}},&nbsp; &nbsp; {{items.date}}</p>
+                    <p class="content">{{items.name}},&nbsp; &nbsp; {{items.date}}</p>
                   </div>
                 </div>
 
                 <div class="content">
-                  <h2>{{items.heading}}</h2>
-                  {{items.details}}
+                  <h2 class="title is-4">{{items.heading}}</h2>
+                  <p class="content">{{items.details}}</p>
                   <br>
                 </div>
               </div>
@@ -41,14 +41,14 @@
                     </figure>
                   </div>
                   <div class="card-content">
-                    <div class="media">
+                    <div class="media" style="margin-bottom: 0px;">
                       <div class="media-content">
-                        <p class="is-4">{{items.name}},&nbsp; &nbsp; {{items.date}}</p>
+                        <p class="content is-4">{{items.name}},&nbsp; &nbsp; {{items.date}}</p>
                       </div>
                     </div>
 
                     <div class="content">
-                      <h4>{{items.heading}}</h4>
+                      <h4 class="title is-4" style="margin-bottom: 0px;">{{items.heading}}</h4>
                       <br>
                     </div>
                   </div>

@@ -6,8 +6,8 @@
         <!-- columns  -->
         <div class="columns is-centered">
           <div class="column is-7 has-text-centered">
-            <h2 class="title">{{content.main_heading}}</h2>
-            <h6 class="subtitle">{{content.sub_text}}</h6>
+            <h2 class="title is-1">{{content.main_heading}}</h2>
+            <h6 class="subtitle is-6">{{content.sub_text}}</h6>
           </div>
         </div>
         <!-- columns  -->
@@ -17,23 +17,23 @@
                v-for="(service, index) in content.services" class="column is-4 wrap-feature6-box">
 
             <div v-if="index%3==0" class="card bg-success-gradiant has-text-white" data-aos="fade-right" data-aos-duration="1200">
-              <div class="card-body p-3">
-                <h6 class="font-medium has-text-white">{{service.heading}}</h6>
-                <p class="m-t-20 has-text-white">{{service.details}}</p>
+              <div class="card-content">
+                <h6 class="title is-4 has-text-white">{{service.heading}}</h6>
+                <p class="content has-text-white">{{service.details}}</p>
               </div>
             </div>
 
             <div v-else-if="index%3==1" class="card bg-info-gradiant has-text-white" data-aos="fade-down" data-aos-duration="1200">
-              <div class="card-body p-3">
-                <h6 class="font-medium has-text-white">{{service.heading}}</h6>
-                <p class="m-t-20 has-text-white">{{service.details}}</p>
+              <div class="card-content">
+                <h6 class="title is-4 has-text-white">{{service.heading}}</h6>
+                <p class="content has-text-white">{{service.details}}</p>
               </div>
             </div>
 
             <div v-else-if="index%3==2" class="card bg-danger-gradiant has-text-white" data-aos="fade-left" data-aos-duration="1200">
-              <div class="card-body p-3">
-                <h6 class="font-medium has-text-white">{{service.heading}}</h6>
-                <p class="m-t-20 has-text-white">{{service.details}}</p>
+              <div class="card-content">
+                <h6 class="title is-4 has-text-white">{{service.heading}}</h6>
+                <p class="content has-text-white">{{service.details}}</p>
               </div>
             </div>
           </div>
