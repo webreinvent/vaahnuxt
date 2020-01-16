@@ -179,7 +179,7 @@
     ]
   },
   "SectionHPListImageRight": {
-    "src": "https://via.placeholder.com/625x650",
+    "src": "https://via.placeholder.com/625x600",
     "heading": "What is Lorem Ipsum",
     "details_one": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
     "details_two": "",
@@ -406,7 +406,7 @@
     "sub_text" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a",
     "features" : [
       {
-        "src" : "https://via.placeholder.com/850x500",
+        "src" : "https://via.placeholder.com/850x450",
         "heading" : "Lorem Ipsum is simply dummy",
         "details" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
         "list" : [
@@ -419,7 +419,7 @@
         ]
       },
       {
-        "src" : "https://via.placeholder.com/850x500",
+        "src" : "https://via.placeholder.com/850x450",
         "heading" : "Lorem Ipsum is simply dummy",
         "details" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
         "list" : [
@@ -657,7 +657,7 @@
   "ServicesLoopEight": {
     "main_heading": "Lorem Ipsum is simply dummy text",
     "sub_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    "src": "https://via.placeholder.com/485x250",
+    "src": "https://via.placeholder.com/485x350",
     "features": [
       {
         "item": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
@@ -673,7 +673,7 @@
   "ServicesLoopEightLeftImage": {
     "main_heading": "Lorem Ipsum is simply dummy text",
     "sub_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    "src": "https://via.placeholder.com/485x250",
+    "src": "https://via.placeholder.com/485x350",
     "features": [
       {
         "item": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
@@ -1096,25 +1096,25 @@
     "sub_text": "Lorem Ipsum is simply dummy text of the printing",
     "services": [
       {
-        "heading": "Lorem Ipsum is simply dummy text of the printing ",
+        "heading": "Lorem Ipsum is simply dummy ",
         "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
       },
       {
-        "src": "https://via.placeholder.com/450x280"
+        "src": "https://via.placeholder.com/450x320"
       },
       {
-        "heading": "Lorem Ipsum is simply dummy text of the printing ",
+        "heading": "Lorem Ipsum is simply dummy ",
         "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
       },
       {
-        "src": "https://via.placeholder.com/450x280"
+        "src": "https://via.placeholder.com/450x320"
       },
       {
-        "heading": "Lorem Ipsum is simply dummy text of the printing ",
+        "heading": "Lorem Ipsum is simply dummy ",
         "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
       },
       {
-        "src": "https://via.placeholder.com/450x280"
+        "src": "https://via.placeholder.com/450x320"
       }
     ]
   },
@@ -1157,7 +1157,7 @@
     "sub_text": "Lorem Ipsum is simply dummy text of the printing",
     "features": [
       {
-        "src": "https://via.placeholder.com/450x380",
+        "src": "https://via.placeholder.com/450x420",
         "heading": "Lorem Ipsum is simply dummy text of the print",
         "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
         "services": [
@@ -1168,7 +1168,7 @@
         ]
       },
       {
-        "src": "https://via.placeholder.com/450x380",
+        "src": "https://via.placeholder.com/450x420",
         "heading": "Lorem Ipsum is simply dummy text of the print",
         "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
         "services": [

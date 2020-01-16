@@ -4,8 +4,8 @@
       <!-- Row  -->
       <div class="columns is-centered">
         <div class="column is-10 has-text-centered">
-          <h2 class="title">{{content.main_heading}}</h2>
-          <h6 class="subtitle">{{content.sub_text}}</h6>
+          <h2 class="title is-1">{{content.main_heading}}</h2>
+          <h6 class="subtitle is-6">{{content.sub_text}}</h6>
         </div>
       </div>
       <!-- Row  -->
@@ -20,12 +20,12 @@
             </div>
             <div class="column is-6">
               <div class="p-3">
-                <h2 class="title">{{feature.heading}}</h2>
-                <p>{{feature.details}}</p>
+                <h2 class="title is-2">{{feature.heading}}</h2>
+                <p class="content">{{feature.details}}</p>
 
                 <ul v-if="feature.list"
                     v-for="items in feature.list">
-                  <li>{{items.item}}</li>
+                  <li class="content">{{items.item}}</li>
                 </ul>
               </div>
             </div>
@@ -36,12 +36,12 @@
           <div class="columns is-gapless">
             <div class="column is-6">
               <div class="p-3">
-                <h2 class="title">{{feature.heading}}</h2>
-                <p>{{feature.details}}</p>
+                <h2 class="title is-2">{{feature.heading}}</h2>
+                <p class="content">{{feature.details}}</p>
 
                 <ul v-if="feature.list"
                     v-for="items in feature.list">
-                  <li class="text-left">{{items.item}}</li>
+                  <li class="text-left content">{{items.item}}</li>
                 </ul>
               </div>
             </div>

@@ -3,15 +3,15 @@
     <div class="columns">
       <div class="column is-7">
         <div class="section spacer is-vcentered">
-          <h1 class="has-text-dark">{{content.heading}}</h1>
-          <p>{{content.details_one}}</p>
-          <p class="m-t-30">{{content.details_two}}</p>
+          <h1 class="has-text-dark title is-2">{{content.heading}}</h1>
+          <p class="content">{{content.details_one}}</p>
+          <p class="content">{{content.details_two}}</p>
           <ul v-if="content.list"
               v-for="items in content.list">
-            <li>{{items.item}}</li>
+            <li class="content">{{items.item}}</li>
           </ul>
 
-          <p class="m-t-30">{{content.details_two}}</p>
+          <p class="content is-medium">{{content.details_two}}</p>
           <nuxt-link  v-if="content.link" class="button is-primary" to="/contact">
             {{content.link.label}}
           </nuxt-link>
