@@ -1,6 +1,6 @@
 {
   "name": "vaahnuxt",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Boilerplate of NuxtJs+Buefy+Laravel Authentication",
   "author": "Pradeep",
   "private": true,
