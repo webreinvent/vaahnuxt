@@ -1,0 +1,36 @@
+.docs{
+
+  //---code
+
+  &.section{
+    padding: 1.5rem 0;
+    border-top: 1px dotted #444;
+  }
+
+  &.code{
+    font-size: .9rem;
+    position: relative;
+
+    pre{
+      background-color: $docs-code-bg;
+      code{
+        background-color: $docs-code-bg;
+      }
+    }
+
+
+
+    .is-text{
+      font-size: .9rem;
+      position: absolute;
+      right: 0;
+      text-decoration: none;
+      &:hover{
+        color: #d14;
+      }
+    }
+
+  }
+  //---/code
+
+}
