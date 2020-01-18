@@ -4,8 +4,8 @@
       <div class="container">
         <div class="columns is-centered">
           <div class="column is-10 has-text-centered">
-            <h2 class="has-text-centered">{{content.main_heading}}</h2>
-            <h6 class="subtitle has-text-centered">{{content.sub_text}}</h6>
+            <h2 class="has-text-centered title is-1">{{content.main_heading}}</h2>
+            <h6 class="subtitle is-6 has-text-centered">{{content.sub_text}}</h6>
           </div>
         </div>
         <div class="columns m-t-30">
