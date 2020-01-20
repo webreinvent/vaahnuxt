@@ -8,7 +8,12 @@
               Screen Sizes
             </h4>
             <div class="box">
-              <img src="../../assets/Images/scree-sizes.jpg">
+              <pre><code>
+        768         1024                1216         1408
+'     '     '     '     '     '     '     '     '     '     '     '
+&lt;---------^------------^------------------^-------------^-------------&gt;
+  mobile      tablet         desktop         widescreen      fullhd
+</code></pre>
             </div>
           </div>
           <div class="modifiers content">
@@ -17,6 +22,17 @@
             </h4>
             <div class="box">
               <h6 class="is-6" style="border-bottom: 1px solid #e2e2e2; padding-bottom: 20px; margin-bottom: 5px;">The following CSS classes affect the <strong>colour</strong>.</h6>
+              <div class="columns">
+                <div class="column">
+                  <b-button type="is-text">
+                    <vh-copy
+                      :data="is-primary"
+                      :label="'copy'"
+                      :confirm_dialog="'buefy'">
+                    </vh-copy>
+                  </b-button>
+                </div>
+              </div>
               <p class="content">.is-primary</p>
               <p class="content">.is-link</p>
               <p class="content">.is-info</p>
