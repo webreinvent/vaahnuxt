@@ -1,9 +1,8 @@
 <template>
   <div class="main-content">
 
-    <SectionTitle title="VaahNuxt Cheat Sheet - UI Blocks">
-    </SectionTitle>
 
+    <SectionCode name="Cheetsheet UI Block" :code="CheetsheetCode">
       <Cheetsheet></Cheetsheet>
 
 

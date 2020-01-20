@@ -1,14 +1,25 @@
-var fs = require('fs');
-var path = require('path');
+let fs = require('fs');
+let path = require('path');
+
+import config from './vaah.config';
+
 
 let ENV_DEV = true;
 
-//Development Environment
+/*
+|--------------------------------------------------------------------------
+| NuxtJs Development Configurations
+|--------------------------------------------------------------------------
+*/
 let port = 49950;
 let host = 'localhost';
 let https = false;
 
-//Production Environment
+/*
+|--------------------------------------------------------------------------
+| NuxtJs Production Configurations
+|--------------------------------------------------------------------------
+*/
 if(ENV_DEV==false)
 {
   host = 'domain.com';
@@ -20,119 +31,113 @@ if(ENV_DEV==false)
   };
 }
 
+/*
+|--------------------------------------------------------------------------
+| NuxtJs Configurations
+|--------------------------------------------------------------------------
+*/
 
-export default {
-  mode: 'universal',
-  /*
-  ** Headers of the page
-  */
-  head: {
-    title: process.env.npm_package_name || '',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
-  },
-  server: {
-    port: port, // default: 3000
-    host: host, // default: localhost,
-    timing: false,
-    https: https
-  },
+config.mode = 'universal';
 
-  /*
-  ** Customize the progress-bar color
-  */
-  loading: { color: '#fff' },
-  /*
-  ** Global CSS
-  */
-  css: [
-    '~/node_modules/highlight.js/styles/github.css',
-    '@/ui/assets/scss/vaahnuxt.scss'
+/*
+|--------------------------------------------------------------------------
+| NuxtJs Head Details
+|--------------------------------------------------------------------------
+*/
+config.head = {
+  title: process.env.npm_package_name || '',
+  meta: [
+    { charset: 'utf-8' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
   ],
+  link: [
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+  ]
+};
 
+/*
+|--------------------------------------------------------------------------
+| NuxtJs Loading
+|--------------------------------------------------------------------------
+*/
+
+config.loading =  { color: '#7957d5', throttle: 0, height: '5px' };
+
+/*
+|--------------------------------------------------------------------------
+| NuxtJs Server Configurations
+|--------------------------------------------------------------------------
+*/
+config.server = {
+  port: port, // default: 3000
+  host: host, // default: localhost,
+  timing: false,
+  https: https
+};
+
+
+/*
+|--------------------------------------------------------------------------
+| NuxtJs Plugins
+|--------------------------------------------------------------------------
+*/
+let plugins = [];
+
+config.plugins.concat(plugins);
+
+
+/*
+|--------------------------------------------------------------------------
+| NuxtJs Modules
+|--------------------------------------------------------------------------
+*/
+let modules = [];
+
+config.modules.concat(modules);
+
+
+/*
+|--------------------------------------------------------------------------
+| NuxtJs Build Modules
+|--------------------------------------------------------------------------
+*/
+let buildModules = [];
+
+config.buildModules.concat(buildModules);
+
+
+/*
+|--------------------------------------------------------------------------
+| NuxtJs Build
+|--------------------------------------------------------------------------
+*/
+config.build = {
   /*
-  ** Plugins to load before mounting the App
+  ** You can extend webpack config here
   */
-  plugins: [
-    '~/plugins/vaah',
-    '~/plugins/vue-highlightjs',
-    '~/plugins/vh-copy',
-  ],
-  /*
-  ** Nuxt.js dev-modules
-  */
-  buildModules: [
-    // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module'
-  ],
-  /*
-  ** Nuxt.js modules
-  */
-  modules: [
-    // Doc: https://buefy.github.io/#/documentation
-    'nuxt-buefy',
-    // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    '@nuxtjs/pwa',
-    // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv',
-    '@nuxtjs/font-awesome',
-    '@nuxtjs/markdownit',
-    '@nuxtjs/sentry',
-    '@nuxtjs/auth',
-    '@nuxtjs/redirect-module',
-    //'@nuxtjs/recaptcha',
-    ['@nuxtjs/google-analytics',
-      {
-        id: '',
-        debug: {
-          enabled: false,
-          sendHitTask: true
-        },
-      },
-
-    ]
-
-  ],
-  markdownit: {
-    preset: 'default',
-    linkify: true,
-    html: true,
-    breaks: true,
-    use: [
-      'markdown-it-div',
-      'markdown-it-attrs',
-      'markdown-it-highlightjs',
-
-    ]
+  extend (config, ctx) {
   },
-  /*
-  ** Axios module configuration
-  ** See https://axios.nuxtjs.org/options
-  */
-  axios: {
-  },
-  /*
-  ** Build configuration
-  */
-  build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend (config, ctx) {
-    },
-    postcss: {
-      preset: {
-        features: {
-          customProperties: false
-        }
+  postcss: {
+    preset: {
+      features: {
+        customProperties: false
       }
     }
   }
-}
+};
+
+/*
+|--------------------------------------------------------------------------
+| NuxtJs Google Analytics
+|--------------------------------------------------------------------------
+*/
+config.googleAnalytics = {
+  id: '',
+  "debug": {
+    "enabled": false,
+    "sendHitTask": true
+  }
+};
+
+export default config;

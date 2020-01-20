@@ -1,10 +1,6 @@
 <template>
   <div class="main-content">
 
-    <SectionTitle title="VaahNuxt - UI Blocks">
-    </SectionTitle>
-
-
 
     <SectionCode name="Counter UI Block" :code="CounterCode">
       <Counter :content="c.Counter"></Counter>

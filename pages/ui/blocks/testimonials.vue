@@ -1,10 +1,6 @@
 <template>
   <div class="main-content">
 
-    <SectionTitle title="VaahNuxt - UI Blocks">
-    </SectionTitle>
-
-
 
     <SectionCode name="Testimonials UI Block" :code="TestimonialsCode">
       <Testimonials :content="c.Testimonials"></Testimonials>

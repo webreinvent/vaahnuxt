@@ -1,10 +1,6 @@
 <template>
   <div class="main-content">
 
-    <SectionTitle title="VaahNuxt - UI Blocks">
-    </SectionTitle>
-
-
 
     <SectionCode name="CallToAction UI Block" :code="CallToActionCode">
       <CallToAction :content="c.CallToAction"></CallToAction>
