@@ -4,7 +4,7 @@
     <div class="navbar-brand">
 
       <nuxt-link to="/" class="navbar-item">
-        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+        <img src="../../assets/Images/logo-v1.svg" width="112" height="28">
       </nuxt-link>
 
 
