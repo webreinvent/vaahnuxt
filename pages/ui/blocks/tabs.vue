@@ -1,10 +1,6 @@
 <template>
   <div class="main-content">
 
-    <SectionTitle title="VaahNuxt - UI Blocks">
-    </SectionTitle>
-
-
 
     <SectionCode name="ServicesLoopTabsAndPills UI Block" :code="ServicesLoopTabsAndPillsCode">
       <ServicesLoopTabsAndPills :content="c.ServicesLoopTabsAndPills"></ServicesLoopTabsAndPills>

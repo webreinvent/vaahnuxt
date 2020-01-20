@@ -1,9 +1,6 @@
 <template>
   <div class="main-content">
 
-    <SectionTitle title="VaahNuxt - UI Blocks">
-    </SectionTitle>
-
 
 
     <SectionCode name="FrequentlyAskedQuestions UI Block" :code="FrequentlyAskedQuestionsCode">

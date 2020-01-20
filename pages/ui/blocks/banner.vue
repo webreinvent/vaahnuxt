@@ -1,10 +1,6 @@
 <template>
   <div class="main-content">
 
-    <SectionTitle title="VaahNuxt - UI Blocks">
-    </SectionTitle>
-
-
 
     <SectionCode name="Banner UI Block" :code="BannerCode">
       <Banner :content="c.Banner"></Banner>
