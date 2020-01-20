@@ -1,14 +1,10 @@
 <template>
   <div class="main-content">
 
-    <SectionTitle title="VaahNuxt - UI Blocks">
+    <SectionTitle title="VaahNuxt Cheat Sheet - UI Blocks">
     </SectionTitle>
 
-
-
-    <SectionCode name="Cheetsheet UI Block" :code="CheetsheetCode">
       <Cheetsheet></Cheetsheet>
-    </SectionCode>
 
 
   </div>
@@ -26,7 +22,6 @@
   import SectionCode from '../../../ui/resuable/SectionCode';
 
   import Cheetsheet from "../../../ui/blocks/Cheetsheet";
-  import CheetsheetCode from "!raw-loader!../../../ui/blocks/Cheetsheet";
 
 
 
@@ -38,9 +33,6 @@
       }
     },
     computed: {
-      CheetsheetCode() {
-        return CheetsheetCode
-      }
     },
     components: {
       SectionTitle,

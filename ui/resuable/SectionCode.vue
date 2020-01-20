@@ -25,10 +25,15 @@
                 <div class="docs code">
 
                   <b-button type="is-text">
+                    <b-icon
+                      icon="view-dashboard"
+                      size="is-small">
+                    </b-icon>
                     <vh-copy
                       :data="code"
                       :label="'copy'"
                       :confirm_dialog="'buefy'">
+
                     </vh-copy>
                   </b-button>
 
