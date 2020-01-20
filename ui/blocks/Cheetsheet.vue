@@ -1,615 +1,174 @@
 <template>
-  <div>
+  <div style="background: #f1f3f5; padding: 48px 0px;">
     <div class="container">
-      <div class="block">
-        <h1 class="title is-1">headings</h1>
-        <h1 class="title">Hello World</h1>
-        <h2 class="subtitle">Hello World</h2>
-
-        <h1 class="title is-1">Hello World</h1>
-        <h2 class="title is-2">Hello World</h2>
-        <h3 class="title is-3">Hello World</h3>
-        <h4 class="title is-4">Hello World</h4>
-        <h5 class="title is-5">Hello World</h5>
-        <h6 class="title is-6">Hello World</h6>
-        <!-- End block -->
-      </div>
-
-      <div class="block">
-        <h1 class="title is-1">Content</h1>
-        <p class="content is-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, quae!</p>
-        <p class="content is-medium">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, in.</p>
-        <p class="content is-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, sed.</p>
-      </div>
-
-      <div class="block">
-        <h1 class="title is-1">Buttons</h1>
-        <button class="button">Button</button>
-        <button class="button is-white">Button</button>
-        <button class="button is-light">Button</button>
-        <button class="button is-dark">Button</button>
-        <button class="button is-black">Button</button>
-        <button class="button is-link">Button</button>
-      </div>
-
-      <div class="block">
-        <a href="" class="button is-primary">is-primary</a>
-        <a href="" class="button is-info">is-info</a>
-        <a href="" class="button is-success">is-success</a>
-        <a href="" class="button is-warning">is-warning</a>
-        <a href="" class="button is-danger">is-danger</a>
-      </div>
-
-      <div class="block">
-        <a href="" class="button is-primary is-small">is-primary</a>
-        <a href="" class="button is-info is-medium">is-info</a>
-        <a href="" class="button is-success is-large">is-success</a>
-      </div>
-
-      <div class="block">
-        <a href="" class="button is-primary is-outlined">is-primary</a>
-        <a href="" class="button is-info is-outlined">is-info</a>
-        <a href="" class="button is-success is-outlined">is-success</a>
-        <a href="" class="button is-warning is-outlined">is-warning</a>
-        <a href="" class="button is-danger is-outlined">is-danger</a>
-      </div>
-
-      <div class="block">
-        <a href="" class="button is-primary is-inverted">is-primary</a>
-        <a href="" class="button is-info is-inverted">is-info</a>
-        <a href="" class="button is-success is-inverted">is-success</a>
-        <a href="" class="button is-warning is-inverted">is-warning</a>
-        <a href="" class="button is-danger is-inverted">is-danger</a>
-      </div>
-
-      <div class="block">
-        <a href="" class="button is-hovered">is-hovered</a>
-        <a href="" class="button is-focused">is-focused</a>
-        <a href="" class="button is-active">is-active</a>
-        <a href="" class="button is-loading">is-loading</a>
-        <a href="" class="button disabled">disabled</a>
-      </div>
-
-      <div class="block">
-        <h1 class="title is-1">Box</h1>
-        <div class="box">
-          <h1 class="title">Hello World I'm Box</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, quibusdam.</p>
-        </div>
-      </div>
-
-      <div class="block">
-        <h1 class="title is-1">Notifications</h1>
-        <div class="notification">
-          <button class="delete"></button>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea error itaque minus.
-        </div>
-        <div class="notification is-primary">
-          <button class="delete"></button>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea error itaque minus.
-        </div>
-        <div class="notification is-info">
-          <button class="delete"></button>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea error itaque minus.
-        </div>
-        <div class="notification is-success">
-          <button class="delete"></button>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea error itaque minus.
-        </div>
-        <div class="notification is-warning">
-          <button class="delete"></button>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea error itaque minus.
-        </div>
-        <div class="notification is-danger">
-          <button class="delete"></button>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea error itaque minus.
-        </div>
-      </div>
-
-
-      <div class="block">
-        <h1 class="title is-1">Tags</h1>
-        <span class="tag">Hello</span>
-        <span class="tag is-black">is-black</span>
-        <span class="tag is-dark">is-dark</span>
-        <span class="tag is-light">is-light</span>
-        <span class="tag is-white">is-white</span>
-        <span class="tag is-primary">is-primary</span>
-        <span class="tag is-info">is-info</span>
-        <span class="tag is-success">is-success</span>
-        <span class="tag is-warning">is-warning</span>
-        <span class="tag is-danger">is-danger<button class="delete"></button></span>
-      </div>
-
-      <div class="block">
-        <h1 class="title is-1">Messages</h1>
-        <article class="message is-primary">
-          <div class="message-header">
-            <p>About us</p>
-          </div>
-          <div class="message-body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Adipisci aperiam asperiores assumenda corporis delectus doloremque
-            ea est explicabo ipsa iure libero nostrum omnis optio placeat,
-            porro quaerat quia similique totam.
-          </div>
-        </article>
-        <article class="message is-success">
-          <div class="message-header">
-            <p>About us</p>
-          </div>
-          <div class="message-body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Adipisci aperiam asperiores assumenda corporis delectus doloremque
-            ea est explicabo ipsa iure libero nostrum omnis optio placeat,
-            porro quaerat quia similique totam.
-          </div>
-        </article>
-        <article class="message is-info">
-          <div class="message-header">
-            <p>About us</p>
-          </div>
-          <div class="message-body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Adipisci aperiam asperiores assumenda corporis delectus doloremque
-            ea est explicabo ipsa iure libero nostrum omnis optio placeat,
-            porro quaerat quia similique totam.
-          </div>
-        </article>
-        <article class="message is-warning">
-          <div class="message-header">
-            <p>About us</p>
-          </div>
-          <div class="message-body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Adipisci aperiam asperiores assumenda corporis delectus doloremque
-            ea est explicabo ipsa iure libero nostrum omnis optio placeat,
-            porro quaerat quia similique totam.
-          </div>
-        </article>
-        <article class="message is-danger">
-          <div class="message-header">
-            <p>About us</p>
-          </div>
-          <div class="message-body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Adipisci aperiam asperiores assumenda corporis delectus doloremque
-            ea est explicabo ipsa iure libero nostrum omnis optio placeat,
-            porro quaerat quia similique totam.
-          </div>
-        </article>
-      </div>
-
-      <div class="block">
-        <h1 class="title is-1">NavBar</h1>
-        <nav class="nav">
-          <div class="nav-left">
-            <a href="" class="nav-item">
-              <h1 class="title is-4">TDullah Media</h1>
-            </a>
-          </div>
-          <div class="nav-center">
-            <a href="" class="nav-item">
-                            <span class="icon">
-                                <i class="fa fa-github"></i>
-                            </span>
-            </a>
-            <a href="" class="nav-item">
-                            <span class="icon">
-                                <i class="fa fa-twitter"></i>
-                            </span>
-            </a>
-          </div>
-          <div class="nav-right nav-menu is-active">
-            <a href="" class="nav-item">Home</a>
-            <a href="" class="nav-item">About Us</a>
-            <a href="" class="nav-item">Contact</a>
-          </div>
-        </nav>
-      </div>
-
-      <div class="block">
-        <h1 class="title is-1">Side Menu</h1>
-        <aside class="menu">
-          <p class="menu-label">
-            Label 1
-          </p>
-          <ul class="menu-list">
-            <li><a href="">Link1</a>
-              <a href="">Link2</a>
-            </li>
-          </ul>
-          <p class="menu-label">
-            Label 2
-          </p>
-          <ul class="menu-list">
-            <li>
-              <a href="" class="is-active">Link3</a>
-              <ul>
-                <li>
-                  <a href="">Link 4</a>
-                  <a href="">Link 5</a>
-                  <a href="">Link 6</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </aside>
-      </div>
-
-      <div class="block">
-        <h1 class="title is-1">Hero Banner</h1>
-        <section class="hero">
-          <div class="hero-body">
-            <div class="container">
-              <h1 class="title">Hero Title</h1>
-              <h2 class="subtitle">Hero Subtitle</h2>
+      <div class="columns">
+        <div class="column is-6">
+          <div class="screen-sizes content">
+            <h4 class="title is-4 has-text-primary">
+              Screen Sizes
+            </h4>
+            <div class="box">
+              <pre><code>
+        768         1024                1216         1408
+'     '     '     '     '     '     '     '     '     '     '     '
+&lt;---------^------------^------------------^-------------^-------------&gt;
+  mobile      tablet         desktop         widescreen      fullhd
+</code></pre>
             </div>
           </div>
-        </section>
-        <section class="hero is-primary">
-          <div class="hero-body">
-            <div class="container">
-              <h1 class="title">Hero Title</h1>
-              <h2 class="subtitle">Hero Subtitle</h2>
-            </div>
-          </div>
-        </section>
-        <section class="hero is-success">
-          <div class="hero-body">
-            <div class="container">
-              <h1 class="title">Hero Title</h1>
-              <h2 class="subtitle">Hero Subtitle</h2>
-            </div>
-          </div>
-        </section>
-        <section class="hero is-warning">
-          <div class="hero-body">
-            <div class="container">
-              <h1 class="title">Hero Title</h1>
-              <h2 class="subtitle">Hero Subtitle</h2>
-            </div>
-          </div>
-        </section>
-        <section class="hero is-danger">
-          <div class="hero-body">
-            <div class="container">
-              <h1 class="title">Hero Title</h1>
-              <h2 class="subtitle">Hero Subtitle</h2>
-            </div>
-          </div>
-        </section>
-        <section class="hero is-info">
-          <div class="hero-body">
-            <div class="container">
-              <h1 class="title">Hero Title</h1>
-              <h2 class="subtitle">Hero Subtitle</h2>
-            </div>
-          </div>
-        </section>
-      </div>
+          <div class="modifiers content">
+            <h4 class="title is-4 has-text-primary">
+              Modifiers
+            </h4>
+            <div class="box">
+              <h6 class="is-6" style="border-bottom: 1px solid #e2e2e2; padding-bottom: 20px; margin-bottom: 5px;">The following CSS classes affect the <strong>colour</strong>.</h6>
+              <div class="columns">
+                <div class="column">
+                  <b-button type="is-text">
+                    <vh-copy
+                      :data="is-primary"
+                      :label="'copy'"
+                      :confirm_dialog="'buefy'">
+                    </vh-copy>
+                  </b-button>
+                </div>
+              </div>
+              <p class="content">.is-primary</p>
+              <p class="content">.is-link</p>
+              <p class="content">.is-info</p>
+              <p class="content">.is-success</p>
+              <p class="content">.is-warning</p>
+              <p class="content">.is-danger</p>
 
-      <div class="block">
-        <h1 class="title is-1">Cards</h1>
-        <div class="card">
-          <div class="card-content">
-            <p class="title">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Consequuntur obcaecati possimus quae quibusdam!
-            </p>
+              <h6 class="is-6 has-background-light" style="border-bottom: 1px solid #e2e2e2; padding: 20px 0px 20px 10px; margin-bottom: 5px;">The following classes modify the <strong>size</strong>.</h6>
+              <p class="content">.is-small</p>
+              <p class="content">.is-medium</p>
+              <p class="content">.is-large</p>
+
+              <h6 class="is-6 has-background-light" style="border-bottom: 1px solid #e2e2e2; padding: 20px 0px 20px 10px; margin-bottom: 5px;">The following classes modify the <strong>state</strong>.</h6>
+              <p class="content">.is-outlined</p>
+              <p class="content">.is-loading</p>
+            </div>
           </div>
-          <footer class="card-footer">
-            <p class="card-footer-item">
-                            <span>View on
-                                <a href="">
-                                <i class="fa fa-twitter"></i>
-                                Twitter
-                            </a>
-                            </span>
-            </p>
-            <p class="card-footer-item">
-                            <span>Share on
-                                <a href="">
-                                    <i class="fa fa-facebook"></i>
-                                    Facebook
-                                </a>
-                            </span>
-            </p>
-          </footer>
+          <div class="content-class content">
+            <h4 class="title is-4 has-text-primary">
+              WYSIWYG Content
+            </h4>
+            <div class="box">
+              <div class="columns">
+                <div class="column is-4">
+                  <div class="content">
+                    <!-- start WYSIWYG contents -->
+                    <h1>Heading</h1>
+                    <p>Paragraph</p>
+
+                    <ul>
+                      <li>Item 1</li>
+                      <li>Item 2</li>
+                    </ul>
+                    <!-- end WYSIWYG contents -->
+                  </div>
+                </div>
+                <div class="column is-8">
+                  <pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>content<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                    <span class="token comment" spellcheck="true">&lt;!-- start WYSIWYG contents --&gt;</span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>Heading<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Paragraph<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span>
+                      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>Item 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+                      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>Item 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token comment" spellcheck="true">&lt;!-- end WYSIWYG contents --&gt;</span>
+                  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                  </code></pre>
+                </div>
+              </div>
+              <h6 class="is-6 has-background-light" style="border-bottom: 1px solid #e2e2e2; padding: 20px 0px 20px 10px;">To provide default stylings for commonly generated WYSIWYG contents, use the .content class.</h6>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div class="block">
-        <h1 class="title is-1">Pagination</h1>
-        <nav class="pagination">
-          <a href="" class="pagination-previous" disabled>
-            Previous
-          </a>
-          <a href="" class="pagination-next">Next Page</a>
-          <ul class="pagination-list">
-            <li><a href="" class="pagination-link is-current">1</a></li>
-            <li><a href="" class="pagination-link">2</a></li>
-            <li><a href="" class="pagination-link">3</a></li>
-          </ul>
-        </nav>
-      </div>
-
-      <div class="block">
-        <h1 class="title is-1">Level</h1>
-        <nav class="level">
-          <div class="level-left">
-            <p class="level-item"><a><strong>All</strong></a></p>
-            <p class="level-item"><a>Published</a></p>
-            <p class="level-item"><a>Draft</a></p>
-            <p class="level-item"><a>Deleted</a></p>
-            <p class="level-item"><a class="button is-primary">New</a></p>
-          </div>
-          <div class="level-right">
-            <div class="level-item">
-              <div class="field">
-                <p class="control">
-                  <input type="text" class="input" placeholder="Search posts...">
-                </p>
+        <div class="column is-6">
+          <div class="screen-sizes content">
+            <h4 class="title is-4 has-text-primary">
+              Columns
+            </h4>
+            <div class="box">
+              <p class="content">.container</p>
+              <h6 class="is-6 has-background-light" style="border-bottom: 1px solid #e2e2e2; padding: 20px 0px 20px 10px;">Wrap as many .column’s’ as you like in a .columns wrapper</h6>
+              <div class="columns">
+                <div class="column">
+                  <pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>columns<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>column<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>column<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>column<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>column<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>column<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                </code></pre>
+              </div>
               </div>
             </div>
           </div>
-        </nav>
-      </div>
-
-      <div class="block">
-        <h1 class="title is-1">Forms</h1>
-        <form>
-          <div class="field">
-            <label class="label">Name</label>
-            <input type="text" class="input" placeholder="Enter Name">
-          </div>
-          <div class="field">
-            <label class="label">Name</label>
-            <input type="email" class="input is-success" placeholder="Enter Email">
-          </div>
-          <div class="field">
-            <label class="label">Name</label>
-            <input type="text" class="input is-danger" placeholder="Enter Number">
-          </div>
-
-          <div class="field">
-            <label class="label">Package</label>
-            <p class="control">
-                            <span class="select">
-                                <select>
-                                    <option>Select Dropdown</option>
-                                    <option>Simple</option>
-                                    <option>Standard</option>
-                                    <option>Super</option>
-                                </select>
-                            </span>
-            </p>
-          </div>
-
-          <div class="field">
-            <label class="label">Message</label>
-            <p class="control">
-              <textarea class="textarea" placeholder="Textarea"></textarea>
-            </p>
-          </div>
-        </form>
-      </div>
-
-      <div class="block">
-        <h1 class="title is-1">Attached</h1>
-        <div class="field has-addons">
-          <p class="control">
-            <input type="text" class="input" placeholder="Enter keywords...">
-          </p>
-          <p class="control">
-            <a href="" class="button is-info">Search</a>
-          </p>
-        </div>
-      </div>
-
-      <div class="block">
-        <div class="field has-addons">
-          <p class="control">
-                        <span class="select">
-                            <select name="" id="">
-                                <option value="">$</option>
-                                <option value="">£</option>
-                                <option value="">€</option>
-                            </select>
-                        </span>
-          </p>
-          <p class="control">
-            <input type="text" class="input" placeholder="Enter amount">
-          </p>
-          <p class="control">
-            <a href="" class="button is-info">Pay</a>
-          </p>
-        </div>
-      </div>
-
-      <div class="block">
-        <h1 class="title is-1">Tables</h1>
-        <table class="table">
-          <thead>
-          <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Phone</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td>Rick Grimes</td>
-            <td>rgrimes@gmail.com</td>
-            <td>555-555-5555</td>
-          </tr>
-          <tr class="is-selected">
-            <td>Daryl Dixon</td>
-            <td>daryl@gmail.com</td>
-            <td>123-334-5566</td>
-          </tr>
-          <tr>
-            <td>Glen Rhee</td>
-            <td>glen@gmail.com</td>
-            <td>333-444-5555</td>
-          </tr>
-          <tr>
-            <td>Carol Peletier</td>
-            <td>carol@gmail.com</td>
-            <td>343-344-5543</td>
-          </tr>
-          </tbody>
-        </table>
-
-        <table class="table is-striped">
-          <thead>
-          <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Phone</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td>Rick Grimes</td>
-            <td>rgrimes@gmail.com</td>
-            <td>555-555-5555</td>
-          </tr>
-          <tr>
-            <td>Daryl Dixon</td>
-            <td>daryl@gmail.com</td>
-            <td>123-334-5566</td>
-          </tr>
-          <tr>
-            <td>Glen Rhee</td>
-            <td>glen@gmail.com</td>
-            <td>333-444-5555</td>
-          </tr>
-          <tr>
-            <td>Carol Peletier</td>
-            <td>carol@gmail.com</td>
-            <td>343-344-5543</td>
-          </tr>
-          </tbody>
-        </table>
-
-        <table class="table is-bordered">
-          <thead>
-          <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Phone</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td>Rick Grimes</td>
-            <td>rgrimes@gmail.com</td>
-            <td>555-555-5555</td>
-          </tr>
-          <tr>
-            <td>Daryl Dixon</td>
-            <td>daryl@gmail.com</td>
-            <td>123-334-5566</td>
-          </tr>
-          <tr>
-            <td>Glen Rhee</td>
-            <td>glen@gmail.com</td>
-            <td>333-444-5555</td>
-          </tr>
-          <tr>
-            <td>Carol Peletier</td>
-            <td>carol@gmail.com</td>
-            <td>343-344-5543</td>
-          </tr>
-          </tbody>
-        </table>
-
-        <table class="table is-narrow">
-          <thead>
-          <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Phone</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td>Rick Grimes</td>
-            <td>rgrimes@gmail.com</td>
-            <td>555-555-5555</td>
-          </tr>
-          <tr>
-            <td>Daryl Dixon</td>
-            <td>daryl@gmail.com</td>
-            <td>123-334-5566</td>
-          </tr>
-          <tr>
-            <td>Glen Rhee</td>
-            <td>glen@gmail.com</td>
-            <td>333-444-5555</td>
-          </tr>
-          <tr>
-            <td>Carol Peletier</td>
-            <td>carol@gmail.com</td>
-            <td>343-344-5543</td>
-          </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="block">
-        <h1 class="title is-1">Grid</h1>
-        <div class="columns">
-          <div class="column is-three-quarters">
-            <p class="notification">is-three-quarters</p>
-          </div>
-          <div class="column">
-            <p class="notification">auto</p>
-          </div>
-          <div class="column">
-            <p class="notification">auto</p>
+          <div class="typography content">
+            <h4 class="title is-4 has-text-primary">
+              Typography Helpers
+            </h4>
+            <div class="box">
+              <h6 class="is-6" style="border-bottom: 1px solid #e2e2e2; padding-bottom: 20px; margin-bottom: 5px;">The following classes modify the <strong>font-size</strong>.</h6>
+              <div class="columns">
+                <div class="column is-8">
+                  <p class="content has-text-left">.is-size-1</p>
+                  <p class="content has-text-left">.is-size-2</p>
+                  <p class="content has-text-left">.is-size-3</p>
+                  <p class="content has-text-left">.is-size-4</p>
+                  <p class="content has-text-left">.is-size-5</p>
+                  <p class="content has-text-left">.is-size-6</p>
+                  <p class="content has-text-left">.is-size-7</p>
+                </div>
+                <div class="column is-4">
+                  <p class="content has-text-right">3rem</p>
+                  <p class="content has-text-right">2.5rem</p>
+                  <p class="content has-text-right">2rem</p>
+                  <p class="content has-text-right">1.5rem</p>
+                  <p class="content has-text-right">1.25rem</p>
+                  <p class="content has-text-right">1rem</p>
+                  <p class="content has-text-right">0.75rem</p>
+                </div>
+              </div>
+              <h6 class="is-6 has-background-light" style="border-bottom: 1px solid #e2e2e2; padding: 20px 0px 20px 10px; margin-bottom: 5px;">The following classes <strong>align</strong> the text.</h6>
+              <div class="columns">
+                <div class="column is-4">
+                  <p class="content has-text-left">.has-text-centered</p>
+                  <p class="content has-text-left">.has-text-justified</p>
+                  <p class="content has-text-left">.has-text-left</p>
+                  <p class="content has-text-left">.has-text-right</p>
+                </div>
+                <div class="column is-8">
+                  <p class="content has-text-right">Makes the text <strong>centered</strong></p>
+                  <p class="content has-text-right">Makes the text <strong>justified</strong></p>
+                  <p class="content has-text-right">Makes the text align to the <strong>left</strong></p>
+                  <p class="content has-text-right">Makes the text align to the <strong>right</strong></p>
+                </div>
+              </div>
+              <h6 class="is-6 has-background-light" style="border-bottom: 1px solid #e2e2e2; padding: 20px 0px 20px 10px; margin-bottom: 5px;">The following classes <strong>transform </strong> the text.</h6>
+              <div class="columns">
+                <div class="column is-3">
+                  <p class="content has-text-left">.is-capitalized</p>
+                  <p class="content has-text-left">.is-lowercase</p>
+                  <p class="content has-text-left">.is-uppercase</p>
+                </div>
+                <div class="column is-9">
+                  <p class="content has-text-right">Transforms the <strong>first character</strong> of each word to <strong>uppercase</strong></p>
+                  <p class="content has-text-right">Transforms <strong>all</strong> characters to <strong>lowercase</strong></p>
+                  <p class="content has-text-right">Transforms <strong>all</strong> characters to <strong>uppercase</strong></p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-
       </div>
-
-      <div class="block">
-        <h1 class="title is-1">Grid</h1>
-        <div class="columns">
-          <div class="column is-2">
-            <p class="notification is-info">2 Column</p>
-          </div>
-          <div class="column is-8">
-            <p class="notification is-success">8 Column</p>
-          </div>
-          <div class="column is-2">
-            <p class="notification is-danger">2 Column</p>
-          </div>
-        </div>
-
-      </div>
-
-
-      <div class="block">
-        <h1 class="title is-1">Grid</h1>
-        <div class="columns">
-          <div class="column is-two-thirds">
-            <p class="notification">is-two-thirds</p>
-          </div>
-          <div class="column">
-            <p class="notification">auto</p>
-          </div>
-          <div class="column">
-            <p class="notification">auto</p>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- End Container -->
     </div>
-    <div style="height:400px;"></div>
   </div>
 </template>
 
