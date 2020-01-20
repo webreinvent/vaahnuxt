@@ -2,61 +2,110 @@
   <div>
 
     <TopMenu></TopMenu>
-
     <section class="menu">
-      <ul>
-        <li class="is-inline-block">
-          <b-dropdown hoverable aria-role="list">
-            <button class="button" slot="trigger">
-              <span>Blocks</span>
-              <b-icon icon="menu-down"></b-icon>
-            </button>
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
 
-            <b-dropdown-item aria-role="listitem"><nuxt-link to="/ui/blocks">Blocks</nuxt-link></b-dropdown-item>
-            <b-dropdown-item aria-role="listitem"><nuxt-link to="/ui/blocks/others">Blocks Two</nuxt-link></b-dropdown-item>
-          </b-dropdown>
-        </li>
-        <li class="is-inline-block">
-          <b-dropdown hoverable aria-role="list">
-            <button class="button" slot="trigger">
-              <span>Cards</span>
-              <b-icon icon="menu-down"></b-icon>
-            </button>
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
 
-            <b-dropdown-item aria-role="listitem"><nuxt-link to="/ui/blocks/cards">Cards</nuxt-link></b-dropdown-item>
-            <b-dropdown-item aria-role="listitem"><nuxt-link to="/ui/blocks/cards-two">Cards Two</nuxt-link></b-dropdown-item>
-          </b-dropdown>
-        </li>
-        <li class="is-inline-block button"><nuxt-link to="/ui/blocks/banner">Banner</nuxt-link></li>
-        <li class="is-inline-block button"><nuxt-link to="/ui/blocks/pricing">Pricing</nuxt-link></li>
-        <li class="is-inline-block button"><nuxt-link to="/ui/blocks/tabs">Tabs & Pills</nuxt-link></li>
-        <li class="is-inline-block button"><nuxt-link to="/ui/blocks/calltoactions">Call To Actions</nuxt-link></li>
-        <li class="is-inline-block button"><nuxt-link to="/ui/blocks/forms">Forms</nuxt-link></li>
-        <li class="is-inline-block button"><nuxt-link to="/ui/blocks/blogs">Blogs</nuxt-link></li>
-        <li class="is-inline-block button"><nuxt-link to="/ui/blocks/clientele">Clientele</nuxt-link></li>
-        <li class="is-inline-block button"><nuxt-link to="/ui/blocks/faq">FAQ</nuxt-link></li>
-        <li class="is-inline-block button"><nuxt-link to="/ui/blocks/list">List</nuxt-link></li>
-        <li class="is-inline-block button"><nuxt-link to="/ui/blocks/testimonials">Testimonials</nuxt-link></li>
-        <li class="is-inline-block button"><nuxt-link to="/ui/blocks/counter">Counter</nuxt-link></li>
-        <li class="is-inline-block button"><nuxt-link to="/ui/blocks/process">Process</nuxt-link></li>
-        <li class="is-inline-block button"><nuxt-link to="/ui/blocks/team">Team</nuxt-link></li>
-        <li class="is-inline-block button"><nuxt-link to="/ui/blocks/portfolio">Portfolio</nuxt-link></li>
-        <li class="is-inline-block button"><nuxt-link to="/ui/blocks/cheatsheet">Cheatsheet</nuxt-link></li>
-      </ul>
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                Blocks
+              </a>
+
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  <nuxt-link to="/ui/blocks">Blocks</nuxt-link>
+                </a>
+                <a class="navbar-item">
+                  <nuxt-link to="/ui/blocks/others">Blocks Two</nuxt-link>
+                </a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                Cards
+              </a>
+
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  <nuxt-link to="/ui/blocks/cards">Cards</nuxt-link>
+                </a>
+                <a class="navbar-item">
+                  <nuxt-link to="/ui/blocks/cards-two">Cards Two</nuxt-link>
+                </a>
+              </div>
+            </div>
+            <a class="navbar-item">
+              <nuxt-link to="/ui/blocks/banner">Banner</nuxt-link>
+            </a>
+            <a class="navbar-item">
+              <nuxt-link to="/ui/blocks/pricing">Pricing</nuxt-link>
+            </a>
+            <a class="navbar-item">
+              <nuxt-link to="/ui/blocks/tabs">Tabs & Pills</nuxt-link>
+            </a>
+            <a class="navbar-item">
+              <nuxt-link to="/ui/blocks/calltoactions">Call To Actions</nuxt-link>
+            </a>
+            <a class="navbar-item">
+              <nuxt-link to="/ui/blocks/forms">Forms</nuxt-link>
+            </a>
+            <a class="navbar-item">
+              <nuxt-link to="/ui/blocks/blogs">Blogs</nuxt-link>
+            </a>
+            <a class="navbar-item">
+              <nuxt-link to="/ui/blocks/clientele">Clientele</nuxt-link>
+            </a>
+            <a class="navbar-item">
+              <nuxt-link to="/ui/blocks/faq">FAQ</nuxt-link>
+            </a>
+            <a class="navbar-item">
+              <nuxt-link to="/ui/blocks/list">List</nuxt-link>
+            </a>
+            <a class="navbar-item">
+              <nuxt-link to="/ui/blocks/testimonials">Testimonials</nuxt-link>
+            </a>
+            <a class="navbar-item">
+              <nuxt-link to="/ui/blocks/counter">Counter</nuxt-link>
+            </a>
+            <a class="navbar-item">
+              <nuxt-link to="/ui/blocks/process">Process</nuxt-link>
+            </a>
+            <a class="navbar-item">
+              <nuxt-link to="/ui/blocks/team">Team</nuxt-link>
+            </a>
+            <a class="navbar-item">
+              <nuxt-link to="/ui/blocks/portfolio">Portfolio</nuxt-link>
+            </a>
+            <a class="navbar-item">
+              <nuxt-link to="/ui/blocks/cheatsheet">Cheatsheet</nuxt-link>
+            </a>
+          </div>
+        </div>
+      </nav>
     </section>
 
     <section class="hero is-primary">
       <div class="hero-body">
         <div class="container">
 
-          <div class="level">
+          <div class="columns">
 
-            <div class="level-left">
+            <div class="column">
 
               <h1 class="title is-block">
                 VaahNuxt - Reusable UI Blocks<br/>
               </h1>
-              <h2 class="subtitle">
+              <h2 class="title is-4 has-text-left">
                 Reference for UI Blocks Future:
                 <a target="_blank" href="https://www.froala.com/design-blocks">view</a>
               </h2>
@@ -75,7 +124,7 @@
       <nuxt />
 
     </div>
-
+  <Footer></Footer>
   </div>
 </template>
 
@@ -101,7 +150,7 @@
 </script>
 
 <style>
-  .level-left{
-    flex-direction: column;
+  .navbar-item, .navbar-link{
+    padding: 0.5rem 10px;
   }
 </style>
