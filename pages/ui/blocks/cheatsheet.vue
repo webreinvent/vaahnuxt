@@ -5,6 +5,7 @@
     <SectionCode name="Cheetsheet UI Block" :code="CheetsheetCode">
       <Cheetsheet></Cheetsheet>
 
+    </SectionCode>
 
   </div>
 
