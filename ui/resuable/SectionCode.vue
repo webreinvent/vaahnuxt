@@ -4,7 +4,7 @@
 
     <div class="container is-fullhd">
       <div class="columns">
-        <div class="column">
+        <div class="column is-12">
           <section class="docs section">
 
             <p class="title is-4 has-text-centered">
@@ -25,10 +25,7 @@
                 <div class="docs code">
 
                   <b-button type="is-text">
-                    <b-icon
-                      icon="view-dashboard"
-                      size="is-small">
-                    </b-icon>
+                    <b-icon size="is-small" icon="content-copy"></b-icon>
                     <vh-copy
                       :data="code"
                       :label="'copy'"
