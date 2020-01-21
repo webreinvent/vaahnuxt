@@ -268,7 +268,7 @@
               <h6 class="is-6 has-background-light" style="border-bottom: 1px solid #e2e2e2; padding: 20px 0px 20px 10px;">Wrap as many .column’s’ as you like in a .columns wrapper</h6>
 
               <div class="content">
-                <VhCopy :data="'container'" class="is-pulled-right"></VhCopy>
+                <VhCopy :data="contentCode" class="is-pulled-right"></VhCopy>
               </div>
               <div class="columns">
                 <div class="column">
@@ -291,34 +291,9 @@
             <div class="box">
               <div class="columns">
                 <div class="column is-12">
-                  <VhCopy :data="'is-loading'" class="is-pulled-right"></VhCopy>
-                </div>
-                <div class="column is-4">
-                  <div class="content">
-                    <!-- start WYSIWYG contents -->
-                    <h1>Heading</h1>
-                    <p>Paragraph</p>
-
-                    <ul>
-                      <li>Item 1</li>
-                      <li>Item 2</li>
-                    </ul>
-                    <!-- end WYSIWYG contents -->
-                  </div>
-                </div>
-                <div class="column is-8">
-                  <pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>content<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-                    <span class="token comment" spellcheck="true">&lt;!-- start WYSIWYG contents --&gt;</span>
-                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>Heading<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
-                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Paragraph<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
-
-                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span>
-                      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>Item 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
-                      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>Item 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
-                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
-                    <span class="token comment" spellcheck="true">&lt;!-- end WYSIWYG contents --&gt;</span>
-                  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
-                  </code></pre>
+                  <SectionCode name="WYSIWYG Content" :code="CheetsheetContentCode">
+                    <CheetsheetContent></CheetsheetContent>
+                  </SectionCode>
                 </div>
               </div>
               <h6 class="is-6 has-background-light" style="border-bottom: 1px solid #e2e2e2; padding: 20px 0px 20px 10px;">To provide default stylings for commonly generated WYSIWYG contents, use the .content class.</h6>
@@ -333,13 +308,40 @@
 <script>
 
   import VhCopy from "../resuable/VhCopy";
+  import CheetsheetContent from "./Cheetsheet-Content";
+  import CheetsheetContentCode from "!raw-loader!./Cheetsheet-Content";
+
+  import SectionCode from '../resuable/SectionCode';
+  import SectionTitle from "../resuable/SectionTitle";
 
 
 
   export default {
     props: ['content'],
+    data()
+    {
+      let obj = {
+        contentCode: '<div class="columns">\n' +
+          '    <div class="column"></div>\n' +
+          '    <div class="column"></div>\n' +
+          '    <div class="column"></div>\n' +
+          '    <div class="column"></div>\n' +
+          '    <div class="column"></div>\n' +
+          '</div>'
+      };
+
+      return obj;
+    },
+    computed: {
+      CheetsheetContentCode() {
+        return CheetsheetContentCode
+      },
+    },
     components:{
+      CheetsheetContent,
       VhCopy,
+      SectionTitle,
+      SectionCode,
     }
   }
 </script>
