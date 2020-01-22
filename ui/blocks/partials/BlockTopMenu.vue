@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav class="navbar zindex" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
 
       <nuxt-link to="/ui/blocks" class="navbar-item">
@@ -18,8 +18,6 @@
 
     <div id="navbarUIBlocks" class="navbar-menu">
       <div class="navbar-start">
-
-        <nuxt-link to="/ui/blocks" class="navbar-item">Blocks</nuxt-link>
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">
@@ -55,9 +53,18 @@
         <nuxt-link to="/ui/blocks/testimonials" class="navbar-item">Testimonials</nuxt-link>
         <nuxt-link to="/ui/blocks/counter" class="navbar-item">Counter</nuxt-link>
         <nuxt-link to="/ui/blocks/process" class="navbar-item">Process</nuxt-link>
-        <nuxt-link to="/ui/blocks/team" class="navbar-item">Team</nuxt-link>
-        <nuxt-link to="/ui/blocks/portfolio" class="navbar-item">Portfolio</nuxt-link>
-        <nuxt-link to="/ui/blocks/cheatsheet" class="navbar-item">Cheatsheet</nuxt-link>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More
+          </a>
+
+          <div class="navbar-dropdown">
+            <nuxt-link to="/ui/blocks/team" class="navbar-item">Team</nuxt-link>
+            <nuxt-link to="/ui/blocks/portfolio" class="navbar-item">Portfolio</nuxt-link>
+            <nuxt-link to="/ui/blocks/cheatsheet" class="navbar-item">Cheatsheet</nuxt-link>
+          </div>
+        </div>
+
 
 
       </div>
@@ -77,3 +84,12 @@
     }
   }
 </script>
+<style>
+  .zindex{
+    z-index: 10;
+  }
+  .zindex .navbar-brand{
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+</style>

@@ -1,6 +1,6 @@
 <template>
 
-  <section class="section is-fullwidth" >
+  <section class="section paddingzero is-fullwidth" >
 
       <section class="hero is-medium is-primary is-bold">
         <div class="hero-body">
@@ -32,3 +32,8 @@ export default {
   }
 }
 </script>
+<style>
+  .paddingzero{
+    padding: 0px;
+  }
+</style>

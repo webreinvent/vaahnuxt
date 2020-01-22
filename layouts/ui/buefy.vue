@@ -7,7 +7,7 @@
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            Buefy
+            Buefy  - {{page_name}}
           </h1>
           <h2 class="subtitle">
             Buefy Default UI Blocks
@@ -54,7 +54,14 @@
     data () {
       return {
 
+        page_name: null
+
       }
+    },
+    watch: {
+      $route(to, from) {
+        this.setPageName(to.fullPath);
+      },
     },
     mounted () {
       this.$nextTick(() => {
@@ -63,7 +70,14 @@
         console.log('--->start');
 
         setTimeout(() => this.$nuxt.$loading.finish(), 500)
-      })
+      });
+      this.setPageName(this.$route.fullPath);
+    },
+    methods: {
+      setPageName: function (fullPath) {
+        this.page_name = this.$vaah.getPageName(fullPath);
+        this.page_name = this.$vaah.ucfirst(this.page_name);
+      }
     }
   }
 </script>

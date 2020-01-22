@@ -4,8 +4,8 @@ import SectionCode from '../../../ui/resuable/SectionCode'
 import Modal from '../../../ui/buefy/components/Modal/Modal'
 import ModalCode from "!raw-loader!../../../ui/buefy/components/Modal/Modal";
 
-import Component from '../../../ui/buefy/components/Modal/Component'
-import ComponentCode from "!raw-loader!../../../ui/buefy/components/Modal/Component";
+import ComponentModal from '../../../ui/buefy/components/Modal/ComponentModal'
+import ComponentModalCode from "!raw-loader!../../../ui/buefy/components/Modal/ComponentModal";
 
 import Programmatic from '../../../ui/buefy/components/Modal/Programmatic'
 import ProgrammaticCode from "!raw-loader!../../../ui/buefy/components/Modal/Programmatic";
@@ -22,7 +22,7 @@ export default {
   },
   computed: {
     ModalCode() {return ModalCode},
-    ComponentCode() {return ComponentCode},
+    ComponentModalCode() {return ComponentModalCode},
     ProgrammaticCode() {return ProgrammaticCode},
     FullScreenCode() {return FullScreenCode},
   },
@@ -30,7 +30,7 @@ export default {
     SectionTitle,
     SectionCode,
     Modal,
-    Component,
+    ComponentModal,
     Programmatic,
     FullScreen,
 
