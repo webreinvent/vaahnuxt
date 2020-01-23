@@ -3,21 +3,40 @@
    <div class="columns">
      <div class="column is-12">
        <div class="content">
-         <h1>Installation</h1>
-         <ul>
+         <h1>Elements</h1>
+         <ul class="link-items">
            <li>
-             <strong>Installation</strong>
+             <a href="#elementone" class="has-text-dark"><b> <span>#</span>UI Elements</b></a>
              <ul>
-               <li>Server Requirements</li>
-               <li>Installing Laravel</li>
-               <li>Configuration</li>
-             </ul>
+            <li>
+              <a href="#elementone" class="has-text-dark"> <span>#</span>ElementOne</a>
+            </li>
+            <li>
+              <a href="#elementtwo" class="has-text-dark"> <span>#</span>ElementTwo</a>
+            </li>
+            <li>
+              <a href="#elementthree" class="has-text-dark"> <span>#</span>ElementThree</a>
+            </li>
+            <li>
+              <a href="#elementfour" class="has-text-dark"> <span>#</span>ElementFour</a>
+            </li>
+            <li>
+              <a href="#elementfive" class="has-text-dark"> <span>#</span>ElementFive</a>
+            </li>
+            <li>
+              <a href="#elementsix" class="has-text-dark"> <span>#</span>ElementSix</a>
+            </li>
+          </ul>
            </li>
            <li>
-             <strong>Web Server Configuration</strong>
+             <a href="#elementseven" class="has-text-dark"><strong> <span>#</span>More UI Elements</strong></a>
              <ul>
-               <li>Directory Configuration</li>
-               <li>Pretty URLs</li>
+               <li>
+              <a href="#elementseven" class="has-text-dark"> <span>#</span>ElementSeven</a>
+            </li>
+            <li>
+              <a href="#elementeight" class="has-text-dark"> <span>#</span>ElementEight</a>
+            </li>
              </ul>
            </li>
          </ul>
@@ -32,3 +51,17 @@
 
   }
 </script>
+<style>
+
+  .link-items a span{
+    font-size: 23px;
+    font-weight: 600;
+    color: #7957d5;
+    position: relative;
+    top: 2px;
+    left: -5px;
+  }
+  .link-items li{
+    list-style: none;
+  }
+</style>
