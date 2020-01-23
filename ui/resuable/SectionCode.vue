@@ -1,6 +1,6 @@
 <template>
 
-  <div>
+  <div style="width: 100%;">
 
     <div class="container is-fullhd">
       <div class="columns">

@@ -6,10 +6,7 @@
     <ul class="menu-list">
 
       <li>
-        <nuxt-link to="/ui/buefy/button">Heading</nuxt-link>
-        <ul>
-          <li><nuxt-link to="/ui/docs/heading/headingone"><span><</span><span>H1</span><span>></span></nuxt-link></li>
-        </ul>
+        <nuxt-link to="/ui/docs/uielements/uielementone">uielementone</nuxt-link>
       </li>
     </ul>
     <p class="menu-label">Form Controls</p>
