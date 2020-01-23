@@ -3,43 +3,50 @@
     <div class="columns is-mobile">
 
 
-      <SectionCode name="ElementOne" id="elementone" :code="ElementOneCode">
-        <ElementOne></ElementOne>
+      <SectionCode name="ElementOne" id="elementone"
+                   :file_path="'start/test.php'"
+                   :code="ElementV1Code">
+        <ElementV1></ElementV1>
       </SectionCode>
 
 
-      <SectionCode name="ElementTwo" id="elementtwo" :code="ElementTwoCode">
-        <ElementTwo></ElementTwo>
+      <SectionCode name="ElementTwo" id="elementtwo" :code="ElementV2Code">
+        <ElementV2></ElementV2>
       </SectionCode>
 
 
-      <SectionCode name="ElementThree" id="elementthree" :code="ElementThreeCode">
-        <ElementThree></ElementThree>
+      <SectionCode name="ElementThree" id="elementthree" :code="ElementV3Code">
+        <ElementV3></ElementV3>
       </SectionCode>
 
 
-      <SectionCode name="ElementFour" id="elementfour" :code="ElementFourCode">
-        <ElementFour></ElementFour>
+      <SectionCode name="ElementFour" id="elementfour" :code="ElementV4Code">
+        <ElementV4></ElementV4>
       </SectionCode>
 
 
-      <SectionCode name="ElementFive" id="elementfive" :code="ElementFiveCode">
-        <ElementFive></ElementFive>
+      <SectionCode name="ElementFive" id="elementfive" :code="ElementV5Code">
+        <ElementV5></ElementV5>
       </SectionCode>
 
 
-      <SectionCode name="ElementSix" id="elementsix" :code="ElementSixCode">
-        <ElementSix></ElementSix>
+      <SectionCode name="ElementSix" id="elementsix" :code="ElementV6Code">
+        <ElementV6></ElementV6>
       </SectionCode>
 
 
-      <SectionCode name="ElementSeven" id="elementseven" :code="ElementSevenCode">
-        <ElementSeven></ElementSeven>
+      <SectionCode name="ElementSeven" id="elementseven" :code="ElementV7Code">
+        <ElementV7></ElementV7>
       </SectionCode>
 
 
-      <SectionCode name="ElementEight" id="elementeight" :code="ElementEightCode">
-        <ElementEight></ElementEight>
+      <SectionCode name="ElementEight" id="elementeight" :code="ElementV8Code">
+        <ElementV8></ElementV8>
+      </SectionCode>
+
+
+      <SectionCode name="ElementNine" id="elementnine" :code="ElementV9Code">
+        <ElementV9></ElementV9>
       </SectionCode>
 
 
@@ -51,29 +58,32 @@
   import SectionTitle from '../../../ui/resuable/SectionTitle'
   import SectionCode from '../../../ui/resuable/SectionCode'
 
-  import ElementOne from "../../../ui/docs/components/ElementOne";
-  import ElementOneCode from "!raw-loader!../../../ui/docs/components/ElementOne";
+  import ElementV1 from "../../../ui/docs/components/ElementV1";
+  import ElementV1Code from "!raw-loader!../../../ui/docs/components/ElementV1";
 
-  import ElementTwo from "../../../ui/docs/components/ElementTwo";
-  import ElementTwoCode from "!raw-loader!../../../ui/docs/components/ElementTwo";
+  import ElementV2 from "../../../ui/docs/components/ElementV2";
+  import ElementV2Code from "!raw-loader!../../../ui/docs/components/ElementV2";
 
-  import ElementThree from "../../../ui/docs/components/ElementThree";
-  import ElementThreeCode from "!raw-loader!../../../ui/docs/components/ElementThree";
+  import ElementV3 from "../../../ui/docs/components/ElementV3";
+  import ElementV3Code from "!raw-loader!../../../ui/docs/components/ElementV3";
 
-  import ElementFour from "../../../ui/docs/components/ElementFour";
-  import ElementFourCode from "!raw-loader!../../../ui/docs/components/ElementFour";
+  import ElementV4 from "../../../ui/docs/components/ElementV4";
+  import ElementV4Code from "!raw-loader!../../../ui/docs/components/ElementV4";
 
-  import ElementFive from "../../../ui/docs/components/ElementFive";
-  import ElementFiveCode from "!raw-loader!../../../ui/docs/components/ElementFive";
+  import ElementV5 from "../../../ui/docs/components/ElementV5";
+  import ElementV5Code from "!raw-loader!../../../ui/docs/components/ElementV5";
 
-  import ElementSix from "../../../ui/docs/components/ElementSix";
-  import ElementSixCode from "!raw-loader!../../../ui/docs/components/ElementSix";
+  import ElementV6 from "../../../ui/docs/components/ElementV6";
+  import ElementV6Code from "!raw-loader!../../../ui/docs/components/ElementV6";
 
-  import ElementSeven from "../../../ui/docs/components/ElementSeven";
-  import ElementSevenCode from "!raw-loader!../../../ui/docs/components/ElementSeven";
+  import ElementV7 from "../../../ui/docs/components/ElementV7";
+  import ElementV7Code from "!raw-loader!../../../ui/docs/components/ElementV7";
 
-  import ElementEight from "../../../ui/docs/components/ElementEight";
-  import ElementEightCode from "!raw-loader!../../../ui/docs/components/ElementEight";
+  import ElementV8 from "../../../ui/docs/components/ElementV8";
+  import ElementV8Code from "!raw-loader!../../../ui/docs/components/ElementV8";
+
+  import ElementV9 from "../../../ui/docs/components/ElementV9";
+  import ElementV9Code from "!raw-loader!../../../ui/docs/components/ElementV9";
   export default {
     layout: 'ui/docs',
     head () {
@@ -82,26 +92,28 @@
       }
     },
     computed:{
-      ElementOneCode() {return ElementOneCode},
-      ElementTwoCode() {return ElementTwoCode},
-      ElementThreeCode() {return ElementThreeCode},
-      ElementFourCode() {return ElementFourCode},
-      ElementFiveCode() {return ElementFiveCode},
-      ElementSixCode() {return ElementSixCode},
-      ElementSevenCode() {return ElementSevenCode},
-      ElementEightCode() {return ElementEightCode},
+      ElementV1Code() {return ElementV1Code},
+      ElementV2Code() {return ElementV2Code},
+      ElementV3Code() {return ElementV3Code},
+      ElementV4Code() {return ElementV4Code},
+      ElementV5Code() {return ElementV5Code},
+      ElementV6Code() {return ElementV6Code},
+      ElementV7Code() {return ElementV7Code},
+      ElementV8Code() {return ElementV8Code},
+      ElementV9Code() {return ElementV9Code},
     },
     components: {
       SectionTitle,
       SectionCode,
-      ElementOne,
-      ElementTwo,
-      ElementThree,
-      ElementFour,
-      ElementFive,
-      ElementSix,
-      ElementSeven,
-      ElementEight,
+      ElementV1,
+      ElementV2,
+      ElementV3,
+      ElementV4,
+      ElementV5,
+      ElementV6,
+      ElementV7,
+      ElementV8,
+      ElementV9,
     },
     methods:{
 
