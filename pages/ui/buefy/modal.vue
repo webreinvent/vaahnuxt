@@ -12,8 +12,8 @@
     </SectionCode>
 
 
-    <SectionCode name="Component" :code="ComponentCode">
-      <Component></Component>
+    <SectionCode name="Component" :code="ComponentModalCode">
+      <ComponentModal></ComponentModal>
     </SectionCode>
 
 

@@ -13,8 +13,8 @@ import SizesCode from "!raw-loader!../../../ui/buefy/components/Progress/Sizes";
 import Values from '../../../ui/buefy/components/Progress/Values'
 import ValuesCode from "!raw-loader!../../../ui/buefy/components/Progress/Values";
 
-import Slot from '../../../ui/buefy/components/Progress/Slot'
-import SlotCode from "!raw-loader!../../../ui/buefy/components/Progress/Slot";
+import SlotProgress from '../../../ui/buefy/components/Progress/SlotProgress'
+import SlotProgressCode from "!raw-loader!../../../ui/buefy/components/Progress/SlotProgress";
 
 export default {
   layout: 'ui/buefy',
@@ -28,7 +28,7 @@ export default {
     TypesCode() {return TypesCode},
     SizesCode() {return SizesCode},
     ValuesCode() {return ValuesCode},
-    SlotCode() {return SlotCode},
+    SlotProgressCode() {return SlotProgressCode},
   },
   components: {
     SectionTitle,
@@ -37,7 +37,7 @@ export default {
     Types,
     Sizes,
     Values,
-    Slot,
+    SlotProgress,
 
   },
   methods:{

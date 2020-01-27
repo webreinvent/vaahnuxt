@@ -2,7 +2,7 @@
   <div class="main-content">
 
 
-    <SectionCode name="Cheetsheet UI Block" :code="CheetsheetCode">
+    <SectionCode name="Cheetsheet UI Block" >
       <Cheetsheet></Cheetsheet>
 
     </SectionCode>

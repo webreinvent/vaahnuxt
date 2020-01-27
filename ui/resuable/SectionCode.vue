@@ -1,10 +1,10 @@
 <template>
 
-  <div>
+  <div style="width: 100%;">
 
     <div class="container is-fullhd">
       <div class="columns">
-        <div class="column">
+        <div class="column is-12">
           <section class="docs section">
 
             <p class="title is-4 has-text-centered">
@@ -24,23 +24,39 @@
 
                 <div class="docs code">
 
-                  <b-button type="is-text">
-                    <b-icon
-                      icon="view-dashboard"
-                      size="is-small">
-                    </b-icon>
-                    <vh-copy
-                      :data="code"
-                      :label="'copy'"
-                      :confirm_dialog="'buefy'">
 
-                    </vh-copy>
-                  </b-button>
+                  <div class="level" v-bind:class="{'has-bottom-border': file_path}">
+
+                    <div class="level-left">
+
+                      <div class="level-item">
+                        <strong>{{file_path}}</strong>
+                      </div>
+
+                    </div>
+
+                    <div class="level-right">
+
+                       <div class="level-item">
+                         <b-button type="is-text">
+                          <b-icon size="is-small" icon="content-copy"></b-icon>
+                          <vh-copy
+                            :data="code"
+                            :label="'copy'"
+                            :confirm_dialog="'buefy'">
+
+                          </vh-copy>
+                        </b-button>
+                       </div>
+
+                    </div>
+
+                  </div>
 
                   <pre v-highlightjs="code">
-            <code class="vue">
-            </code>
-          </pre>
+                    <code class="vue">
+                    </code>
+                  </pre>
 
                 </div>
 
@@ -65,9 +81,9 @@
 </template>
 
 <script>
-  let slugify = require('slugify')
+  let slugify = require('slugify');
   export default {
-    props: ['name', 'code'],
+    props: ['name', 'code', 'file_path'],
     components:{
     },
     data(){

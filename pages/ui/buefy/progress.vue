@@ -27,8 +27,8 @@
     </SectionCode>
 
 
-    <SectionCode name="Slot" :code="SlotCode">
-      <Slot></Slot>
+    <SectionCode name="Slot" :code="SlotProgressCode">
+      <SlotProgress></SlotProgress>
     </SectionCode>
 
 

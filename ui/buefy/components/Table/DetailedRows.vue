@@ -58,11 +58,11 @@
         </b-table-column>
       </template>
 
-      <template slot="detail" slot-scope="props">
+      <template slot="detail" slot-scope="props">`
         <article class="media">
           <figure class="media-left">
             <p class="image is-64x64">
-              <img src="/static/img/placeholder-128x128.png">
+              <img src="https://via.placeholder.com/128x128">
             </p>
           </figure>
           <div class="media-content">

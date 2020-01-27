@@ -13,7 +13,6 @@
                       class="card"
                       v-for="(faq, index) of tab.freq"
                       :key="index"
-                      :open="isOpen == index"
                       @open="isOpen = index">
                       <div
                         slot="trigger"

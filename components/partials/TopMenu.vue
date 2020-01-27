@@ -1,12 +1,11 @@
 <template>
 
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
 
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-
-        <nuxt-link to="/" class="navbar-item">
-          <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-        </nuxt-link>
+      <nuxt-link to="/" class="navbar-item">
+        <img src="../../assets/images/logo.svg" width="112" height="28">
+      </nuxt-link>
 
 
         <a role="button" class="navbar-burger burger" aria-label="menu"
@@ -62,4 +61,13 @@
 
 
 </template>
+
+<style scoped>
+  .navbar-item img{
+    width: 174px;
+    object-fit: contain;
+    height: auto;
+    max-height: unset!important;
+  }
+</style>
 
