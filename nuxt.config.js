@@ -11,7 +11,7 @@ let ENV_DEV = true;
 | NuxtJs Development Configurations
 |--------------------------------------------------------------------------
 */
-let port = 49950;
+let port = 3000;
 let host = 'localhost';
 let https = false;
 
