@@ -1,24 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Pagination"
-                  link="https://buefy.org/documentation/pagination">
-    </SectionTitle>
-
-
-    <SectionCode name="Pagination" :code="PaginationCode">
-      <Pagination></Pagination>
-    </SectionCode>
-
-
-    <SectionCode name="Custom Pagination Buttons" :code="CustomPaginationButtonsCode">
-      <CustomPaginationButtons></CustomPaginationButtons>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./paginationjs.js"></script>
+<script>
+  import Block from '../../../ui/buefy/pages/pagination'
+
+  export default {
+    layout: 'ui/buefy',
+    head () {
+      return {
+        title: 'Buefy UI Block - Pagination',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

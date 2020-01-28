@@ -1,37 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Tag"
-                  link="https://buefy.org/documentation/tag">
-    </SectionTitle>
-
-
-    <SectionCode name="Tag" :code="TagCode">
-      <Tag></Tag>
-    </SectionCode>
-
-
-
-    <SectionCode name="Closable" :code="ClosableCode">
-      <Closable></Closable>
-    </SectionCode>
-
-
-
-    <SectionCode name="TagList" :code="TagListCode">
-      <TagList></TagList>
-    </SectionCode>
-
-
-
-    <SectionCode name="Sizes" :code="SizesCode">
-      <Sizes></Sizes>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./tagjs.js"></script>
+<script>
+  import Block from '../../../ui/buefy/pages/tag'
+
+  export default {
+    layout: 'ui/buefy',
+    head () {
+      return {
+        title: 'Buefy UI Block - Tag',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

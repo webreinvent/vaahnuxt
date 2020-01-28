@@ -1,39 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Progress"
-                  link="https://buefy.org/documentation/progress">
-    </SectionTitle>
-
-
-    <SectionCode name="Progress" :code="ProgressCode">
-      <Progress></Progress>
-    </SectionCode>
-
-
-    <SectionCode name="Types" :code="TypesCode">
-      <Types></Types>
-    </SectionCode>
-
-
-    <SectionCode name="Sizes" :code="SizesCode">
-      <Sizes></Sizes>
-    </SectionCode>
-
-
-    <SectionCode name="Values" :code="ValuesCode">
-      <Values></Values>
-    </SectionCode>
-
-
-    <SectionCode name="Slot" :code="SlotProgressCode">
-      <SlotProgress></SlotProgress>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./progressjs.js"></script>
+<script>
+  import Block from '../../../ui/buefy/pages/progress'
+
+  export default {
+    layout: 'ui/buefy',
+    head () {
+      return {
+        title: 'Buefy UI Block - Progress',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

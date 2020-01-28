@@ -1,37 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Tooltip"
-                  link="https://buefy.org/documentation/tooltip">
-    </SectionTitle>
-
-
-    <SectionCode name="Tooltip" :code="ToolTipCode">
-      <ToolTip></ToolTip>
-    </SectionCode>
-
-
-
-    <SectionCode name="Styles" :code="StylesCode">
-      <Styles></Styles>
-    </SectionCode>
-
-
-
-    <SectionCode name="Multilined" :code="MultilinedCode">
-      <Multilined></Multilined>
-    </SectionCode>
-
-
-
-    <SectionCode name="Toggle" :code="ToggleCode">
-      <Toggle></Toggle>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./tooltipjs.js"></script>
+<script>
+  import Block from '../../../ui/buefy/pages/tooltip'
+
+  export default {
+    layout: 'ui/buefy',
+    head () {
+      return {
+        title: 'Buefy UI Block - Tooltip',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>
