@@ -1,39 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Clockpicker"
-                  link="https://buefy.org/documentation/checkbox/">
-    </SectionTitle>
-
-
-    <SectionCode name="Clockpicker" :code="ClockpickerCode">
-      <Clockpicker></Clockpicker>
-    </SectionCode>
-
-
-    <SectionCode name="Non Read Only" :code="NonReadOnlyCode">
-      <NonReadOnly></NonReadOnly>
-    </SectionCode>
-
-
-    <SectionCode name="Range" :code="RangeCode">
-      <Range></Range>
-    </SectionCode>
-
-
-    <SectionCode name="Footer" :code="FooterCode">
-      <Footer></Footer>
-    </SectionCode>
-
-
-    <SectionCode name="Colors" :code="ColorsCode">
-      <Colors></Colors>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./clockpickerjs.js"></script>
+<script>
+  import Block from '../../../../ui/buefy/pages/formcontrol/clockpicker'
+
+  export default {
+    layout: 'ui/buefy',
+    head () {
+      return {
+        title: 'Buefy UI Block- Clockpicker',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

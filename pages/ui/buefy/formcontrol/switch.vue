@@ -1,34 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Switch"
-                  link="https://buefy.org/documentation/switch/">
-    </SectionTitle>
-
-
-    <SectionCode name="Switch Default" :code="SwitchDefaultCode">
-      <SwitchDefault></SwitchDefault>
-    </SectionCode>
-
-
-    <SectionCode name="Types" :code="TypesCode">
-      <Types></Types>
-    </SectionCode>
-
-
-    <SectionCode name="Sizes" :code="SizesCode">
-      <Sizes></Sizes>
-    </SectionCode>
-
-
-    <SectionCode name="Styles" :code="StylesCode">
-      <Styles></Styles>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./switchjs.js"></script>
+<script>
+  import Block from '../../../../ui/buefy/pages/formcontrol/switch'
+
+  export default {
+    layout: 'ui/buefy',
+    head () {
+      return {
+        title: 'Buefy UI Block- Switch',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

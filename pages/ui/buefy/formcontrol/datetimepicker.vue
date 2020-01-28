@@ -1,39 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Datetimepicker"
-                  link="https://buefy.org/documentation/datetimepicker/">
-    </SectionTitle>
-
-
-    <SectionCode name="DateTimePicker" :code="DateTimePickerCode">
-      <DateTimePicker></DateTimePicker>
-    </SectionCode>
-
-
-    <SectionCode name="Editable (non readonly)" :code="EditableCode">
-      <Editable></Editable>
-    </SectionCode>
-
-
-    <SectionCode name="Range" :code="RangeCode">
-      <Range></Range>
-    </SectionCode>
-
-
-    <SectionCode name="Footer" :code="FooterCode">
-      <Footer></Footer>
-    </SectionCode>
-
-
-    <SectionCode name="Inline" :code="InlineCode">
-      <Inline></Inline>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./datetimepickerjs.js"></script>
+<script>
+  import Block from '../../../../ui/buefy/pages/formcontrol/datetimepicker'
+
+  export default {
+    layout: 'ui/buefy',
+    head () {
+      return {
+        title: 'Buefy UI Block- Datetimepicker',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

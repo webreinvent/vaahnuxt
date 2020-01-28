@@ -1,34 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Radio"
-                  link="https://buefy.org/documentation/radio/">
-    </SectionTitle>
-
-
-    <SectionCode name="Radio" :code="RadioCode">
-      <Radio></Radio>
-    </SectionCode>
-
-
-    <SectionCode name="Sizes" :code="SizesCode">
-      <Sizes></Sizes>
-    </SectionCode>
-
-
-    <SectionCode name="Types" :code="TypesCode">
-      <Types></Types>
-    </SectionCode>
-
-
-    <SectionCode name="Radio Button" :code="RadioButtonCode">
-      <RadioButton></RadioButton>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./radiojs.js"></script>
+<script>
+  import Block from '../../../../ui/buefy/pages/formcontrol/radio'
+
+  export default {
+    layout: 'ui/buefy',
+    head () {
+      return {
+        title: 'Buefy UI Block- Radio',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

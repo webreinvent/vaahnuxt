@@ -1,34 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Select"
-                  link="https://buefy.org/documentation/select/">
-    </SectionTitle>
-
-
-    <SectionCode name="Select" :code="SelectCode">
-      <Select></Select>
-    </SectionCode>
-
-
-    <SectionCode name="Multiple" :code="MultipleCode">
-      <Multiple></Multiple>
-    </SectionCode>
-
-
-    <SectionCode name="Icons" :code="IconsCode">
-      <Icons></Icons>
-    </SectionCode>
-
-
-    <SectionCode name="Sizes" :code="SizesCode">
-      <Sizes></Sizes>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./selectjs.js"></script>
+<script>
+  import Block from '../../../../ui/buefy/pages/formcontrol/select'
+
+  export default {
+    layout: 'ui/buefy',
+    head () {
+      return {
+        title: 'Buefy UI Block- Select',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

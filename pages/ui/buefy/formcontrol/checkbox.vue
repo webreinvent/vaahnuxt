@@ -1,39 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Checkbox"
-                  link="https://buefy.org/documentation/checkbox/">
-    </SectionTitle>
-
-
-    <SectionCode name="Checkbox" :code="CheckboxCode">
-      <Checkbox></Checkbox>
-    </SectionCode>
-
-
-    <SectionCode name="Grouped (Array)" :code="GroupedCode">
-      <Grouped></Grouped>
-    </SectionCode>
-
-
-    <SectionCode name="Sizes" :code="SizesCode">
-      <Sizes></Sizes>
-    </SectionCode>
-
-
-    <SectionCode name="Types" :code="TypesCode">
-      <Types></Types>
-    </SectionCode>
-
-
-    <SectionCode name="Checkbox Button" :code="CheckboxButtonCode">
-      <CheckboxButton></CheckboxButton>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./checkboxjs.js"></script>
+<script>
+  import Block from '../../../../ui/buefy/pages/formcontrol/checkbox'
+
+  export default {
+    layout: 'ui/buefy',
+    head () {
+      return {
+        title: 'Buefy UI Block- Checkbox',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>
