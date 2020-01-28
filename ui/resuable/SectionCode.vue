@@ -99,6 +99,7 @@
       this.link = slugify(this.name.toLowerCase());
     },
     methods:{
+
     }
   }
 </script>

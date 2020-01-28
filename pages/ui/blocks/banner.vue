@@ -1,56 +1,29 @@
 <template>
-  <div class="main-content">
 
+  <div>
 
-    <SectionCode name="Banner UI Block" :code="BannerCode">
-      <Banner :content="c.Banner"></Banner>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
-
-
 
 </template>
 
 <script>
-
-  import content from '../../../ui/content/content.json'
-
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
-
-  import Banner from "../../../ui/blocks/components/Banner";
-  import BannerCode from "!raw-loader!../../../ui/blocks/components/Banner";
-
-
+  import Block from '../../../ui/blocks/pages/banner'
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui/buefy',
     head () {
       return {
-        title: 'VaahNuxt UI components- banner',
-      }
-    },
-    computed: {
-      BannerCode() {
-        return BannerCode
+        title: 'VaahNuxt UI components- Banner',
       }
     },
     components: {
-      SectionTitle,
-      SectionCode,
-      Banner,
-    },
-    data(){
-      let obj = {
-        c: content
-      };
-      return obj;
+      Block
     },
     methods:{
     },
 
   }
+
 </script>

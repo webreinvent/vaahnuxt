@@ -34,9 +34,6 @@
 
   import TopMenu from './../../components/partials/TopMenu'
 
-
-
-  import SideMenu from './../../ui/blocks/partials/SideMenu'
   import Footer from './../../ui/partials/Footer'
   import BlockTopMenu from "../../ui/blocks/partials/BlockTopMenu";
 
@@ -44,7 +41,6 @@
     components:{
       TopMenu,
       BlockTopMenu,
-      SideMenu,
       Footer,
     },
 

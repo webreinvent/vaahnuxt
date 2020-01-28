@@ -1,56 +1,29 @@
 <template>
-  <div class="main-content">
 
+  <div>
 
-    <SectionCode name="Testimonials UI Block" :code="TestimonialsCode">
-      <Testimonials :content="c.Testimonials"></Testimonials>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
-
-
 
 </template>
 
 <script>
-
-  import content from '../../../ui/content/content.json'
-
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
-
-  import Testimonials from "../../../ui/blocks/components/Testimonials";
-  import TestimonialsCode from "!raw-loader!../../../ui/blocks/components/Testimonials";
-
-
+  import Block from '../../../ui/blocks/pages/testimonials'
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui/buefy',
     head () {
       return {
-        title: 'VaahNuxt UI components- testimonials',
+        title: 'VaahNuxt UI components- Testimonials',
       }
     },
-    computed: {
-      TestimonialsCode() {
-        return TestimonialsCode
-      },
-    },
     components: {
-      SectionTitle,
-      SectionCode,
-      Testimonials,
-    },
-    data(){
-      let obj = {
-        c: content
-      };
-      return obj;
+      Block
     },
     methods:{
     },
 
   }
+
 </script>

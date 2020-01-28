@@ -1,56 +1,29 @@
 <template>
-  <div class="main-content">
 
+  <div>
 
-    <SectionCode name="Blogs UI Block" :code="BlogsCode">
-      <Blogs :content="c.Blogs"></Blogs>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
-
-
 
 </template>
 
 <script>
-
-  import content from '../../../ui/content/content.json'
-
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
-
-  import Blogs from "../../../ui/blocks/components/Blogs";
-  import BlogsCode from "!raw-loader!../../../ui/blocks/components/Blogs";
-
-
+  import Block from '../../../ui/blocks/pages/blogs'
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui/buefy',
     head () {
       return {
-        title: 'VaahNuxt UI components- blogs',
+        title: 'VaahNuxt UI components- Blogs',
       }
     },
-    computed: {
-      BlogsCode() {
-        return BlogsCode
-      },
-    },
     components: {
-      SectionTitle,
-      SectionCode,
-      Blogs,
-    },
-    data(){
-      let obj = {
-        c: content
-      };
-      return obj;
+      Block
     },
     methods:{
     },
 
   }
+
 </script>

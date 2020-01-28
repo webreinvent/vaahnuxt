@@ -1,95 +1,29 @@
 <template>
-  <div class="main-content">
 
+  <div>
 
-    <SectionCode name="ServiceFeaturesNumbersTop UI Block" :code="ServiceFeaturesNumbersTopCode">
-      <ServiceFeaturesNumbersTop :content="c.ServiceFeaturesNumbersTop"></ServiceFeaturesNumbersTop>
-    </SectionCode>
-
-
-
-    <SectionCode name="ServiceFeaturesNumbersTopThreeColumns UI Block" :code="ServiceFeaturesNumbersTopThreeColumnsCode">
-      <ServiceFeaturesNumbersTopThreeColumns :content="c.ServiceFeaturesNumbersTopThreeColumns"></ServiceFeaturesNumbersTopThreeColumns>
-    </SectionCode>
-
-
-
-    <SectionCode name="ServiceLoopFive UI Block" :code="ServiceLoopFiveCode">
-      <ServiceLoopFive :content="c.ServiceLoopFive"></ServiceLoopFive>
-    </SectionCode>
-
-
-
-    <SectionCode name="ServiceLoopFiveThreeColumns UI Block" :code="ServiceLoopFiveThreeColumnsCode">
-      <ServiceLoopFiveThreeColumns :content="c.ServiceLoopFiveThreeColumns"></ServiceLoopFiveThreeColumns>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
-
-
 
 </template>
 
 <script>
-
-  import content from '../../../ui/content/content.json'
-
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
-
-  import ServiceFeaturesNumbersTop from "../../../ui/blocks/components/ServiceFeaturesNumbersTop";
-  import ServiceFeaturesNumbersTopCode from "!raw-loader!../../../ui/blocks/components/ServiceFeaturesNumbersTop";
-
-  import ServiceFeaturesNumbersTopThreeColumns from "../../../ui/blocks/components/ServiceFeaturesNumbersTopThreeColumns";
-  import ServiceFeaturesNumbersTopThreeColumnsCode from "!raw-loader!../../../ui/blocks/components/ServiceFeaturesNumbersTopThreeColumns";
-
-  import ServiceLoopFive from "../../../ui/blocks/components/ServiceLoopFive";
-  import ServiceLoopFiveCode from "!raw-loader!../../../ui/blocks/components/ServiceLoopFive";
-
-  import ServiceLoopFiveThreeColumns from "../../../ui/blocks/components/ServiceLoopFiveThreeColumns";
-  import ServiceLoopFiveThreeColumnsCode from "!raw-loader!../../../ui/blocks/components/ServiceLoopFiveThreeColumns";
-
-
+  import Block from '../../../ui/blocks/pages/others'
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui/buefy',
     head () {
       return {
-        title: 'VaahNuxt UI components- blocks',
+        title: 'VaahNuxt UI components- Blocks',
       }
     },
-    computed: {
-      ServiceFeaturesNumbersTopCode() {
-        return ServiceFeaturesNumbersTopCode
-      },
-      ServiceFeaturesNumbersTopThreeColumnsCode() {
-        return ServiceFeaturesNumbersTopThreeColumnsCode
-      },
-      ServiceLoopFiveCode() {
-        return ServiceLoopFiveCode
-      },
-      ServiceLoopFiveThreeColumnsCode() {
-        return ServiceLoopFiveThreeColumnsCode
-      },
-    },
     components: {
-      SectionTitle,
-      SectionCode,
-      ServiceFeaturesNumbersTop,
-      ServiceFeaturesNumbersTopThreeColumns,
-      ServiceLoopFive,
-      ServiceLoopFiveThreeColumns,
-    },
-    data(){
-      let obj = {
-        c: content
-      };
-      return obj;
+      Block
     },
     methods:{
     },
 
   }
+
 </script>

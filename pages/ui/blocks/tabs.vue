@@ -1,82 +1,29 @@
 <template>
-  <div class="main-content">
 
+  <div>
 
-    <SectionCode name="ServicesLoopTabsAndPills UI Block" :code="ServicesLoopTabsAndPillsCode">
-      <ServicesLoopTabsAndPills :content="c.ServicesLoopTabsAndPills"></ServicesLoopTabsAndPills>
-    </SectionCode>
-
-
-
-    <SectionCode name="ServicesLoopTabsAndPillsHorizontal UI Block" :code="ServicesLoopTabsAndPillsHorizontalCode">
-      <ServicesLoopTabsAndPillsHorizontal :content="c.ServicesLoopTabsAndPillsHorizontal"></ServicesLoopTabsAndPillsHorizontal>
-    </SectionCode>
-
-
-
-    <SectionCode name="ServicesLoopTabsAndPillsHorizontalWithAccodian UI Block" :code="ServicesLoopTabsAndPillsHorizontalWithAccodianCode">
-      <ServicesLoopTabsAndPillsHorizontalWithAccodian :content="c.ServicesLoopTabsAndPillsHorizontalWithAccodian"></ServicesLoopTabsAndPillsHorizontalWithAccodian>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
-
-
 
 </template>
 
 <script>
-
-  import content from '../../../ui/content/content.json'
-
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
-
-  import ServicesLoopTabsAndPills from "../../../ui/blocks/components/ServicesLoopTabsAndPills";
-  import ServicesLoopTabsAndPillsCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopTabsAndPills";
-
-  import ServicesLoopTabsAndPillsHorizontalWithAccodian from "../../../ui/blocks/components/ServicesLoopTabsAndPillsHorizontalWithAccodian";
-  import ServicesLoopTabsAndPillsHorizontalWithAccodianCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopTabsAndPillsHorizontalWithAccodian";
-
-  import ServicesLoopTabsAndPillsHorizontal from "../../../ui/blocks/components/ServicesLoopTabsAndPillsHorizontal";
-  import ServicesLoopTabsAndPillsHorizontalCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopTabsAndPillsHorizontal";
-
-
+  import Block from '../../../ui/blocks/pages/tabs'
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui/buefy',
     head () {
       return {
-        title: 'VaahNuxt UI components- tabs',
-      }
-    },
-    computed: {
-      ServicesLoopTabsAndPillsCode() {
-        return ServicesLoopTabsAndPillsCode
-      },
-      ServicesLoopTabsAndPillsHorizontalCode() {
-        return ServicesLoopTabsAndPillsHorizontalCode
-      },
-      ServicesLoopTabsAndPillsHorizontalWithAccodianCode() {
-        return ServicesLoopTabsAndPillsHorizontalWithAccodianCode
+        title: 'VaahNuxt UI components- Tabs',
       }
     },
     components: {
-      SectionTitle,
-      SectionCode,
-      ServicesLoopTabsAndPills,
-      ServicesLoopTabsAndPillsHorizontal,
-      ServicesLoopTabsAndPillsHorizontalWithAccodian,
-    },
-    data(){
-      let obj = {
-        c: content
-      };
-      return obj;
+      Block
     },
     methods:{
     },
 
   }
+
 </script>
