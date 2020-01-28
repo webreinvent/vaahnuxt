@@ -21,7 +21,7 @@
 
   import SectionCode from '../../../ui/resuable/SectionCode';
 
-  import Cheetsheet from "../../../ui/blocks/Cheetsheet";
+  import Cheetsheet from "../../../ui/blocks/components/Cheetsheet";
 
 
 
@@ -29,7 +29,7 @@
     layout: 'ui/blocks',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- cheat sheet',
       }
     },
     computed: {

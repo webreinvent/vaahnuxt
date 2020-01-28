@@ -82,38 +82,38 @@
 
   import SectionCode from '../../../ui/resuable/SectionCode';
 
-  import ServiceFeaturesFourColouredBoxes from "../../../ui/blocks/ServiceFeaturesFourColouredBoxes";
-  import ServiceFeaturesFourColouredBoxesCode from "!raw-loader!../../../ui/blocks/ServiceFeaturesFourColouredBoxes";
+  import ServiceFeaturesFourColouredBoxes from "../../../ui/blocks/components/ServiceFeaturesFourColouredBoxes";
+  import ServiceFeaturesFourColouredBoxesCode from "!raw-loader!../../../ui/blocks/components/ServiceFeaturesFourColouredBoxes";
 
-  import ServiceFeaturesListViewCenterImage from "../../../ui/blocks/ServiceFeaturesListViewCenterImage";
-  import ServiceFeaturesListViewCenterImageCode from "!raw-loader!../../../ui/blocks/ServiceFeaturesListViewCenterImage";
+  import ServiceFeaturesListViewCenterImage from "../../../ui/blocks/components/ServiceFeaturesListViewCenterImage";
+  import ServiceFeaturesListViewCenterImageCode from "!raw-loader!../../../ui/blocks/components/ServiceFeaturesListViewCenterImage";
 
-  import ServicesLoopRoundImageTopThreeColumns from "../../../ui/blocks/ServicesLoopRoundImageTopThreeColumns";
-  import ServicesLoopRoundImageTopThreeColumnsCode from "!raw-loader!../../../ui/blocks/ServicesLoopRoundImageTopThreeColumns";
+  import ServicesLoopRoundImageTopThreeColumns from "../../../ui/blocks/components/ServicesLoopRoundImageTopThreeColumns";
+  import ServicesLoopRoundImageTopThreeColumnsCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopRoundImageTopThreeColumns";
 
-  import ServicesListViewThreeColumns from "../../../ui/blocks/ServicesListViewThreeColumns";
-  import ServicesListViewThreeColumnsCode from "!raw-loader!../../../ui/blocks/ServicesListViewThreeColumns";
+  import ServicesListViewThreeColumns from "../../../ui/blocks/components/ServicesListViewThreeColumns";
+  import ServicesListViewThreeColumnsCode from "!raw-loader!../../../ui/blocks/components/ServicesListViewThreeColumns";
 
-  import ServicesListView from "../../../ui/blocks/ServicesListView";
-  import ServicesListViewCode from "!raw-loader!../../../ui/blocks/ServicesListView";
+  import ServicesListView from "../../../ui/blocks/components/ServicesListView";
+  import ServicesListViewCode from "!raw-loader!../../../ui/blocks/components/ServicesListView";
 
-  import ServicesListViewThreeColumnsHeading from "../../../ui/blocks/ServicesListViewThreeColumnsHeading";
-  import ServicesListViewThreeColumnsHeadingCode from "!raw-loader!../../../ui/blocks/ServicesListViewThreeColumnsHeading";
+  import ServicesListViewThreeColumnsHeading from "../../../ui/blocks/components/ServicesListViewThreeColumnsHeading";
+  import ServicesListViewThreeColumnsHeadingCode from "!raw-loader!../../../ui/blocks/components/ServicesListViewThreeColumnsHeading";
 
-  import ServicesLoopRoundImageTop from "../../../ui/blocks/ServicesLoopRoundImageTop";
-  import ServicesLoopRoundImageTopCode from "!raw-loader!../../../ui/blocks/ServicesLoopRoundImageTop";
+  import ServicesLoopRoundImageTop from "../../../ui/blocks/components/ServicesLoopRoundImageTop";
+  import ServicesLoopRoundImageTopCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopRoundImageTop";
 
-  import ServicesLoopTwoWithBackgroundFiveColumns from "../../../ui/blocks/ServicesLoopTwoWithBackgroundFiveColumns";
-  import ServicesLoopTwoWithBackgroundFiveColumnsCode from "!raw-loader!../../../ui/blocks/ServicesLoopTwoWithBackgroundFiveColumns";
+  import ServicesLoopTwoWithBackgroundFiveColumns from "../../../ui/blocks/components/ServicesLoopTwoWithBackgroundFiveColumns";
+  import ServicesLoopTwoWithBackgroundFiveColumnsCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopTwoWithBackgroundFiveColumns";
 
-  import ServicesLoopTwoWithoutBackgroundFiveColumns from "../../../ui/blocks/ServicesLoopTwoWithoutBackgroundFiveColumns";
-  import ServicesLoopTwoWithoutBackgroundFiveColumnsCode from "!raw-loader!../../../ui/blocks/ServicesLoopTwoWithoutBackgroundFiveColumns";
+  import ServicesLoopTwoWithoutBackgroundFiveColumns from "../../../ui/blocks/components/ServicesLoopTwoWithoutBackgroundFiveColumns";
+  import ServicesLoopTwoWithoutBackgroundFiveColumnsCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopTwoWithoutBackgroundFiveColumns";
 
-  import ServicesSingleLineContent from "../../../ui/blocks/ServicesSingleLineContent";
-  import ServicesSingleLineContentCode from "!raw-loader!../../../ui/blocks/ServicesSingleLineContent";
+  import ServicesSingleLineContent from "../../../ui/blocks/components/ServicesSingleLineContent";
+  import ServicesSingleLineContentCode from "!raw-loader!../../../ui/blocks/components/ServicesSingleLineContent";
 
-  import ServicesLoopListView from "../../../ui/blocks/ServicesLoopListView";
-  import ServicesLoopListViewCode from "!raw-loader!../../../ui/blocks/ServicesLoopListView";
+  import ServicesLoopListView from "../../../ui/blocks/components/ServicesLoopListView";
+  import ServicesLoopListViewCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopListView";
 
 
 
@@ -121,7 +121,7 @@
     layout: 'ui/blocks',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- list',
       }
     },
     computed: {

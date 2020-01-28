@@ -21,8 +21,8 @@
 
   import SectionCode from '../../../ui/resuable/SectionCode';
 
-  import Process from "../../../ui/blocks/Process";
-  import ProcessCode from "!raw-loader!../../../ui/blocks/Process";
+  import Process from "../../../ui/blocks/components/Process";
+  import ProcessCode from "!raw-loader!../../../ui/blocks/components/Process";
 
 
 
@@ -30,7 +30,7 @@
     layout: 'ui/blocks',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- process',
       }
     },
     computed: {

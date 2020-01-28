@@ -21,8 +21,8 @@
 
   import SectionCode from '../../../ui/resuable/SectionCode';
 
-  import Counter from "../../../ui/blocks/Counter";
-  import CounterCode from "!raw-loader!../../../ui/blocks/Counter";
+  import Counter from "../../../ui/blocks/components/Counter";
+  import CounterCode from "!raw-loader!../../../ui/blocks/components/Counter";
 
 
 
@@ -30,7 +30,7 @@
     layout: 'ui/blocks',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- counter',
       }
     },
     computed: {

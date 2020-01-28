@@ -21,8 +21,8 @@
 
   import SectionCode from '../../../ui/resuable/SectionCode';
 
-  import Banner from "../../../ui/blocks/Banner";
-  import BannerCode from "!raw-loader!../../../ui/blocks/Banner";
+  import Banner from "../../../ui/blocks/components/Banner";
+  import BannerCode from "!raw-loader!../../../ui/blocks/components/Banner";
 
 
 
@@ -30,7 +30,7 @@
     layout: 'ui/blocks',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- banner',
       }
     },
     computed: {

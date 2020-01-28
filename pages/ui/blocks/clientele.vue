@@ -28,11 +28,11 @@
 
   import SectionCode from '../../../ui/resuable/SectionCode';
 
-  import Clientele from "../../../ui/blocks/Clientele";
-  import ClienteleCode from "!raw-loader!../../../ui/blocks/Clientele";
+  import Clientele from "../../../ui/blocks/components/Clientele";
+  import ClienteleCode from "!raw-loader!../../../ui/blocks/components/Clientele";
 
-  import Clients from "../../../ui/blocks/Clients";
-  import ClientsCode from "!raw-loader!../../../ui/blocks/Clients";
+  import Clients from "../../../ui/blocks/components/Clients";
+  import ClientsCode from "!raw-loader!../../../ui/blocks/components/Clients";
 
 
 
@@ -40,7 +40,7 @@
     layout: 'ui/blocks',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- clientele',
       }
     },
     computed: {

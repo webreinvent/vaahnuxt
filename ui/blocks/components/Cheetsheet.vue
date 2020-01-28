@@ -307,12 +307,12 @@
 
 <script>
 
-  import VhCopy from "../resuable/VhCopy";
+  import VhCopy from "../../resuable/VhCopy";
   import CheetsheetContent from "./Cheetsheet-Content";
   import CheetsheetContentCode from "!raw-loader!./Cheetsheet-Content";
 
-  import SectionCode from '../resuable/SectionCode';
-  import SectionTitle from "../resuable/SectionTitle";
+  import SectionCode from '../../resuable/SectionCode';
+  import SectionTitle from "../../resuable/SectionTitle";
 
 
 

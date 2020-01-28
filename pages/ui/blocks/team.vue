@@ -28,11 +28,11 @@
 
   import SectionCode from '../../../ui/resuable/SectionCode';
 
-  import Team from "../../../ui/blocks/Team";
-  import TeamCode from "!raw-loader!../../../ui/blocks/Team";
+  import Team from "../../../ui/blocks/components/Team";
+  import TeamCode from "!raw-loader!../../../ui/blocks/components/Team";
 
-  import TeamSquareCard from "../../../ui/blocks/TeamSquareCard";
-  import TeamSquareCardCode from "!raw-loader!../../../ui/blocks/TeamSquareCard";
+  import TeamSquareCard from "../../../ui/blocks/components/TeamSquareCard";
+  import TeamSquareCardCode from "!raw-loader!../../../ui/blocks/components/TeamSquareCard";
 
 
 
@@ -40,7 +40,7 @@
     layout: 'ui/blocks',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- team',
       }
     },
     computed: {

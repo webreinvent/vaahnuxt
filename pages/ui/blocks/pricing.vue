@@ -28,11 +28,11 @@
 
   import SectionCode from '../../../ui/resuable/SectionCode';
 
-  import ServicesLoopPricingFourColumns from "../../../ui/blocks/ServicesLoopPricingFourColumns";
-  import ServicesLoopPricingFourColumnsCode from "!raw-loader!../../../ui/blocks/ServicesLoopPricingFourColumns";
+  import ServicesLoopPricingFourColumns from "../../../ui/blocks/components/ServicesLoopPricingFourColumns";
+  import ServicesLoopPricingFourColumnsCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopPricingFourColumns";
 
-  import ServicesLoopPricingThreeColumns from "../../../ui/blocks/ServicesLoopPricingThreeColumns";
-  import ServicesLoopPricingThreeColumnsCode from "!raw-loader!../../../ui/blocks/ServicesLoopPricingThreeColumns";
+  import ServicesLoopPricingThreeColumns from "../../../ui/blocks/components/ServicesLoopPricingThreeColumns";
+  import ServicesLoopPricingThreeColumnsCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopPricingThreeColumns";
 
 
 
@@ -40,7 +40,7 @@
     layout: 'ui/blocks',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- pricing',
       }
     },
     computed: {

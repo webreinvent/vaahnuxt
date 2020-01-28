@@ -21,8 +21,8 @@
 
   import SectionCode from '../../../ui/resuable/SectionCode';
 
-  import Testimonials from "../../../ui/blocks/Testimonials";
-  import TestimonialsCode from "!raw-loader!../../../ui/blocks/Testimonials";
+  import Testimonials from "../../../ui/blocks/components/Testimonials";
+  import TestimonialsCode from "!raw-loader!../../../ui/blocks/components/Testimonials";
 
 
 
@@ -30,7 +30,7 @@
     layout: 'ui/blocks',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- testimonials',
       }
     },
     computed: {

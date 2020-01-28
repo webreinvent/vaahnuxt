@@ -22,8 +22,8 @@
 
   import SectionCode from '../../../ui/resuable/SectionCode';
 
-  import FrequentlyAskedQuestions from "../../../ui/blocks/FrequentlyAskedQuestions";
-  import FrequentlyAskedQuestionsCode from "!raw-loader!../../../ui/blocks/FrequentlyAskedQuestions";
+  import FrequentlyAskedQuestions from "../../../ui/blocks/components/FrequentlyAskedQuestions";
+  import FrequentlyAskedQuestionsCode from "!raw-loader!../../../ui/blocks/components/FrequentlyAskedQuestions";
 
 
 
@@ -31,7 +31,7 @@
     layout: 'ui/blocks',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- faq',
       }
     },
     computed: {

@@ -21,8 +21,8 @@
 
   import SectionCode from '../../../ui/resuable/SectionCode';
 
-  import Blogs from "../../../ui/blocks/Blogs";
-  import BlogsCode from "!raw-loader!../../../ui/blocks/Blogs";
+  import Blogs from "../../../ui/blocks/components/Blogs";
+  import BlogsCode from "!raw-loader!../../../ui/blocks/components/Blogs";
 
 
 
@@ -30,7 +30,7 @@
     layout: 'ui/blocks',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- blogs',
       }
     },
     computed: {

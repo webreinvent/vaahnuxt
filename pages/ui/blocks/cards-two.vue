@@ -46,20 +46,20 @@
 
   import SectionCode from '../../../ui/resuable/SectionCode';
 
-  import ServicesLoopThreeColorBoxes from "../../../ui/blocks/ServicesLoopThreeColorBoxes";
-  import ServicesLoopThreeColorBoxesCode from "!raw-loader!../../../ui/blocks/ServicesLoopThreeColorBoxes";
+  import ServicesLoopThreeColorBoxes from "../../../ui/blocks/components/ServicesLoopThreeColorBoxes";
+  import ServicesLoopThreeColorBoxesCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopThreeColorBoxes";
 
-  import ServicesLoopTwo from "../../../ui/blocks/ServicesLoopTwo";
-  import ServicesLoopTwoCode from "!raw-loader!../../../ui/blocks/ServicesLoopTwo";
+  import ServicesLoopTwo from "../../../ui/blocks/components/ServicesLoopTwo";
+  import ServicesLoopTwoCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopTwo";
 
-  import ServicesLoopTwoWithoutBackground from "../../../ui/blocks/ServicesLoopTwoWithoutBackground";
-  import ServicesLoopTwoWithoutBackgroundCode from "!raw-loader!../../../ui/blocks/ServicesLoopTwoWithoutBackground";
+  import ServicesLoopTwoWithoutBackground from "../../../ui/blocks/components/ServicesLoopTwoWithoutBackground";
+  import ServicesLoopTwoWithoutBackgroundCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopTwoWithoutBackground";
 
-  import ServicesLoopWithoutBackground from "../../../ui/blocks/ServicesLoopWithoutBackground";
-  import ServicesLoopWithoutBackgroundCode from "!raw-loader!../../../ui/blocks/ServicesLoopWithoutBackground";
+  import ServicesLoopWithoutBackground from "../../../ui/blocks/components/ServicesLoopWithoutBackground";
+  import ServicesLoopWithoutBackgroundCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopWithoutBackground";
 
-  import ServicesPlainTextTwoColumns from "../../../ui/blocks/ServicesPlainTextTwoColumns";
-  import ServicesPlainTextTwoColumnsCode from "!raw-loader!../../../ui/blocks/ServicesPlainTextTwoColumns";
+  import ServicesPlainTextTwoColumns from "../../../ui/blocks/components/ServicesPlainTextTwoColumns";
+  import ServicesPlainTextTwoColumnsCode from "!raw-loader!../../../ui/blocks/components/ServicesPlainTextTwoColumns";
 
 
 
@@ -67,7 +67,7 @@
     layout: 'ui/blocks',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- cards',
       }
     },
     computed: {

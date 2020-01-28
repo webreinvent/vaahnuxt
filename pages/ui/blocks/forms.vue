@@ -21,8 +21,8 @@
 
   import SectionCode from '../../../ui/resuable/SectionCode';
 
-  import ServiceHeader from "../../../ui/blocks/ServiceHeader";
-  import ServiceHeaderCode from "!raw-loader!../../../ui/blocks/ServiceHeader";
+  import ServiceHeader from "../../../ui/blocks/components/ServiceHeader";
+  import ServiceHeaderCode from "!raw-loader!../../../ui/blocks/components/ServiceHeader";
 
 
 
@@ -30,7 +30,7 @@
     layout: 'ui/blocks',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- forms',
       }
     },
     computed: {

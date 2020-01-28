@@ -1,38 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Dropdown"
-                  link="https://buefy.org/documentation/dropdown">
-    </SectionTitle>
-
-
-    <SectionCode name="Dropdown" :code="DropdownCode">
-      <Dropdown></Dropdown>
-    </SectionCode>
-
-
-    <SectionCode name="Content And Position" :code="ContentAndPositionCode">
-      <ContentAndPosition></ContentAndPosition>
-    </SectionCode>
-
-
-    <SectionCode name="Links Within" :code="LinksWithinCode">
-      <LinksWithin></LinksWithin>
-    </SectionCode>
-
-
-    <SectionCode name="Customizing With V-Model" :code="CustomizingWithVModelCode">
-      <CustomizingWithVModel></CustomizingWithVModel>
-    </SectionCode>
-
-
-    <SectionCode name="Multiple" :code="MultipleCode">
-      <Multiple></Multiple>
-    </SectionCode>
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./dropdownjs.js"></script>
+<script>
+  import Block from '../../../ui/buefy/pages/dropdown'
+
+  export default {
+    layout: 'ui/buefy',
+    head () {
+      return {
+        title: 'Buefy UI Block - Dropdown',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

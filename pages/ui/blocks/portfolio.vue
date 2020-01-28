@@ -21,8 +21,8 @@
 
   import SectionCode from '../../../ui/resuable/SectionCode';
 
-  import Portfolio from "../../../ui/blocks/Portfolio";
-  import PortfolioCode from "!raw-loader!../../../ui/blocks/Portfolio";
+  import Portfolio from "../../../ui/blocks/components/Portfolio";
+  import PortfolioCode from "!raw-loader!../../../ui/blocks/components/Portfolio";
 
 
 
@@ -30,7 +30,7 @@
     layout: 'ui/blocks',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- portfolio',
       }
     },
     computed: {

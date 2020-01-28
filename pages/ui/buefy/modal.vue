@@ -1,34 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Modal"
-                  link="https://buefy.org/documentation/modal">
-    </SectionTitle>
-
-
-    <SectionCode name="Modal" :code="ModalCode">
-      <Modal></Modal>
-    </SectionCode>
-
-
-    <SectionCode name="Component" :code="ComponentModalCode">
-      <ComponentModal></ComponentModal>
-    </SectionCode>
-
-
-    <SectionCode name="Programmatic" :code="ProgrammaticCode">
-      <Programmatic></Programmatic>
-    </SectionCode>
-
-
-    <SectionCode name="Full Screen" :code="FullScreenCode">
-      <FullScreen></FullScreen>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./modaljs.js"></script>
+<script>
+  import Block from '../../../ui/buefy/pages/modal'
+
+  export default {
+    layout: 'ui/buefy',
+    head () {
+      return {
+        title: 'Buefy UI Block - Modal',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

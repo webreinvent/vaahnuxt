@@ -33,14 +33,14 @@
 
   import SectionCode from '../../../ui/resuable/SectionCode';
 
-  import CallToAction from "../../../ui/blocks/CallToAction";
-  import CallToActionCode from "!raw-loader!../../../ui/blocks/CallToAction";
+  import CallToAction from "../../../ui/blocks/components/CallToAction";
+  import CallToActionCode from "!raw-loader!../../../ui/blocks/components/CallToAction";
 
-  import CallToActionBGImage from "../../../ui/blocks/CallToActionBGImage";
-  import CallToActionBGImageCode from "!raw-loader!../../../ui/blocks/CallToActionBGImage";
+  import CallToActionBGImage from "../../../ui/blocks/components/CallToActionBGImage";
+  import CallToActionBGImageCode from "!raw-loader!../../../ui/blocks/components/CallToActionBGImage";
 
-  import Slogan from "../../../ui/blocks/Slogan";
-  import SloganCode from "!raw-loader!../../../ui/blocks/Slogan";
+  import Slogan from "../../../ui/blocks/components/Slogan";
+  import SloganCode from "!raw-loader!../../../ui/blocks/components/Slogan";
 
 
 
@@ -48,7 +48,7 @@
     layout: 'ui/blocks',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- call to actions',
       }
     },
     computed: {

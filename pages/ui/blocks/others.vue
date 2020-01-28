@@ -39,17 +39,17 @@
 
   import SectionCode from '../../../ui/resuable/SectionCode';
 
-  import ServiceFeaturesNumbersTop from "../../../ui/blocks/ServiceFeaturesNumbersTop";
-  import ServiceFeaturesNumbersTopCode from "!raw-loader!../../../ui/blocks/ServiceFeaturesNumbersTop";
+  import ServiceFeaturesNumbersTop from "../../../ui/blocks/components/ServiceFeaturesNumbersTop";
+  import ServiceFeaturesNumbersTopCode from "!raw-loader!../../../ui/blocks/components/ServiceFeaturesNumbersTop";
 
-  import ServiceFeaturesNumbersTopThreeColumns from "../../../ui/blocks/ServiceFeaturesNumbersTopThreeColumns";
-  import ServiceFeaturesNumbersTopThreeColumnsCode from "!raw-loader!../../../ui/blocks/ServiceFeaturesNumbersTopThreeColumns";
+  import ServiceFeaturesNumbersTopThreeColumns from "../../../ui/blocks/components/ServiceFeaturesNumbersTopThreeColumns";
+  import ServiceFeaturesNumbersTopThreeColumnsCode from "!raw-loader!../../../ui/blocks/components/ServiceFeaturesNumbersTopThreeColumns";
 
-  import ServiceLoopFive from "../../../ui/blocks/ServiceLoopFive";
-  import ServiceLoopFiveCode from "!raw-loader!../../../ui/blocks/ServiceLoopFive";
+  import ServiceLoopFive from "../../../ui/blocks/components/ServiceLoopFive";
+  import ServiceLoopFiveCode from "!raw-loader!../../../ui/blocks/components/ServiceLoopFive";
 
-  import ServiceLoopFiveThreeColumns from "../../../ui/blocks/ServiceLoopFiveThreeColumns";
-  import ServiceLoopFiveThreeColumnsCode from "!raw-loader!../../../ui/blocks/ServiceLoopFiveThreeColumns";
+  import ServiceLoopFiveThreeColumns from "../../../ui/blocks/components/ServiceLoopFiveThreeColumns";
+  import ServiceLoopFiveThreeColumnsCode from "!raw-loader!../../../ui/blocks/components/ServiceLoopFiveThreeColumns";
 
 
 
@@ -57,7 +57,7 @@
     layout: 'ui/blocks',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- blocks',
       }
     },
     computed: {

@@ -33,14 +33,14 @@
 
   import SectionCode from '../../../ui/resuable/SectionCode';
 
-  import ServicesLoopTabsAndPills from "../../../ui/blocks/ServicesLoopTabsAndPills";
-  import ServicesLoopTabsAndPillsCode from "!raw-loader!../../../ui/blocks/ServicesLoopTabsAndPills";
+  import ServicesLoopTabsAndPills from "../../../ui/blocks/components/ServicesLoopTabsAndPills";
+  import ServicesLoopTabsAndPillsCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopTabsAndPills";
 
-  import ServicesLoopTabsAndPillsHorizontalWithAccodian from "../../../ui/blocks/ServicesLoopTabsAndPillsHorizontalWithAccodian";
-  import ServicesLoopTabsAndPillsHorizontalWithAccodianCode from "!raw-loader!../../../ui/blocks/ServicesLoopTabsAndPillsHorizontalWithAccodian";
+  import ServicesLoopTabsAndPillsHorizontalWithAccodian from "../../../ui/blocks/components/ServicesLoopTabsAndPillsHorizontalWithAccodian";
+  import ServicesLoopTabsAndPillsHorizontalWithAccodianCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopTabsAndPillsHorizontalWithAccodian";
 
-  import ServicesLoopTabsAndPillsHorizontal from "../../../ui/blocks/ServicesLoopTabsAndPillsHorizontal";
-  import ServicesLoopTabsAndPillsHorizontalCode from "!raw-loader!../../../ui/blocks/ServicesLoopTabsAndPillsHorizontal";
+  import ServicesLoopTabsAndPillsHorizontal from "../../../ui/blocks/components/ServicesLoopTabsAndPillsHorizontal";
+  import ServicesLoopTabsAndPillsHorizontalCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopTabsAndPillsHorizontal";
 
 
 
@@ -48,7 +48,7 @@
     layout: 'ui/blocks',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- tabs',
       }
     },
     computed: {

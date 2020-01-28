@@ -69,32 +69,32 @@
 
   import SectionCode from '../../../ui/resuable/SectionCode';
 
-  import ServiceFeatures from "../../../ui/blocks/ServiceFeatures";
-  import ServiceFeaturesCode from "!raw-loader!../../../ui/blocks/ServiceFeatures";
+  import ServiceFeatures from "../../../ui/blocks/components/ServiceFeatures";
+  import ServiceFeaturesCode from "!raw-loader!../../../ui/blocks/components/ServiceFeatures";
 
-  import ServicesBigColorBoxes from "../../../ui/blocks/ServicesBigColorBoxes";
-  import ServicesBigColorBoxesCode from "!raw-loader!../../../ui/blocks/ServicesBigColorBoxes";
+  import ServicesBigColorBoxes from "../../../ui/blocks/components/ServicesBigColorBoxes";
+  import ServicesBigColorBoxesCode from "!raw-loader!../../../ui/blocks/components/ServicesBigColorBoxes";
 
-  import ServicesCardWithLeftImage from "../../../ui/blocks/ServicesCardWithLeftImage";
-  import ServicesCardWithLeftImageCode from "!raw-loader!../../../ui/blocks/ServicesCardWithLeftImage";
+  import ServicesCardWithLeftImage from "../../../ui/blocks/components/ServicesCardWithLeftImage";
+  import ServicesCardWithLeftImageCode from "!raw-loader!../../../ui/blocks/components/ServicesCardWithLeftImage";
 
-  import ServicesCardWithLeftRoundImage from "../../../ui/blocks/ServicesCardWithLeftRoundImage";
-  import ServicesCardWithLeftRoundImageCode from "!raw-loader!../../../ui/blocks/ServicesCardWithLeftRoundImage";
+  import ServicesCardWithLeftRoundImage from "../../../ui/blocks/components/ServicesCardWithLeftRoundImage";
+  import ServicesCardWithLeftRoundImageCode from "!raw-loader!../../../ui/blocks/components/ServicesCardWithLeftRoundImage";
 
-  import ServicesLoop from "../../../ui/blocks/ServicesLoop";
-  import ServicesLoopCode from "!raw-loader!../../../ui/blocks/ServicesLoop";
+  import ServicesLoop from "../../../ui/blocks/components/ServicesLoop";
+  import ServicesLoopCode from "!raw-loader!../../../ui/blocks/components/ServicesLoop";
 
-  import ServicesLoopBackgroundImage from "../../../ui/blocks/ServicesLoopBackgroundImage";
-  import ServicesLoopBackgroundImageCode from "!raw-loader!../../../ui/blocks/ServicesLoopBackgroundImage";
+  import ServicesLoopBackgroundImage from "../../../ui/blocks/components/ServicesLoopBackgroundImage";
+  import ServicesLoopBackgroundImageCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopBackgroundImage";
 
-  import ServicesLoopBackgroundImageAndBoxes from "../../../ui/blocks/ServicesLoopBackgroundImageAndBoxes";
-  import ServicesLoopBackgroundImageAndBoxesCode from "!raw-loader!../../../ui/blocks/ServicesLoopBackgroundImageAndBoxes";
+  import ServicesLoopBackgroundImageAndBoxes from "../../../ui/blocks/components/ServicesLoopBackgroundImageAndBoxes";
+  import ServicesLoopBackgroundImageAndBoxesCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopBackgroundImageAndBoxes";
 
-  import ServicesLoopRightImage from "../../../ui/blocks/ServicesLoopRightImage";
-  import ServicesLoopRightImageCode from "!raw-loader!../../../ui/blocks/ServicesLoopRightImage";
+  import ServicesLoopRightImage from "../../../ui/blocks/components/ServicesLoopRightImage";
+  import ServicesLoopRightImageCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopRightImage";
 
-  import ServicesLoopSix from "../../../ui/blocks/ServicesLoopSix";
-  import ServicesLoopSixCode from "!raw-loader!../../../ui/blocks/ServicesLoopSix";
+  import ServicesLoopSix from "../../../ui/blocks/components/ServicesLoopSix";
+  import ServicesLoopSixCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopSix";
 
 
 
@@ -102,7 +102,7 @@
     layout: 'ui/blocks',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- cards',
       }
     },
     computed: {

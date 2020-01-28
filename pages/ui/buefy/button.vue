@@ -2,14 +2,14 @@
 
   <div>
 
-    <Button></Button>
+    <Block></Block>
 
   </div>
 
 </template>
 
 <script>
-  import Button from '../../../ui/buefy/pages/button'
+  import Block from '../../../ui/buefy/pages/button'
 
   export default {
     layout: 'ui/buefy',
@@ -19,7 +19,7 @@
       }
     },
     components: {
-      Button
+      Block
     },
     methods:{
     },
