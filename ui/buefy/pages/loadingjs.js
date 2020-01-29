@@ -1,5 +1,5 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 import Loading from '../../../ui/buefy/components/Loading/Loading'
 import LoadingCode from "!raw-loader!../../../ui/buefy/components/Loading/Loading";
@@ -23,8 +23,8 @@ export default {
     TemplatedCode() {return TemplatedCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Loading,
     ProgrammaticallyOpening,
     Templated,

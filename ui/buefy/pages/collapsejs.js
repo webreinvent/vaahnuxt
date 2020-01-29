@@ -1,5 +1,5 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 import Collapse from '../../../ui/buefy/components/Collapse/Collapse'
 import CollapseCode from "!raw-loader!../../../ui/buefy/components/Collapse/Collapse";
@@ -31,8 +31,8 @@ export default {
     AccordionEffectCode() {return AccordionEffectCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Collapse,
     Panel,
     Card,

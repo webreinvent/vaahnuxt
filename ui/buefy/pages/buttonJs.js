@@ -1,5 +1,5 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 import Button from '../../../ui/buefy/components/Buttons/Button'
 import ButtonCode from "!raw-loader!../../../ui/buefy/components/Buttons/Button";
@@ -29,8 +29,8 @@ export default {
     RouterCode() {return RouterCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Button,
     TypesAndStates,
     Size,

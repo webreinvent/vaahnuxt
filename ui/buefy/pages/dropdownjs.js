@@ -1,5 +1,5 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 import Dropdown from '../../../ui/buefy/components/Dropdown/Dropdown'
 import DropdownCode from "!raw-loader!../../../ui/buefy/components/Dropdown/Dropdown";
@@ -31,8 +31,8 @@ export default {
     MultipleCode() {return MultipleCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Dropdown,
     ContentAndPosition,
     LinksWithin,

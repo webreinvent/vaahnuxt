@@ -1,5 +1,5 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 import Menu from '../../../ui/buefy/components/Menu/Menu'
 import MenuCode from "!raw-loader!../../../ui/buefy/components/Menu/Menu";
@@ -15,8 +15,8 @@ export default {
     MenuCode() {return MenuCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Menu,
 
   },

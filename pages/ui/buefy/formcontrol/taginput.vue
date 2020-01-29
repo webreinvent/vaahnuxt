@@ -12,7 +12,7 @@
   import Block from '../../../../ui/buefy/pages/formcontrol/taginput'
 
   export default {
-    layout: 'ui/buefy',
+    layout: 'ui',
     head () {
       return {
         title: 'Buefy UI Block- Taginput',

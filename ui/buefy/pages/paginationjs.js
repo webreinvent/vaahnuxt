@@ -1,5 +1,5 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 import Pagination from '../../../ui/buefy/components/Pagination/Pagination'
 import PaginationCode from "!raw-loader!../../../ui/buefy/components/Pagination/Pagination";
@@ -19,8 +19,8 @@ export default {
     CustomPaginationButtonsCode() {return CustomPaginationButtonsCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Pagination,
     CustomPaginationButtons,
 

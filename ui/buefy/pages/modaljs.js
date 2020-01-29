@@ -1,5 +1,5 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 import Modal from '../../../ui/buefy/components/Modal/Modal'
 import ModalCode from "!raw-loader!../../../ui/buefy/components/Modal/Modal";
@@ -27,8 +27,8 @@ export default {
     FullScreenCode() {return FullScreenCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Modal,
     ComponentModal,
     Programmatic,

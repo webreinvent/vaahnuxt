@@ -1,5 +1,5 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 import Icon from '../../../ui/buefy/components/Icon/Icon'
 import IconCode from "!raw-loader!../../../ui/buefy/components/Icon/Icon";
@@ -27,8 +27,8 @@ export default {
     CustomIconPackCode() {return CustomIconPackCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Icon,
     FontAwesome,
     ObjectSyntax,

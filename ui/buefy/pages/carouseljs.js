@@ -1,5 +1,5 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 import Carousel from '../../../ui/buefy/components/Carousel/Carousel'
 import CarouselCode from "!raw-loader!../../../ui/buefy/components/Carousel/Carousel";
@@ -45,8 +45,8 @@ export default {
     CustomAsAnIndicatorsCode() {return CustomAsAnIndicatorsCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Carousel,
     Custom,
     Arrow,

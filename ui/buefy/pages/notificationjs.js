@@ -1,5 +1,5 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 import Notification from '../../../ui/buefy/components/Notification/Notification'
 import NotificationCode from "!raw-loader!../../../ui/buefy/components/Notification/Notification";
@@ -31,8 +31,8 @@ export default {
     ProgrammaticallyOpeningCode() {return ProgrammaticallyOpeningCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Notification,
     Types,
     Icons,

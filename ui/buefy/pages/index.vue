@@ -1,145 +1,66 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <section class="section">
-    <div class="columns is-mobile">
+  <TopMenu></TopMenu>
+  <PageHeader></PageHeader>
+  <div class="container" >
 
-      <h1>Buefy UI Blocks</h1>
+    <section class="main-content columns">
+      <aside class="column is-2 section">
+        <SideMenu></SideMenu>
+      </aside>
 
-    </div>
-  </section>
+      <div class="container column is-10">
 
-    <section>
+        <div class="main-content">
 
-      <p class="title">
-        <a href="#dynamic" class="">#</a>
-        <a name="dynamic"></a>
-        Dynamic
-      </p>
-
-      <b-tabs :animated="false">
-        <b-tab-item label="Preview">
-          <Button></Button>
-        </b-tab-item>
-
-        <b-tab-item label="Code">
-
-          <div class="docs code">
+          <SectionTitle title="Buefy - Button"
+                        link="https://buefy.org/documentation/button/">
+          </SectionTitle>
 
 
-            <b-button type="is-text">
-              <vh-copy
-                :data="ButtonCode"
-                :label="'copy'"
-                :confirm_dialog="'buefy'">
-              </vh-copy>
-            </b-button>
-
-            <pre v-highlightjs="ButtonCode">
-            <code class="vue">
-            </code>
-          </pre>
-
-          </div>
-
-        </b-tab-item>
-
-      </b-tabs>
+          <SectionCode name="Button" :code="ButtonCode">
+            <Button></Button>
+          </SectionCode>
 
 
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+          <SectionCode name="Types and states" :code="TypesAndStatesCode">
+            <TypesAndStates></TypesAndStates>
+          </SectionCode>
 
+          <SectionCode name="Size" :code="SizeCode">
+            <Size></Size>
+          </SectionCode>
+
+          <SectionCode name="Icons" :code="IconsCode">
+            <Icons></Icons>
+          </SectionCode>
+
+          <SectionCode name="Tags" :code="TagsCode">
+            <Tags></Tags>
+          </SectionCode>
+
+          <SectionCode name="Router" :code="RouterCode">
+            <Router></Router>
+          </SectionCode>
+
+
+        </div>
+
+      </div>
     </section>
+
+  </div>
+
+
+
+
+  <Footer></Footer>
+
 
   </div>
 
 </template>
 
-<script>
-
-  import Button from '../../../ui/buefy/components/Buttons/Button'
-  import ButtonCode from "!raw-loader!../../../ui/buefy/components/Buttons/Button";
-
-  export default {
-    layout: 'ui/buefy',
-    head () {
-      return {
-        title: 'Buefy Block',
-      }
-    },
-    computed: {
-      ButtonCode() {
-        return ButtonCode
-      }
-    },
-    components: {
-      Button,
-    },
-    methods:{
-
-    },
-
-  }
-</script>
+<script src="./buttonJs.js"></script>

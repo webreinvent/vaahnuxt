@@ -85,7 +85,7 @@
   import ElementV9 from "../../../ui/docs/components/ElementV9";
   import ElementV9Code from "!raw-loader!../../../ui/docs/components/ElementV9";
   export default {
-    layout: 'ui/docs',
+    layout: 'ui',
     head () {
       return {
         title: 'Docs UI Blocks',

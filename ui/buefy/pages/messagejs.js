@@ -1,5 +1,5 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 import Message from '../../../ui/buefy/components/Message/Message'
 import MessageCode from "!raw-loader!../../../ui/buefy/components/Message/Message";
@@ -35,8 +35,8 @@ export default {
     AutoCloseCode() {return AutoCloseCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Message,
     Types,
     Icons,

@@ -1,5 +1,5 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 export default {
   layout: 'ui/buefy',
@@ -11,8 +11,8 @@ export default {
   computed: {
   },
   components: {
-    SectionTitle,
-    SectionCode,
+     ...globalComponents,
+    SideMenu,
 
   },
   methods:{
