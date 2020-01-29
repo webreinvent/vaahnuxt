@@ -1,25 +1,34 @@
 <template>
-  <div class="main-content">
+
+  <div>
+
+     <TopMenu></TopMenu>
+     <BlockTopMenu></BlockTopMenu>
+     <PageHeader></PageHeader>
+
+    <div class="main-content">
 
 
-    <SectionCode name="Blogs UI Block" :code="BlogsCode">
-      <Blogs :content="c.Blogs"></Blogs>
-    </SectionCode>
+      <SectionCode name="Blogs UI Block" :code="BlogsCode">
+        <Blogs :content="c.Blogs"></Blogs>
+      </SectionCode>
+
+
+    </div>
+
+    <Footer></Footer>
 
 
   </div>
-
-
 
 </template>
 
 <script>
 
+  import globalComponents from "../../../ui/helpers/globalComponents";
   import content from '../../../ui/content/content.json'
 
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
+  import BlockTopMenu from "../../../ui/blocks/partials/BlockTopMenu";
 
   import Blogs from "../../../ui/blocks/components/Blogs";
   import BlogsCode from "!raw-loader!../../../ui/blocks/components/Blogs";
@@ -39,8 +48,8 @@
       },
     },
     components: {
-      SectionTitle,
-      SectionCode,
+       ...globalComponents,
+      BlockTopMenu,
       Blogs,
     },
     data(){

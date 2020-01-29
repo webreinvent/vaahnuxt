@@ -1,26 +1,34 @@
 <template>
-  <div class="main-content">
+  <div>
+
+     <TopMenu></TopMenu>
+     <BlockTopMenu></BlockTopMenu>
+     <PageHeader></PageHeader>
+
+
+      <div class="main-content">
 
 
 
-    <SectionCode name="FrequentlyAskedQuestions UI Block" :code="FrequentlyAskedQuestionsCode">
-      <FrequentlyAskedQuestions :content="c.FrequentlyAskedQuestions"></FrequentlyAskedQuestions>
-    </SectionCode>
+        <SectionCode name="FrequentlyAskedQuestions UI Block" :code="FrequentlyAskedQuestionsCode">
+          <FrequentlyAskedQuestions :content="c.FrequentlyAskedQuestions"></FrequentlyAskedQuestions>
+        </SectionCode>
 
+
+      </div>
+
+
+    <Footer></Footer>
 
   </div>
-
-
-
 </template>
 
 <script>
 
+  import globalComponents from "../../../ui/helpers/globalComponents";
   import content from '../../../ui/content/content.json'
 
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
+  import BlockTopMenu from "../../../ui/blocks/partials/BlockTopMenu";
 
   import FrequentlyAskedQuestions from "../../../ui/blocks/components/FrequentlyAskedQuestions";
   import FrequentlyAskedQuestionsCode from "!raw-loader!../../../ui/blocks/components/FrequentlyAskedQuestions";
@@ -28,7 +36,7 @@
 
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui',
     head () {
       return {
         title: 'VaahNuxt UI components- faq',
@@ -40,8 +48,8 @@
       },
     },
     components: {
-      SectionTitle,
-      SectionCode,
+      ...globalComponents,
+      BlockTopMenu,
       FrequentlyAskedQuestions,
     },
     data(){

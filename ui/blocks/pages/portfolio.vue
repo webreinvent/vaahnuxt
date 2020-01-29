@@ -1,5 +1,14 @@
 <template>
-  <div class="main-content">
+
+
+<div>
+
+    <TopMenu></TopMenu>
+    <BlockTopMenu></BlockTopMenu>
+    <PageHeader></PageHeader>
+
+
+     <div class="main-content">
 
 
     <SectionCode name="Portfolio UI Block" :code="PortfolioCode">
@@ -11,15 +20,19 @@
 
 
 
+    <Footer></Footer>
+
+
+  </div>
+
 </template>
 
 <script>
 
+  import globalComponents from "../../../ui/helpers/globalComponents";
   import content from '../../../ui/content/content.json'
 
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
+  import BlockTopMenu from "../../../ui/blocks/partials/BlockTopMenu";
 
   import Portfolio from "../../../ui/blocks/components/Portfolio";
   import PortfolioCode from "!raw-loader!../../../ui/blocks/components/Portfolio";
@@ -27,7 +40,7 @@
 
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui',
     head () {
       return {
         title: 'VaahNuxt UI components- portfolio',
@@ -39,8 +52,8 @@
       },
     },
     components: {
-      SectionTitle,
-      SectionCode,
+      ...globalComponents,
+      BlockTopMenu,
       Portfolio,
     },
     data(){

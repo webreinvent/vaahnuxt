@@ -1,5 +1,14 @@
 <template>
-  <div class="main-content">
+
+
+<div>
+
+    <TopMenu></TopMenu>
+    <BlockTopMenu></BlockTopMenu>
+    <PageHeader></PageHeader>
+
+
+   <div class="main-content">
 
 
     <SectionCode name="ServiceFeaturesNumbersTop UI Block" :code="ServiceFeaturesNumbersTopCode">
@@ -29,15 +38,19 @@
 
 
 
+    <Footer></Footer>
+
+
+  </div>
+
 </template>
 
 <script>
 
+  import globalComponents from "../../../ui/helpers/globalComponents";
   import content from '../../../ui/content/content.json'
 
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
+  import BlockTopMenu from "../../../ui/blocks/partials/BlockTopMenu";
 
   import ServiceFeaturesNumbersTop from "../../../ui/blocks/components/ServiceFeaturesNumbersTop";
   import ServiceFeaturesNumbersTopCode from "!raw-loader!../../../ui/blocks/components/ServiceFeaturesNumbersTop";
@@ -54,7 +67,7 @@
 
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui',
     head () {
       return {
         title: 'VaahNuxt UI components- blocks',
@@ -75,8 +88,8 @@
       },
     },
     components: {
-      SectionTitle,
-      SectionCode,
+      ...globalComponents,
+      BlockTopMenu,
       ServiceFeaturesNumbersTop,
       ServiceFeaturesNumbersTopThreeColumns,
       ServiceLoopFive,

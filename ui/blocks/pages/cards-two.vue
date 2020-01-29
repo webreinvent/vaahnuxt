@@ -1,38 +1,49 @@
 <template>
-  <div class="main-content">
+<div>
+
+     <TopMenu></TopMenu>
+     <BlockTopMenu></BlockTopMenu>
+     <PageHeader></PageHeader>
+
+
+      <div class="main-content">
 
 
 
-    <SectionCode name="ServicesLoopThreeColorBoxes UI Block" :code="ServicesLoopThreeColorBoxesCode">
-      <ServicesLoopThreeColorBoxes :content="c.ServicesLoopThreeColorBoxes"></ServicesLoopThreeColorBoxes>
-    </SectionCode>
+        <SectionCode name="ServicesLoopThreeColorBoxes UI Block" :code="ServicesLoopThreeColorBoxesCode">
+          <ServicesLoopThreeColorBoxes :content="c.ServicesLoopThreeColorBoxes"></ServicesLoopThreeColorBoxes>
+        </SectionCode>
 
 
 
-    <SectionCode name="ServicesLoopTwo UI Block" :code="ServicesLoopTwoCode">
-      <ServicesLoopTwo :content="c.ServicesLoopTwo"></ServicesLoopTwo>
-    </SectionCode>
+        <SectionCode name="ServicesLoopTwo UI Block" :code="ServicesLoopTwoCode">
+          <ServicesLoopTwo :content="c.ServicesLoopTwo"></ServicesLoopTwo>
+        </SectionCode>
 
 
 
-    <SectionCode name="ServicesLoopTwoWithoutBackground UI Block" :code="ServicesLoopTwoWithoutBackgroundCode">
-      <ServicesLoopTwoWithoutBackground :content="c.ServicesLoopTwoWithoutBackground"></ServicesLoopTwoWithoutBackground>
-    </SectionCode>
+        <SectionCode name="ServicesLoopTwoWithoutBackground UI Block" :code="ServicesLoopTwoWithoutBackgroundCode">
+          <ServicesLoopTwoWithoutBackground :content="c.ServicesLoopTwoWithoutBackground"></ServicesLoopTwoWithoutBackground>
+        </SectionCode>
 
 
 
-    <SectionCode name="ServicesLoopWithoutBackground UI Block" :code="ServicesLoopWithoutBackgroundCode">
-      <ServicesLoopWithoutBackground :content="c.ServicesLoopWithoutBackground"></ServicesLoopWithoutBackground>
-    </SectionCode>
+        <SectionCode name="ServicesLoopWithoutBackground UI Block" :code="ServicesLoopWithoutBackgroundCode">
+          <ServicesLoopWithoutBackground :content="c.ServicesLoopWithoutBackground"></ServicesLoopWithoutBackground>
+        </SectionCode>
 
 
 
-    <SectionCode name="ServicesPlainTextTwoColumns UI Block" :code="ServicesPlainTextTwoColumnsCode">
-      <ServicesPlainTextTwoColumns :content="c.ServicesPlainTextTwoColumns"></ServicesPlainTextTwoColumns>
-    </SectionCode>
+        <SectionCode name="ServicesPlainTextTwoColumns UI Block" :code="ServicesPlainTextTwoColumnsCode">
+          <ServicesPlainTextTwoColumns :content="c.ServicesPlainTextTwoColumns"></ServicesPlainTextTwoColumns>
+        </SectionCode>
 
 
   </div>
+
+     <Footer></Footer>
+
+</div>
 
 
 
@@ -40,11 +51,10 @@
 
 <script>
 
+  import globalComponents from "../../../ui/helpers/globalComponents";
   import content from '../../../ui/content/content.json'
 
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
+  import BlockTopMenu from "../../../ui/blocks/partials/BlockTopMenu";
 
   import ServicesLoopThreeColorBoxes from "../../../ui/blocks/components/ServicesLoopThreeColorBoxes";
   import ServicesLoopThreeColorBoxesCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopThreeColorBoxes";
@@ -64,7 +74,7 @@
 
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui',
     head () {
       return {
         title: 'VaahNuxt UI components- cards',
@@ -88,8 +98,8 @@
       },
     },
     components: {
-      SectionTitle,
-      SectionCode,
+      ...globalComponents,
+      BlockTopMenu,
       ServicesLoopThreeColorBoxes,
       ServicesLoopTwo,
       ServicesLoopTwoWithoutBackground,

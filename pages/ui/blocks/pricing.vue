@@ -12,7 +12,7 @@
   import Block from '../../../ui/blocks/pages/pricing'
 
   export default {
-    layout: 'ui/buefy',
+    layout: 'ui',
     head () {
       return {
         title: 'VaahNuxt UI components- Pricing',

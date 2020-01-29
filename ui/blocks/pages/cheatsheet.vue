@@ -1,32 +1,40 @@
 <template>
-  <div class="main-content">
+  <div>
+
+    <TopMenu></TopMenu>
+    <BlockTopMenu></BlockTopMenu>
+    <PageHeader></PageHeader>
 
 
-    <SectionCode name="Cheetsheet UI Block" >
-      <Cheetsheet></Cheetsheet>
+    <div class="main-content">
 
-    </SectionCode>
+
+      <SectionCode name="Cheetsheet UI Block" >
+        <Cheetsheet></Cheetsheet>
+
+      </SectionCode>
+
+    </div>
+
+    <Footer></Footer>
 
   </div>
-
-
 
 </template>
 
 <script>
 
+  import globalComponents from "../../../ui/helpers/globalComponents";
   import content from '../../../ui/content/content.json'
 
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
+  import BlockTopMenu from "../../../ui/blocks/partials/BlockTopMenu";
 
   import Cheetsheet from "../../../ui/blocks/components/Cheetsheet";
 
 
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui',
     head () {
       return {
         title: 'VaahNuxt UI components- cheat sheet',
@@ -35,8 +43,8 @@
     computed: {
     },
     components: {
-      SectionTitle,
-      SectionCode,
+       ...globalComponents,
+      BlockTopMenu,
       Cheetsheet,
     },
     data(){

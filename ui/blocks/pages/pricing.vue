@@ -1,5 +1,12 @@
 <template>
-  <div class="main-content">
+  <div>
+
+    <TopMenu></TopMenu>
+    <BlockTopMenu></BlockTopMenu>
+    <PageHeader></PageHeader>
+
+
+     <div class="main-content">
 
 
 
@@ -18,15 +25,19 @@
 
 
 
+    <Footer></Footer>
+
+
+  </div>
+
 </template>
 
 <script>
 
+  import globalComponents from "../../../ui/helpers/globalComponents";
   import content from '../../../ui/content/content.json'
 
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
+  import BlockTopMenu from "../../../ui/blocks/partials/BlockTopMenu";
 
   import ServicesLoopPricingFourColumns from "../../../ui/blocks/components/ServicesLoopPricingFourColumns";
   import ServicesLoopPricingFourColumnsCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopPricingFourColumns";
@@ -37,7 +48,7 @@
 
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui',
     head () {
       return {
         title: 'VaahNuxt UI components- pricing',
@@ -52,8 +63,8 @@
       }
     },
     components: {
-      SectionTitle,
-      SectionCode,
+      ...globalComponents,
+      BlockTopMenu,
       ServicesLoopPricingFourColumns,
       ServicesLoopPricingThreeColumns,
     },

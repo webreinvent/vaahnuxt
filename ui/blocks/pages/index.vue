@@ -8,90 +8,90 @@
      <div class="main-content">
 
 
-    <SectionCode name="SectionHPLImageLeft UI Block" :code="SampleCode">
-      <Sample :content="c.SectionHPLImageLeft"></Sample>
-    </SectionCode>
+      <SectionCode name="SectionHPLImageLeft UI Block" :code="SampleCode">
+        <Sample :content="c.SectionHPLImageLeft"></Sample>
+      </SectionCode>
 
 
 
-    <SectionCode name="SectionHPLImageRight UI Block" :code="SectionHPLImageRightCode">
-      <SectionHPLImageRight :content="c.SectionHPLImageRight"></SectionHPLImageRight>
-    </SectionCode>
+      <SectionCode name="SectionHPLImageRight UI Block" :code="SectionHPLImageRightCode">
+        <SectionHPLImageRight :content="c.SectionHPLImageRight"></SectionHPLImageRight>
+      </SectionCode>
 
 
 
-    <SectionCode name="SectionHPImageSmallLeft UI Block" :code="SectionHPImageSmallLeftCode">
-      <SectionHPImageSmallLeft :content="c.SectionHPImageSmallLeft"></SectionHPImageSmallLeft>
-    </SectionCode>
+      <SectionCode name="SectionHPImageSmallLeft UI Block" :code="SectionHPImageSmallLeftCode">
+        <SectionHPImageSmallLeft :content="c.SectionHPImageSmallLeft"></SectionHPImageSmallLeft>
+      </SectionCode>
 
 
 
-    <SectionCode name="SectionHPListImageRight UI Block" :code="SectionHPListImageRightCode">
-      <SectionHPListImageRight :content="c.SectionHPListImageRight"></SectionHPListImageRight>
-    </SectionCode>
+      <SectionCode name="SectionHPListImageRight UI Block" :code="SectionHPListImageRightCode">
+        <SectionHPListImageRight :content="c.SectionHPListImageRight"></SectionHPListImageRight>
+      </SectionCode>
 
 
 
-    <SectionCode name="ServiceLoopFour UI Block" :code="ServiceLoopFourCode">
-      <ServiceLoopFour :content="c.ServiceLoopFour"></ServiceLoopFour>
-    </SectionCode>
+      <SectionCode name="ServiceLoopFour UI Block" :code="ServiceLoopFourCode">
+        <ServiceLoopFour :content="c.ServiceLoopFour"></ServiceLoopFour>
+      </SectionCode>
 
 
 
-    <SectionCode name="ServicesBigImageWithBox UI Block" :code="ServicesBigImageWithBoxCode">
-      <ServicesBigImageWithBox :content="c.ServicesBigImageWithBox"></ServicesBigImageWithBox>
-    </SectionCode>
+      <SectionCode name="ServicesBigImageWithBox UI Block" :code="ServicesBigImageWithBoxCode">
+        <ServicesBigImageWithBox :content="c.ServicesBigImageWithBox"></ServicesBigImageWithBox>
+      </SectionCode>
 
 
 
-    <SectionCode name="ServicesLoopEight UI Block" :code="ServicesLoopEightCode">
-      <ServicesLoopEight :content="c.ServicesLoopEight"></ServicesLoopEight>
-    </SectionCode>
+      <SectionCode name="ServicesLoopEight UI Block" :code="ServicesLoopEightCode">
+        <ServicesLoopEight :content="c.ServicesLoopEight"></ServicesLoopEight>
+      </SectionCode>
 
 
 
-    <SectionCode name="ServicesLoopEightLeftImage UI Block" :code="ServicesLoopEightLeftImageCode">
-      <ServicesLoopEightLeftImage :content="c.ServicesLoopEightLeftImage"></ServicesLoopEightLeftImage>
-    </SectionCode>
+      <SectionCode name="ServicesLoopEightLeftImage UI Block" :code="ServicesLoopEightLeftImageCode">
+        <ServicesLoopEightLeftImage :content="c.ServicesLoopEightLeftImage"></ServicesLoopEightLeftImage>
+      </SectionCode>
 
 
 
-    <SectionCode name="ServicesLoopNine UI Block" :code="ServicesLoopNineCode">
-      <ServicesLoopNine :content="c.ServicesLoopNine"></ServicesLoopNine>
-    </SectionCode>
+      <SectionCode name="ServicesLoopNine UI Block" :code="ServicesLoopNineCode">
+        <ServicesLoopNine :content="c.ServicesLoopNine"></ServicesLoopNine>
+      </SectionCode>
 
 
 
-    <SectionCode name="ServicesLoopTen UI Block" :code="ServicesLoopTenCode">
-      <ServicesLoopTen :content="c.ServicesLoopTen"></ServicesLoopTen>
-    </SectionCode>
+      <SectionCode name="ServicesLoopTen UI Block" :code="ServicesLoopTenCode">
+        <ServicesLoopTen :content="c.ServicesLoopTen"></ServicesLoopTen>
+      </SectionCode>
 
 
 
-    <SectionCode name="ServicesLoopSeven UI Block" :code="ServicesLoopSevenCode">
-      <ServicesLoopSeven :content="c.ServicesLoopSeven"></ServicesLoopSeven>
-    </SectionCode>
+      <SectionCode name="ServicesLoopSeven UI Block" :code="ServicesLoopSevenCode">
+        <ServicesLoopSeven :content="c.ServicesLoopSeven"></ServicesLoopSeven>
+      </SectionCode>
 
 
 
-    <SectionCode name="ServicesLoopOnlyData UI Block" :code="ServicesLoopOnlyDataCode">
-      <ServicesLoopOnlyData :content="c.ServicesLoopOnlyData"></ServicesLoopOnlyData>
-    </SectionCode>
+      <SectionCode name="ServicesLoopOnlyData UI Block" :code="ServicesLoopOnlyDataCode">
+        <ServicesLoopOnlyData :content="c.ServicesLoopOnlyData"></ServicesLoopOnlyData>
+      </SectionCode>
 
 
 
-    <SectionCode name="ServicesLoopThree UI Block" :code="ServicesLoopThreeCode">
-      <ServicesLoopThree :content="c.ServicesLoopThree"></ServicesLoopThree>
-    </SectionCode>
+      <SectionCode name="ServicesLoopThree UI Block" :code="ServicesLoopThreeCode">
+        <ServicesLoopThree :content="c.ServicesLoopThree"></ServicesLoopThree>
+      </SectionCode>
 
 
 
-    <SectionCode name="ServicesLoopThreeOnlyPList UI Block" :code="ServicesLoopThreeOnlyPListCode">
-      <ServicesLoopThreeOnlyPList :content="c.ServicesLoopThreeOnlyPList"></ServicesLoopThreeOnlyPList>
-    </SectionCode>
+      <SectionCode name="ServicesLoopThreeOnlyPList UI Block" :code="ServicesLoopThreeOnlyPListCode">
+        <ServicesLoopThreeOnlyPList :content="c.ServicesLoopThreeOnlyPList"></ServicesLoopThreeOnlyPList>
+      </SectionCode>
 
 
-  </div>
+     </div>
 
      <Footer></Footer>
 
@@ -152,7 +152,7 @@
 
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui',
     head () {
       return {
         title: 'VaahNuxt UI components- blocks',

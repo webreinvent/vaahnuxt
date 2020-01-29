@@ -1,5 +1,14 @@
 <template>
-  <div class="main-content">
+
+
+ <div>
+
+    <TopMenu></TopMenu>
+    <BlockTopMenu></BlockTopMenu>
+    <PageHeader></PageHeader>
+
+
+    <div class="main-content">
 
 
     <SectionCode name="ServicesLoopTabsAndPills UI Block" :code="ServicesLoopTabsAndPillsCode">
@@ -23,15 +32,19 @@
 
 
 
+    <Footer></Footer>
+
+
+  </div>
+
 </template>
 
 <script>
 
+  import globalComponents from "../../../ui/helpers/globalComponents";
   import content from '../../../ui/content/content.json'
 
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
+  import BlockTopMenu from "../../../ui/blocks/partials/BlockTopMenu";
 
   import ServicesLoopTabsAndPills from "../../../ui/blocks/components/ServicesLoopTabsAndPills";
   import ServicesLoopTabsAndPillsCode from "!raw-loader!../../../ui/blocks/components/ServicesLoopTabsAndPills";
@@ -45,7 +58,7 @@
 
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui',
     head () {
       return {
         title: 'VaahNuxt UI components- tabs',
@@ -63,8 +76,8 @@
       }
     },
     components: {
-      SectionTitle,
-      SectionCode,
+      ...globalComponents,
+      BlockTopMenu,
       ServicesLoopTabsAndPills,
       ServicesLoopTabsAndPillsHorizontal,
       ServicesLoopTabsAndPillsHorizontalWithAccodian,

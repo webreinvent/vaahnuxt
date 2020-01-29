@@ -1,32 +1,43 @@
 <template>
-  <div class="main-content">
+  <div>
+
+    <TopMenu></TopMenu>
+    <BlockTopMenu></BlockTopMenu>
+    <PageHeader></PageHeader>
+
+
+    <div class="main-content">
 
 
 
-    <SectionCode name="Clientele UI Block" :code="ClienteleCode">
-      <Clientele :content="c.Clientele"></Clientele>
-    </SectionCode>
+      <SectionCode name="Clientele UI Block" :code="ClienteleCode">
+        <Clientele :content="c.Clientele"></Clientele>
+      </SectionCode>
 
 
 
-    <SectionCode name="Clients UI Block" :code="ClientsCode">
-      <Clients :content="c.Clients"></Clients>
-    </SectionCode>
+      <SectionCode name="Clients UI Block" :code="ClientsCode">
+        <Clients :content="c.Clients"></Clients>
+      </SectionCode>
+
+
+    </div>
+
+
+
+    <Footer></Footer>
 
 
   </div>
-
-
 
 </template>
 
 <script>
 
+  import globalComponents from "../../../ui/helpers/globalComponents";
   import content from '../../../ui/content/content.json'
 
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
+  import BlockTopMenu from "../../../ui/blocks/partials/BlockTopMenu";
 
   import Clientele from "../../../ui/blocks/components/Clientele";
   import ClienteleCode from "!raw-loader!../../../ui/blocks/components/Clientele";
@@ -37,7 +48,7 @@
 
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui',
     head () {
       return {
         title: 'VaahNuxt UI components- clientele',
@@ -52,8 +63,8 @@
       },
     },
     components: {
-      SectionTitle,
-      SectionCode,
+      ...globalComponents,
+      BlockTopMenu,
       Clientele,
       Clients,
     },
