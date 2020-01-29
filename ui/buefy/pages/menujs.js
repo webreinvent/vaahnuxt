@@ -5,7 +5,7 @@ import Menu from '../../../ui/buefy/components/Menu/Menu'
 import MenuCode from "!raw-loader!../../../ui/buefy/components/Menu/Menu";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',

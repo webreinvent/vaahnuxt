@@ -11,7 +11,7 @@ import Templated from '../../../ui/buefy/components/Loading/Templated'
 import TemplatedCode from "!raw-loader!../../../ui/buefy/components/Loading/Templated";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',

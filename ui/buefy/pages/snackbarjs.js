@@ -1,11 +1,11 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 import Snackbar from '../../../ui/buefy/components/Snackbar/Snackbar'
 import SnackbarCode from "!raw-loader!../../../ui/buefy/components/Snackbar/Snackbar";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -15,8 +15,8 @@ export default {
     SnackbarCode() {return SnackbarCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Snackbar,
 
   },

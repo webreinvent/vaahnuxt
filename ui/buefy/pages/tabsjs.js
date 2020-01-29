@@ -1,5 +1,5 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 import Tabs from '../../../ui/buefy/components/Tabs/Tabs'
 import TabsCode from "!raw-loader!../../../ui/buefy/components/Tabs/Tabs";
@@ -39,7 +39,7 @@ import Vertical from '../../../ui/buefy/components/Tabs/Vertical'
 import VerticalCode from "!raw-loader!../../../ui/buefy/components/Tabs/Vertical";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -58,8 +58,8 @@ export default {
 
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Tabs,
     Dynamic,
     Position,

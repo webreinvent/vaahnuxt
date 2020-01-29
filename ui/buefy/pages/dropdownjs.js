@@ -17,7 +17,7 @@ import Multiple from '../../../ui/buefy/components/Dropdown/Multiple'
 import MultipleCode from "!raw-loader!../../../ui/buefy/components/Dropdown/Multiple";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',

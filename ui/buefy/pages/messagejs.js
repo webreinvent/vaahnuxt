@@ -20,7 +20,7 @@ import AutoClose from '../../../ui/buefy/components/Message/AutoClose'
 import AutoCloseCode from "!raw-loader!../../../ui/buefy/components/Message/AutoClose";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',

@@ -14,7 +14,7 @@ import CustomIconPack from '../../../ui/buefy/components/Icon/CustomIconPack'
 import CustomIconPackCode from "!raw-loader!../../../ui/buefy/components/Icon/CustomIconPack";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',

@@ -11,7 +11,7 @@ import Prompt from '../../../ui/buefy/components/Dialog/Prompt'
 import PromptCode from "!raw-loader!../../../ui/buefy/components/Dialog/Prompt";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',

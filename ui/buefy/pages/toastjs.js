@@ -1,11 +1,11 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 import Toast from '../../../ui/buefy/components/Toast/Toast'
 import ToastCode from "!raw-loader!../../../ui/buefy/components/Toast/Toast";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -16,8 +16,8 @@ export default {
 
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Toast,
 
   },

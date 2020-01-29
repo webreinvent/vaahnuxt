@@ -14,7 +14,7 @@ import FullScreen from '../../../ui/buefy/components/Modal/FullScreen'
 import FullScreenCode from "!raw-loader!../../../ui/buefy/components/Modal/FullScreen";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',

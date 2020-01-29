@@ -1,5 +1,5 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 import Tag from '../../../ui/buefy/components/Tag/Tag'
 import TagCode from "!raw-loader!../../../ui/buefy/components/Tag/Tag";
@@ -14,7 +14,7 @@ import Sizes from '../../../ui/buefy/components/Tag/Sizes'
 import SizesCode from "!raw-loader!../../../ui/buefy/components/Tag/Sizes";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -28,8 +28,8 @@ export default {
 
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Tag,
     Closable,
     TagList,

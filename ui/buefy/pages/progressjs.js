@@ -1,5 +1,5 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 import Progress from '../../../ui/buefy/components/Progress/Progress'
 import ProgressCode from "!raw-loader!../../../ui/buefy/components/Progress/Progress";
@@ -17,7 +17,7 @@ import SlotProgress from '../../../ui/buefy/components/Progress/SlotProgress'
 import SlotProgressCode from "!raw-loader!../../../ui/buefy/components/Progress/SlotProgress";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -31,8 +31,8 @@ export default {
     SlotProgressCode() {return SlotProgressCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Progress,
     Types,
     Sizes,

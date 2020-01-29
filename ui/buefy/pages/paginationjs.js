@@ -8,7 +8,7 @@ import CustomPaginationButtons from '../../../ui/buefy/components/Pagination/Cus
 import CustomPaginationButtonsCode from "!raw-loader!../../../ui/buefy/components/Pagination/CustomPaginationButtons";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',

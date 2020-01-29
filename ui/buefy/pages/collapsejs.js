@@ -17,7 +17,7 @@ import AccordionEffect from '../../../ui/buefy/components/Collapse/AccordionEffe
 import AccordionEffectCode from "!raw-loader!../../../ui/buefy/components/Collapse/AccordionEffect";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',

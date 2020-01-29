@@ -17,7 +17,7 @@ import ProgrammaticallyOpening from '../../../ui/buefy/components/Notification/P
 import ProgrammaticallyOpeningCode from "!raw-loader!../../../ui/buefy/components/Notification/ProgrammaticallyOpening";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',

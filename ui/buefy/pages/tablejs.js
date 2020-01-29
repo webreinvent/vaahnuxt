@@ -1,5 +1,5 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 import Table from '../../../ui/buefy/components/Table/Table'
 import TableCode from "!raw-loader!../../../ui/buefy/components/Table/Table";
@@ -47,7 +47,7 @@ import DraggableRows from '../../../ui/buefy/components/Table/DraggableRows'
 import DraggableRowsCode from "!raw-loader!../../../ui/buefy/components/Table/DraggableRows";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -72,8 +72,8 @@ export default {
 
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Table,
     SandboxWithCustomTemplate,
     Selection,

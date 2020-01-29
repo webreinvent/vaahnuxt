@@ -1,5 +1,5 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 import Steps from '../../../ui/buefy/components/Steps/Steps'
 import StepsCode from "!raw-loader!../../../ui/buefy/components/Steps/Steps";
@@ -17,7 +17,7 @@ import Types from '../../../ui/buefy/components/Steps/Types'
 import TypesCode from "!raw-loader!../../../ui/buefy/components/Steps/Types";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -32,8 +32,8 @@ export default {
 
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Steps,
     Dynamic,
     Icons,

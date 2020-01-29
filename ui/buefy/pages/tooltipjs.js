@@ -1,5 +1,5 @@
-import SectionTitle from '../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../ui/resuable/SectionCode'
+import globalComponents from "../../../ui/helpers/globalComponents";
+import SideMenu from "../partials/SideMenu";
 
 import ToolTip from '../../../ui/buefy/components/ToolTip/ToolTip'
 import ToolTipCode from "!raw-loader!../../../ui/buefy/components/ToolTip/ToolTip";
@@ -14,7 +14,7 @@ import Toggle from '../../../ui/buefy/components/ToolTip/Toggle'
 import ToggleCode from "!raw-loader!../../../ui/buefy/components/ToolTip/Toggle";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -28,8 +28,8 @@ export default {
 
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     ToolTip,
     Styles,
     Multilined,
