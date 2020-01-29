@@ -880,8 +880,170 @@
                   <VhCopy :data="'is-uppercase'" class="is-pulled-right"></VhCopy>
                 </div>
               </div>
+              <h6 class="is-6 has-background-light" style="border-bottom: 1px solid #e2e2e2; padding: 20px 0px 20px 10px; margin-bottom: 5px;">The following classes are used for the <strong>Responsive</strong> text.</h6>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.is-size-1-mobile</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'is-size-1-mobile'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.is-size-1-tablet</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'is-size-1-tablet'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.is-size-1-touch</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'is-size-1-touch'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.is-size-1-desktop</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'is-size-1-desktop'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.is-size-1-widescreen</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'is-size-1-widescreen'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.is-size-1-fullhd</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'is-size-1-fullhd'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.has-text-left-mobile</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'has-text-left-mobile'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.has-text-left-tablet</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'has-text-left-tablet'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.has-text-left-tablet-only</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'has-text-left-tablet-only'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.has-text-left-touch</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'has-text-left-touch'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.has-text-left-desktop</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'has-text-left-desktop'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.has-text-left-desktop-only</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'has-text-left-desktop-only'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.has-text-left-widescreen</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'has-text-left-widescreen'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.has-text-left-widescreen-only</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'has-text-left-widescreen-only'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.has-text-left-fullhd</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'has-text-left-fullhd'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.has-text-weight-light</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'has-text-weight-light'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.has-text-weight-normal</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'has-text-weight-normal'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.has-text-weight-medium</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'has-text-weight-medium'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.has-text-weight-semibold</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'has-text-weight-semibold'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
+                  <p class="content">.has-text-weight-bold</p>
+                </div>
+                <div class="column">
+                  <VhCopy :data="'has-text-weight-bold'" class="is-pulled-right"></VhCopy>
+                </div>
+              </div>
             </div>
           </div>
+
           <div class="typography content">
             <h4 class="title is-4 has-text-primary">
               Helpers
