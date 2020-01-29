@@ -1,5 +1,5 @@
-import SectionTitle from '../../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../../ui/resuable/SectionCode'
+import globalComponents from "../../../../ui/helpers/globalComponents";
+import SideMenu from "../../partials/SideMenu";
 
 import DateTimePicker from '../../../../ui/buefy/components/FormControl/Datetimepicker/DateTimePicker'
 import DateTimePickerCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Datetimepicker/DateTimePicker";
@@ -17,7 +17,7 @@ import Inline from '../../../../ui/buefy/components/FormControl/Datetimepicker/I
 import InlineCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Datetimepicker/Inline";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -31,8 +31,8 @@ export default {
     InlineCode() {return InlineCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     DateTimePicker,
     Editable,
     Range,

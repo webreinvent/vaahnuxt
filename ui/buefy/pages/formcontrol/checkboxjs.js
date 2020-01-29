@@ -1,5 +1,5 @@
-import SectionTitle from '../../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../../ui/resuable/SectionCode'
+import globalComponents from "../../../../ui/helpers/globalComponents";
+import SideMenu from "../../partials/SideMenu";
 
 import Checkbox from '../../../../ui/buefy/components/FormControl/Checkbox/Checkbox'
 import CheckboxCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Checkbox/Checkbox";
@@ -17,7 +17,7 @@ import CheckboxButton from '../../../../ui/buefy/components/FormControl/Checkbox
 import CheckboxButtonCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Checkbox/CheckboxButton";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -31,8 +31,8 @@ export default {
     CheckboxButtonCode() {return CheckboxButtonCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Checkbox,
     Grouped,
     Sizes,

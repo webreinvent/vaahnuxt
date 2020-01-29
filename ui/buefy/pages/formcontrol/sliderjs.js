@@ -1,5 +1,5 @@
-import SectionTitle from '../../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../../ui/resuable/SectionCode'
+import globalComponents from "../../../../ui/helpers/globalComponents";
+import SideMenu from "../../partials/SideMenu";
 
 import Slider from '../../../../ui/buefy/components/FormControl/Slider/Slider'
 import SliderCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Slider/Slider";
@@ -23,7 +23,7 @@ import LazyUpdate from '../../../../ui/buefy/components/FormControl/Slider/LazyU
 import LazyUpdateCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Slider/LazyUpdate";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -39,8 +39,8 @@ export default {
     LazyUpdateCode() {return LazyUpdateCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Slider,
     Sizes,
     Types,

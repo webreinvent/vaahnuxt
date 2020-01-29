@@ -1,35 +1,61 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Datetimepicker"
-                  link="https://buefy.org/documentation/datetimepicker/">
-    </SectionTitle>
+  <TopMenu></TopMenu>
+  <PageHeader></PageHeader>
+  <div class="container" >
 
+    <section class="main-content columns">
+      <aside class="column is-2 section">
+        <SideMenu></SideMenu>
+      </aside>
 
-    <SectionCode name="DateTimePicker" :code="DateTimePickerCode">
-      <DateTimePicker></DateTimePicker>
-    </SectionCode>
+      <div class="container column is-10">
 
+        <div class="main-content">
 
-    <SectionCode name="Editable (non readonly)" :code="EditableCode">
-      <Editable></Editable>
-    </SectionCode>
-
-
-    <SectionCode name="Range" :code="RangeCode">
-      <Range></Range>
-    </SectionCode>
+          <SectionTitle title="Buefy - Datetimepicker"
+                        link="https://buefy.org/documentation/datetimepicker/">
+          </SectionTitle>
 
 
-    <SectionCode name="Footer" :code="FooterCode">
-      <Footer></Footer>
-    </SectionCode>
+          <SectionCode name="DateTimePicker" :code="DateTimePickerCode">
+            <DateTimePicker></DateTimePicker>
+          </SectionCode>
 
 
-    <SectionCode name="Inline" :code="InlineCode">
-      <Inline></Inline>
-    </SectionCode>
+          <SectionCode name="Editable (non readonly)" :code="EditableCode">
+            <Editable></Editable>
+          </SectionCode>
+
+
+          <SectionCode name="Range" :code="RangeCode">
+            <Range></Range>
+          </SectionCode>
+
+
+          <SectionCode name="Footer" :code="FooterCode">
+            <Footer></Footer>
+          </SectionCode>
+
+
+          <SectionCode name="Inline" :code="InlineCode">
+            <Inline></Inline>
+          </SectionCode>
+
+
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+
+
+
+  <Footer></Footer>
 
 
   </div>

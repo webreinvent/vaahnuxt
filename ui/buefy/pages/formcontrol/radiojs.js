@@ -1,5 +1,5 @@
-import SectionTitle from '../../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../../ui/resuable/SectionCode'
+import globalComponents from "../../../../ui/helpers/globalComponents";
+import SideMenu from "../../partials/SideMenu";
 
 import Radio from '../../../../ui/buefy/components/FormControl/Radio/Radio'
 import RadioCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Radio/Radio";
@@ -14,7 +14,7 @@ import RadioButton from '../../../../ui/buefy/components/FormControl/Radio/Radio
 import RadioButtonCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Radio/RadioButton";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -27,8 +27,8 @@ export default {
     RadioButtonCode() {return RadioButtonCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Radio,
     Sizes,
     Types,

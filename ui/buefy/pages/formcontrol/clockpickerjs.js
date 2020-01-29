@@ -1,5 +1,5 @@
-import SectionTitle from '../../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../../ui/resuable/SectionCode'
+import globalComponents from "../../../../ui/helpers/globalComponents";
+import SideMenu from "../../partials/SideMenu";
 
 import Clockpicker from '../../../../ui/buefy/components/FormControl/Clockpicker/Clockpicker'
 import ClockpickerCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Clockpicker/Clockpicker";
@@ -17,7 +17,7 @@ import Colors from '../../../../ui/buefy/components/FormControl/Clockpicker/Colo
 import ColorsCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Clockpicker/Colors";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -31,8 +31,8 @@ export default {
     ColorsCode() {return ColorsCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Clockpicker,
     NonReadOnly,
     Range,

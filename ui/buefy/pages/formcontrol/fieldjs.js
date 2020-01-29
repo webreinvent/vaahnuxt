@@ -1,5 +1,5 @@
-import SectionTitle from '../../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../../ui/resuable/SectionCode'
+import globalComponents from "../../../../ui/helpers/globalComponents";
+import SideMenu from "../../partials/SideMenu";
 
 import Field from '../../../../ui/buefy/components/FormControl/Field/Field'
 import FieldCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Field/Field";
@@ -38,7 +38,7 @@ import LabelSlot from '../../../../ui/buefy/components/FormControl/Field/LabelSl
 import LabelSlotCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Field/LabelSlot";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -59,8 +59,8 @@ export default {
     LabelSlotCode() {return LabelSlotCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Field,
     LabelPosition,
     ObjectSyntax,

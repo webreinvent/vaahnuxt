@@ -1,5 +1,5 @@
-import SectionTitle from '../../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../../ui/resuable/SectionCode'
+import globalComponents from "../../../../ui/helpers/globalComponents";
+import SideMenu from "../../partials/SideMenu";
 
 import Datepicker from '../../../../ui/buefy/components/FormControl/Datepicker/Datepicker'
 import DatepickerCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Datepicker/Datepicker";
@@ -35,7 +35,7 @@ import SelectMultipleDates from '../../../../ui/buefy/components/FormControl/Dat
 import SelectMultipleDatesCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Datepicker/SelectMultipleDates";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -55,8 +55,8 @@ export default {
     SelectMultipleDatesCode() {return SelectMultipleDatesCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Datepicker,
     Editable,
     Range,

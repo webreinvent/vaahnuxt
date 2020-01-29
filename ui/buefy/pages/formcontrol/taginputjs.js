@@ -1,5 +1,5 @@
-import SectionTitle from '../../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../../ui/resuable/SectionCode'
+import globalComponents from "../../../../ui/helpers/globalComponents";
+import SideMenu from "../../partials/SideMenu";
 
 import TagInput from '../../../../ui/buefy/components/FormControl/TagInput/TagInput'
 import TagInputCode from "!raw-loader!../../../../ui/buefy/components/FormControl/TagInput/TagInput";
@@ -29,7 +29,7 @@ import Validation from '../../../../ui/buefy/components/FormControl/TagInput/Val
 import ValidationCode from "!raw-loader!../../../../ui/buefy/components/FormControl/TagInput/Validation";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -47,8 +47,8 @@ export default {
     ValidationCode() {return ValidationCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     TagInput,
     AutoComplete,
     TemplatedAutocomplete,

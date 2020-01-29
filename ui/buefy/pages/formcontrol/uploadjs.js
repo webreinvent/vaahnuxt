@@ -1,5 +1,5 @@
-import SectionTitle from '../../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../../ui/resuable/SectionCode'
+import globalComponents from "../../../../ui/helpers/globalComponents";
+import SideMenu from "../../partials/SideMenu";
 
 import Upload from '../../../../ui/buefy/components/FormControl/Upload/Upload'
 import UploadCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Upload/Upload";
@@ -8,7 +8,7 @@ import DragAndDrop from '../../../../ui/buefy/components/FormControl/Upload/Drag
 import DragAndDropCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Upload/DragAndDrop";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -19,8 +19,8 @@ export default {
     DragAndDropCode() {return DragAndDropCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Upload,
     DragAndDrop,
 

@@ -1,70 +1,96 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Field"
-                  link="https://buefy.org/documentation/field/">
-    </SectionTitle>
+  <TopMenu></TopMenu>
+  <PageHeader></PageHeader>
+  <div class="container" >
 
+    <section class="main-content columns">
+      <aside class="column is-2 section">
+        <SideMenu></SideMenu>
+      </aside>
 
-    <SectionCode name="Field" :code="FieldCode">
-      <Field></Field>
-    </SectionCode>
+      <div class="container column is-10">
 
+        <div class="main-content">
 
-    <SectionCode name="Label Position" :code="LabelPositionCode">
-      <LabelPosition></LabelPosition>
-    </SectionCode>
-
-
-    <SectionCode name="Object Syntax" :code="ObjectSyntaxCode">
-      <ObjectSyntax></ObjectSyntax>
-    </SectionCode>
+          <SectionTitle title="Buefy - Field"
+                        link="https://buefy.org/documentation/field/">
+          </SectionTitle>
 
 
-    <SectionCode name="Addons" :code="AddonsCode">
-      <Addons></Addons>
-    </SectionCode>
+          <SectionCode name="Field" :code="FieldCode">
+            <Field></Field>
+          </SectionCode>
 
 
-    <SectionCode name="Groups" :code="GroupsCode">
-      <Groups></Groups>
-    </SectionCode>
+          <SectionCode name="Label Position" :code="LabelPositionCode">
+            <LabelPosition></LabelPosition>
+          </SectionCode>
 
 
-    <SectionCode name="Nested Groups" :code="NestedGroupsCode">
-      <NestedGroups></NestedGroups>
-    </SectionCode>
+          <SectionCode name="Object Syntax" :code="ObjectSyntaxCode">
+            <ObjectSyntax></ObjectSyntax>
+          </SectionCode>
 
 
-    <SectionCode name="Responsive Groups" :code="ResponsiveGroupsCode">
-      <ResponsiveGroups></ResponsiveGroups>
-    </SectionCode>
+          <SectionCode name="Addons" :code="AddonsCode">
+            <Addons></Addons>
+          </SectionCode>
 
 
-    <SectionCode name="Positions" :code="PositionsCode">
-      <Positions></Positions>
-    </SectionCode>
+          <SectionCode name="Groups" :code="GroupsCode">
+            <Groups></Groups>
+          </SectionCode>
 
 
-    <SectionCode name="Combining Addons And Groups" :code="CombiningAddonsAndGroupsCode">
-      <CombiningAddonsAndGroups></CombiningAddonsAndGroups>
-    </SectionCode>
+          <SectionCode name="Nested Groups" :code="NestedGroupsCode">
+            <NestedGroups></NestedGroups>
+          </SectionCode>
 
 
-    <SectionCode name="Horizontal" :code="HorizontalCode">
-      <Horizontal></Horizontal>
-    </SectionCode>
+          <SectionCode name="Responsive Groups" :code="ResponsiveGroupsCode">
+            <ResponsiveGroups></ResponsiveGroups>
+          </SectionCode>
 
 
-    <SectionCode name="Label Classes" :code="LabelClassesCode">
-      <LabelClasses></LabelClasses>
-    </SectionCode>
+          <SectionCode name="Positions" :code="PositionsCode">
+            <Positions></Positions>
+          </SectionCode>
 
 
-    <SectionCode name="Label Slot" :code="LabelSlotCode">
-      <LabelSlot></LabelSlot>
-    </SectionCode>
+          <SectionCode name="Combining Addons And Groups" :code="CombiningAddonsAndGroupsCode">
+            <CombiningAddonsAndGroups></CombiningAddonsAndGroups>
+          </SectionCode>
+
+
+          <SectionCode name="Horizontal" :code="HorizontalCode">
+            <Horizontal></Horizontal>
+          </SectionCode>
+
+
+          <SectionCode name="Label Classes" :code="LabelClassesCode">
+            <LabelClasses></LabelClasses>
+          </SectionCode>
+
+
+          <SectionCode name="Label Slot" :code="LabelSlotCode">
+            <LabelSlot></LabelSlot>
+          </SectionCode>
+
+
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+
+
+
+  <Footer></Footer>
 
 
   </div>

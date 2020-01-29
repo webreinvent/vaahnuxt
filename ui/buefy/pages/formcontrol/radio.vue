@@ -1,30 +1,56 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Radio"
-                  link="https://buefy.org/documentation/radio/">
-    </SectionTitle>
+  <TopMenu></TopMenu>
+  <PageHeader></PageHeader>
+  <div class="container" >
 
+    <section class="main-content columns">
+      <aside class="column is-2 section">
+        <SideMenu></SideMenu>
+      </aside>
 
-    <SectionCode name="Radio" :code="RadioCode">
-      <Radio></Radio>
-    </SectionCode>
+      <div class="container column is-10">
 
+        <div class="main-content">
 
-    <SectionCode name="Sizes" :code="SizesCode">
-      <Sizes></Sizes>
-    </SectionCode>
-
-
-    <SectionCode name="Types" :code="TypesCode">
-      <Types></Types>
-    </SectionCode>
+          <SectionTitle title="Buefy - Radio"
+                        link="https://buefy.org/documentation/radio/">
+          </SectionTitle>
 
 
-    <SectionCode name="Radio Button" :code="RadioButtonCode">
-      <RadioButton></RadioButton>
-    </SectionCode>
+          <SectionCode name="Radio" :code="RadioCode">
+            <Radio></Radio>
+          </SectionCode>
+
+
+          <SectionCode name="Sizes" :code="SizesCode">
+            <Sizes></Sizes>
+          </SectionCode>
+
+
+          <SectionCode name="Types" :code="TypesCode">
+            <Types></Types>
+          </SectionCode>
+
+
+          <SectionCode name="Radio Button" :code="RadioButtonCode">
+            <RadioButton></RadioButton>
+          </SectionCode>
+
+
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+
+
+
+  <Footer></Footer>
 
 
   </div>

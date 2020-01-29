@@ -1,5 +1,5 @@
-import SectionTitle from '../../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../../ui/resuable/SectionCode'
+import globalComponents from "../../../../ui/helpers/globalComponents";
+import SideMenu from "../../partials/SideMenu";
 
 import SwitchDefault from '../../../../ui/buefy/components/FormControl/Switch/SwitchDefault'
 import SwitchDefaultCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Switch/SwitchDefault";
@@ -14,7 +14,7 @@ import Styles from '../../../../ui/buefy/components/FormControl/Switch/Styles'
 import StylesCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Switch/Styles";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -27,8 +27,8 @@ export default {
     StylesCode() {return StylesCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     SwitchDefault,
     Types,
     Sizes,

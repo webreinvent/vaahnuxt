@@ -1,30 +1,56 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Switch"
-                  link="https://buefy.org/documentation/switch/">
-    </SectionTitle>
+  <TopMenu></TopMenu>
+  <PageHeader></PageHeader>
+  <div class="container" >
 
+    <section class="main-content columns">
+      <aside class="column is-2 section">
+        <SideMenu></SideMenu>
+      </aside>
 
-    <SectionCode name="Switch Default" :code="SwitchDefaultCode">
-      <SwitchDefault></SwitchDefault>
-    </SectionCode>
+      <div class="container column is-10">
 
+        <div class="main-content">
 
-    <SectionCode name="Types" :code="TypesCode">
-      <Types></Types>
-    </SectionCode>
-
-
-    <SectionCode name="Sizes" :code="SizesCode">
-      <Sizes></Sizes>
-    </SectionCode>
+          <SectionTitle title="Buefy - Switch"
+                        link="https://buefy.org/documentation/switch/">
+          </SectionTitle>
 
 
-    <SectionCode name="Styles" :code="StylesCode">
-      <Styles></Styles>
-    </SectionCode>
+          <SectionCode name="Switch Default" :code="SwitchDefaultCode">
+            <SwitchDefault></SwitchDefault>
+          </SectionCode>
+
+
+          <SectionCode name="Types" :code="TypesCode">
+            <Types></Types>
+          </SectionCode>
+
+
+          <SectionCode name="Sizes" :code="SizesCode">
+            <Sizes></Sizes>
+          </SectionCode>
+
+
+          <SectionCode name="Styles" :code="StylesCode">
+            <Styles></Styles>
+          </SectionCode>
+
+
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+
+
+
+  <Footer></Footer>
 
 
   </div>

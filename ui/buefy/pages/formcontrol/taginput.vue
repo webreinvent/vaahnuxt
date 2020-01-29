@@ -1,55 +1,81 @@
 <template>
 
-  <div class="main-content">
+   <div>
 
-    <SectionTitle title="Buefy - TagInput"
-                  link="https://buefy.org/documentation/taginput/">
-    </SectionTitle>
+  <TopMenu></TopMenu>
+  <PageHeader></PageHeader>
+  <div class="container" >
 
+    <section class="main-content columns">
+      <aside class="column is-2 section">
+        <SideMenu></SideMenu>
+      </aside>
 
-    <SectionCode name="TagInput" :code="TagInputCode">
-      <TagInput></TagInput>
-    </SectionCode>
+      <div class="container column is-10">
 
+        <div class="main-content">
 
-    <SectionCode name="AutoComplete" :code="AutoCompleteCode">
-      <AutoComplete></AutoComplete>
-    </SectionCode>
-
-
-    <SectionCode name="Templated Autocomplete" :code="TemplatedAutocompleteCode">
-      <TemplatedAutocomplete></TemplatedAutocomplete>
-    </SectionCode>
+          <SectionTitle title="Buefy - TagInput"
+                        link="https://buefy.org/documentation/taginput/">
+          </SectionTitle>
 
 
-    <SectionCode name="Limits" :code="LimitsCode">
-      <Limits></Limits>
-    </SectionCode>
+          <SectionCode name="TagInput" :code="TagInputCode">
+            <TagInput></TagInput>
+          </SectionCode>
 
 
-    <SectionCode name="States" :code="StatesCode">
-      <States></States>
-    </SectionCode>
+          <SectionCode name="AutoComplete" :code="AutoCompleteCode">
+            <AutoComplete></AutoComplete>
+          </SectionCode>
 
 
-    <SectionCode name="Tag Types" :code="TagTypesCode">
-      <TagTypes></TagTypes>
-    </SectionCode>
+          <SectionCode name="Templated Autocomplete" :code="TemplatedAutocompleteCode">
+            <TemplatedAutocomplete></TemplatedAutocomplete>
+          </SectionCode>
 
 
-    <SectionCode name="Sizes" :code="SizesCode">
-      <Sizes></Sizes>
-    </SectionCode>
+          <SectionCode name="Limits" :code="LimitsCode">
+            <Limits></Limits>
+          </SectionCode>
 
 
-    <SectionCode name="Modifiers" :code="ModifiersCode">
-      <Modifiers></Modifiers>
-    </SectionCode>
+          <SectionCode name="States" :code="StatesCode">
+            <States></States>
+          </SectionCode>
 
 
-    <SectionCode name="Validation" :code="ValidationCode">
-      <Validation></Validation>
-    </SectionCode>
+          <SectionCode name="Tag Types" :code="TagTypesCode">
+            <TagTypes></TagTypes>
+          </SectionCode>
+
+
+          <SectionCode name="Sizes" :code="SizesCode">
+            <Sizes></Sizes>
+          </SectionCode>
+
+
+          <SectionCode name="Modifiers" :code="ModifiersCode">
+            <Modifiers></Modifiers>
+          </SectionCode>
+
+
+          <SectionCode name="Validation" :code="ValidationCode">
+            <Validation></Validation>
+          </SectionCode>
+
+
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+
+
+
+  <Footer></Footer>
 
 
   </div>

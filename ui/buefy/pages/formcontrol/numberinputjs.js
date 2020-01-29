@@ -1,5 +1,5 @@
-import SectionTitle from '../../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../../ui/resuable/SectionCode'
+import globalComponents from "../../../../ui/helpers/globalComponents";
+import SideMenu from "../../partials/SideMenu";
 
 import Numberinput from '../../../../ui/buefy/components/FormControl/Numberinput/Numberinput'
 import NumberinputCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Numberinput/Numberinput";
@@ -20,7 +20,7 @@ import Customization from '../../../../ui/buefy/components/FormControl/Numberinp
 import CustomizationCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Numberinput/Customization";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -35,8 +35,8 @@ export default {
     CustomizationCode() {return CustomizationCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     Numberinput,
     Types,
     MinMax,

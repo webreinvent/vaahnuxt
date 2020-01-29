@@ -1,5 +1,5 @@
-import SectionTitle from '../../../../ui/resuable/SectionTitle'
-import SectionCode from '../../../../ui/resuable/SectionCode'
+import globalComponents from "../../../../ui/helpers/globalComponents";
+import SideMenu from "../../partials/SideMenu";
 
 import AutoComplete from '../../../../ui/buefy/components/FormControl/AutoComplete/AutoComplete'
 import AutoCompleteCode from "!raw-loader!../../../../ui/buefy/components/FormControl/AutoComplete/AutoComplete";
@@ -20,7 +20,7 @@ import AsyncWithInfiniteScroll from '../../../../ui/buefy/components/FormControl
 import AsyncWithInfiniteScrollCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Autocomplete/AsyncWithInfiniteScroll";
 
 export default {
-  layout: 'ui/buefy',
+  layout: 'ui',
   head () {
     return {
       title: 'Buefy UI Block',
@@ -35,8 +35,8 @@ export default {
     AsyncWithInfiniteScrollCode() {return AsyncWithInfiniteScrollCode},
   },
   components: {
-    SectionTitle,
-    SectionCode,
+    ...globalComponents,
+    SideMenu,
     AutoComplete,
     ObjectArray,
     Header,
