@@ -1,0 +1,37 @@
+{
+  "css": [
+    "~/node_modules/highlight.js/styles/github.css",
+    "@/ui/assets/scss/vaahnuxt.scss"
+  ],
+  "plugins": [
+    "~/plugins/vaah",
+    "~/plugins/vue-highlightjs",
+    "~/plugins/vh-copy"
+  ],
+  "buildModules": [
+    "@nuxtjs/eslint-module"
+  ],
+  "modules": [
+    "nuxt-buefy",
+    "@nuxtjs/axios",
+    "@nuxtjs/font-awesome",
+    "@nuxtjs/markdownit",
+    "@nuxtjs/sentry",
+    "@nuxtjs/auth",
+    "@nuxtjs/redirect-module",
+    "@nuxtjs/google-analytics"
+  ],
+  "markdownit": {
+    "preset": "default",
+    "linkify": true,
+    "html": true,
+    "breaks": true,
+    "use": [
+      "markdown-it-div",
+      "markdown-it-attrs",
+      "markdown-it-highlightjs"
+    ]
+  },
+  "axios": {
+  }
+}

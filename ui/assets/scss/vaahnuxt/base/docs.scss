@@ -1,0 +1,54 @@
+.docs{
+
+  //---code
+
+  &.section{
+    padding: 1.5rem 0;
+    border-top: 1px dotted #444;
+
+  }
+
+  &.code{
+    font-size: .9rem;
+    position: relative;
+
+
+    .level{
+      background-color: $docs-code-bg;
+      margin-bottom: 0;
+      padding: .5rem 1rem;
+      &.has-bottom-border{
+        border-bottom: 1px solid $docs-code-border-color;
+      }
+
+      strong{
+        color: $docs-code-gray-dark;
+      }
+    }
+
+
+    pre{
+      background-color: $docs-code-bg;
+      padding-top: 0;
+      line-height: 0;
+      code{
+        background-color: $docs-code-bg;
+        line-height: 1rem;
+      }
+    }
+
+
+
+    .is-text{
+      font-size: .9rem;
+      right: 0;
+      text-decoration: none;
+      &:hover{
+        color: #d14;
+      }
+    }
+
+  }
+  //---/code
+
+}
