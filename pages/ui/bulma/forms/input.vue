@@ -9,7 +9,7 @@
 </template>
 
 <script>
-  import Block from '../../../ui/bulma/pages/layouts/container'
+  import Block from '../../../../ui/bulma/pages/forms/input'
 
   export default {
     layout: 'ui',
