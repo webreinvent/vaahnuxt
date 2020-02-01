@@ -35,6 +35,6 @@
         <input type="radio" name="rsvp" disabled>
         Maybe
       </label>
-    </div>x`
+    </div>
   </div>
 </template>
