@@ -9,8 +9,8 @@
     <div class="main-content">
 
 
-      <SectionCode name="Menu" :code="MenuCode">
-        <Menu></Menu>
+      <SectionCode name="Navbar" :code="NavbarCode">
+        <Navbar></Navbar>
       </SectionCode>
 
 
@@ -27,8 +27,8 @@
   import globalComponents from "../../../../ui/helpers/globalComponents";
   import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import Menu from "../../components/Components/Menu/Menu";
-  import MenuCode from "!raw-loader!../../components/Components/Menu/Menu";
+  import Navbar from "../../components/Components/Navbar/Navbar";
+  import NavbarCode from "!raw-loader!../../components/Components/Navbar/Navbar";
 
 
 
@@ -36,18 +36,18 @@
     layout: 'ui',
     head () {
       return {
-        title: 'Bulma UI components- Menu',
+        title: 'Bulma UI components- Navbar',
       }
     },
     computed: {
-      MenuCode() {
-        return MenuCode
+      NavbarCode() {
+        return NavbarCode
       },
     },
     components: {
       ...globalComponents,
       BulmaTopMenu,
-      Menu,
+      Navbar,
     },
     methods:{
     },

@@ -68,13 +68,20 @@
         </div>
 
         <div class="navbar-item has-dropdown is-hoverable">
-          <nuxt-link class="navbar-link" to="/ui/bulma/elements/box">Components</nuxt-link>
+          <nuxt-link class="navbar-link" to="/ui/bulma/components/breadcrumbs">Components</nuxt-link>
 
 
           <div class="navbar-dropdown">
             <nuxt-link to="/ui/bulma/components/breadcrumbs" class="navbar-item">Breadcrumb</nuxt-link>
             <nuxt-link to="/ui/bulma/components/cards" class="navbar-item">Card</nuxt-link>
             <nuxt-link to="/ui/bulma/components/dropdown" class="navbar-item">Dropdown</nuxt-link>
+            <nuxt-link to="/ui/bulma/components/menu" class="navbar-item">Menu</nuxt-link>
+            <nuxt-link to="/ui/bulma/components/message" class="navbar-item">Message</nuxt-link>
+            <nuxt-link to="/ui/bulma/components/modal" class="navbar-item">Modal</nuxt-link>
+            <nuxt-link to="/ui/bulma/components/navbar" class="navbar-item">Navbar</nuxt-link>
+            <nuxt-link to="/ui/bulma/components/pagination" class="navbar-item">Pagination</nuxt-link>
+            <nuxt-link to="/ui/bulma/components/panel" class="navbar-item">Panel</nuxt-link>
+            <nuxt-link to="/ui/bulma/components/tabs" class="navbar-item">Tabs</nuxt-link>
           </div>
         </div>
 
