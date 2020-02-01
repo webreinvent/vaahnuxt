@@ -57,6 +57,24 @@
             <nuxt-link to="/ui/bulma/elements/button" class="navbar-item">Button</nuxt-link>
             <nuxt-link to="/ui/bulma/elements/content" class="navbar-item">Content</nuxt-link>
             <nuxt-link to="/ui/bulma/elements/delete" class="navbar-item">Delete</nuxt-link>
+            <nuxt-link to="/ui/bulma/elements/icon" class="navbar-item">Icon</nuxt-link>
+            <nuxt-link to="/ui/bulma/elements/image" class="navbar-item">Image</nuxt-link>
+            <nuxt-link to="/ui/bulma/elements/notification" class="navbar-item">Notification</nuxt-link>
+            <nuxt-link to="/ui/bulma/elements/progressbar" class="navbar-item">Progress Bar</nuxt-link>
+            <nuxt-link to="/ui/bulma/elements/table" class="navbar-item">Table</nuxt-link>
+            <nuxt-link to="/ui/bulma/elements/tag" class="navbar-item">Tags</nuxt-link>
+            <nuxt-link to="/ui/bulma/elements/title" class="navbar-item">Title</nuxt-link>
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <nuxt-link class="navbar-link" to="/ui/bulma/elements/box">Components</nuxt-link>
+
+
+          <div class="navbar-dropdown">
+            <nuxt-link to="/ui/bulma/components/breadcrumbs" class="navbar-item">Breadcrumb</nuxt-link>
+            <nuxt-link to="/ui/bulma/components/cards" class="navbar-item">Card</nuxt-link>
+            <nuxt-link to="/ui/bulma/components/dropdown" class="navbar-item">Dropdown</nuxt-link>
           </div>
         </div>
 
