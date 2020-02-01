@@ -19,10 +19,9 @@
     <div id="navbarUIBlocks" class="navbar-menu">
       <div class="navbar-start">
 
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            <nuxt-link to="/ui/bulma"> Layouts</nuxt-link>
-          </a>
+        <div class="navbar-item has-dropdown">
+
+          <nuxt-link class="navbar-link" to="/ui/bulma"> Layouts</nuxt-link>
 
           <div class="navbar-dropdown">
             <nuxt-link to="/ui/bulma" class="navbar-item">Container</nuxt-link>
@@ -35,9 +34,8 @@
         </div>
 
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            <nuxt-link to="/ui/bulma/forms/general">Form</nuxt-link>
-          </a>
+          <nuxt-link class="navbar-link" to="/ui/bulma/forms/general">Form</nuxt-link>
+
 
           <div class="navbar-dropdown">
             <nuxt-link to="/ui/bulma/forms/general" class="navbar-item">General</nuxt-link>
@@ -51,12 +49,13 @@
         </div>
 
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            <nuxt-link to="/ui/bulma/forms/general">Elements</nuxt-link>
-          </a>
+          <nuxt-link class="navbar-link" to="/ui/bulma/elements/box">Elements</nuxt-link>
+
 
           <div class="navbar-dropdown">
-            <nuxt-link to="/ui/bulma/forms/general" class="navbar-item">General</nuxt-link>
+            <nuxt-link to="/ui/bulma/elements/box" class="navbar-item">Box</nuxt-link>
+            <nuxt-link to="/ui/bulma/elements/button" class="navbar-item">Button</nuxt-link>
+            <nuxt-link to="/ui/bulma/elements/content" class="navbar-item">Content</nuxt-link>
           </div>
         </div>
 
