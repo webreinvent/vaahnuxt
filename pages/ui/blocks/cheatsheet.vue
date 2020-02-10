@@ -1,52 +1,29 @@
 <template>
-  <div class="main-content">
 
+  <div>
 
-    <SectionCode name="Cheetsheet UI Block" >
-      <Cheetsheet></Cheetsheet>
-
-    </SectionCode>
+    <Block></Block>
 
   </div>
-
-
 
 </template>
 
 <script>
-
-  import content from '../../../ui/content/content.json'
-
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
-
-  import Cheetsheet from "../../../ui/blocks/Cheetsheet";
-
-
+  import Block from '../../../ui/blocks/pages/cheatsheet'
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- Cheatsheet',
       }
     },
-    computed: {
-    },
     components: {
-      SectionTitle,
-      SectionCode,
-      Cheetsheet,
-    },
-    data(){
-      let obj = {
-        c: content
-      };
-      return obj;
+      Block
     },
     methods:{
     },
 
   }
+
 </script>

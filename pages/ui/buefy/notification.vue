@@ -1,39 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Notification"
-                  link="https://buefy.org/documentation/notification">
-    </SectionTitle>
-
-
-    <SectionCode name="Notification" :code="NotificationCode">
-      <Notification></Notification>
-    </SectionCode>
-
-
-    <SectionCode name="Types" :code="TypesCode">
-      <Types></Types>
-    </SectionCode>
-
-
-    <SectionCode name="Icons" :code="IconsCode">
-      <Icons></Icons>
-    </SectionCode>
-
-
-    <SectionCode name="Auto Close" :code="AutoCloseCode">
-      <AutoClose></AutoClose>
-    </SectionCode>
-
-
-    <SectionCode name="Programmatically Opening" :code="ProgrammaticallyOpeningCode">
-      <ProgrammaticallyOpening></ProgrammaticallyOpening>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./notificationjs.js"></script>
+<script>
+  import Block from '../../../ui/buefy/pages/notification'
+
+  export default {
+    layout: 'ui',
+    head () {
+      return {
+        title: 'Buefy UI Block - Notification',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

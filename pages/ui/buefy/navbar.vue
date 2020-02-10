@@ -1,24 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - navbar"
-                  link="https://bulma.io/documentation/components/navbar/">
-    </SectionTitle>
-
-
-    <SectionCode name="Navbar">
-      <b-notification
-        type="is-warning"
-        aria-close-label="Close notification"
-        role="alert">
-        Need to use navbar from the Bulma.
-      </b-notification>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./navbarjs.js"></script>
+<script>
+  import Block from '../../../ui/buefy/pages/navbar'
+
+  export default {
+    layout: 'ui',
+    head () {
+      return {
+        title: 'Buefy UI Block - Navbar',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

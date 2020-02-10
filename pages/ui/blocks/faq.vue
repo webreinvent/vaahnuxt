@@ -1,57 +1,29 @@
 <template>
-  <div class="main-content">
 
+  <div>
 
-
-    <SectionCode name="FrequentlyAskedQuestions UI Block" :code="FrequentlyAskedQuestionsCode">
-      <FrequentlyAskedQuestions :content="c.FrequentlyAskedQuestions"></FrequentlyAskedQuestions>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
-
-
 
 </template>
 
 <script>
-
-  import content from '../../../ui/content/content.json'
-
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
-
-  import FrequentlyAskedQuestions from "../../../ui/blocks/FrequentlyAskedQuestions";
-  import FrequentlyAskedQuestionsCode from "!raw-loader!../../../ui/blocks/FrequentlyAskedQuestions";
-
-
+  import Block from '../../../ui/blocks/pages/faq'
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- FAQ',
       }
     },
-    computed: {
-      FrequentlyAskedQuestionsCode() {
-        return FrequentlyAskedQuestionsCode
-      },
-    },
     components: {
-      SectionTitle,
-      SectionCode,
-      FrequentlyAskedQuestions,
-    },
-    data(){
-      let obj = {
-        c: content
-      };
-      return obj;
+      Block
     },
     methods:{
     },
 
   }
+
 </script>

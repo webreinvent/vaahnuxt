@@ -1,56 +1,29 @@
 <template>
-  <div class="main-content">
 
+  <div>
 
-    <SectionCode name="Counter UI Block" :code="CounterCode">
-      <Counter :content="c.Counter"></Counter>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
-
-
 
 </template>
 
 <script>
-
-  import content from '../../../ui/content/content.json'
-
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
-
-  import Counter from "../../../ui/blocks/Counter";
-  import CounterCode from "!raw-loader!../../../ui/blocks/Counter";
-
-
+  import Block from '../../../ui/blocks/pages/counter'
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- Counter',
       }
     },
-    computed: {
-      CounterCode() {
-        return CounterCode
-      },
-    },
     components: {
-      SectionTitle,
-      SectionCode,
-      Counter,
-    },
-    data(){
-      let obj = {
-        c: content
-      };
-      return obj;
+      Block
     },
     methods:{
     },
 
   }
+
 </script>

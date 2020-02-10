@@ -1,56 +1,29 @@
 <template>
-  <div class="main-content">
 
+  <div>
 
-    <SectionCode name="Portfolio UI Block" :code="PortfolioCode">
-      <Portfolio :content="c.Portfolio"></Portfolio>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
-
-
 
 </template>
 
 <script>
-
-  import content from '../../../ui/content/content.json'
-
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
-
-  import Portfolio from "../../../ui/blocks/Portfolio";
-  import PortfolioCode from "!raw-loader!../../../ui/blocks/Portfolio";
-
-
+  import Block from '../../../ui/blocks/pages/portfolio'
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- Portfolio',
       }
     },
-    computed: {
-      PortfolioCode() {
-        return PortfolioCode
-      },
-    },
     components: {
-      SectionTitle,
-      SectionCode,
-      Portfolio,
-    },
-    data(){
-      let obj = {
-        c: content
-      };
-      return obj;
+      Block
     },
     methods:{
     },
 
   }
+
 </script>

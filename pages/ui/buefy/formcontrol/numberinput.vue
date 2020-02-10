@@ -1,44 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Numberinput"
-                  link="https://buefy.org/documentation/numberinput/">
-    </SectionTitle>
-
-
-    <SectionCode name="Numberinput" :code="NumberinputCode">
-      <Numberinput></Numberinput>
-    </SectionCode>
-
-
-    <SectionCode name="Types" :code="TypesCode">
-      <Types></Types>
-    </SectionCode>
-
-
-    <SectionCode name=" Min - Max" :code=" MinMaxCode">
-      <MinMax></MinMax>
-    </SectionCode>
-
-
-    <SectionCode name="Steps" :code="StepsCode">
-      <Steps></Steps>
-    </SectionCode>
-
-
-    <SectionCode name="Sizes" :code="SizesCode">
-      <Sizes></Sizes>
-    </SectionCode>
-
-
-    <SectionCode name="Customization" :code="CustomizationCode">
-      <Customization></Customization>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./numberinputjs.js"></script>
+<script>
+  import Block from '../../../../ui/buefy/pages/formcontrol/numberinput'
+
+  export default {
+    layout: 'ui',
+    head () {
+      return {
+        title: 'Buefy UI Block- Numberinput',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

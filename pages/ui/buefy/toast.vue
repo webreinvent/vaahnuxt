@@ -1,19 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Toast"
-                  link="https://buefy.org/documentation/toast">
-    </SectionTitle>
-
-
-    <SectionCode name="Toast" :code="ToastCode">
-      <Toast></Toast>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./toastjs.js"></script>
+<script>
+  import Block from '../../../ui/buefy/pages/toast'
+
+  export default {
+    layout: 'ui',
+    head () {
+      return {
+        title: 'Buefy UI Block - Toast',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

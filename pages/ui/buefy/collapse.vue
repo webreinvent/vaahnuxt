@@ -1,38 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Collapse"
-                  link="https://buefy.org/documentation/collapse">
-    </SectionTitle>
-
-
-    <SectionCode name="Collapse" :code="CollapseCode">
-      <Collapse></Collapse>
-    </SectionCode>
-
-
-    <SectionCode name="Panel" :code="PanelCode">
-      <Panel></Panel>
-    </SectionCode>
-
-
-    <SectionCode name="Card" :code="CardCode">
-      <Card></Card>
-    </SectionCode>
-
-
-    <SectionCode name="Position" :code="PositionCode">
-      <Position></Position>
-    </SectionCode>
-
-
-    <SectionCode name="Accordion Effect" :code="AccordionEffectCode">
-      <AccordionEffect></AccordionEffect>
-    </SectionCode>
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./collapsejs.js"></script>
+<script>
+  import Block from '../../../ui/buefy/pages/collapse'
+
+  export default {
+    layout: 'ui',
+    head () {
+      return {
+        title: 'Buefy UI Block - Collapse',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

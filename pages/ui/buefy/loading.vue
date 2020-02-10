@@ -1,29 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Loading"
-                  link="https://buefy.org/documentation/loading/">
-    </SectionTitle>
-
-
-    <SectionCode name="Loading" :code="LoadingCode">
-      <Loading></Loading>
-    </SectionCode>
-
-
-    <SectionCode name="Programmatically Opening" :code="ProgrammaticallyOpeningCode">
-      <ProgrammaticallyOpening></ProgrammaticallyOpening>
-    </SectionCode>
-
-
-    <SectionCode name="Templated" :code="TemplatedCode">
-      <Templated></Templated>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./loadingjs.js"></script>
+<script>
+  import Block from '../../../ui/buefy/pages/loading'
+
+  export default {
+    layout: 'ui',
+    head () {
+      return {
+        title: 'Buefy UI Block - Loading',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

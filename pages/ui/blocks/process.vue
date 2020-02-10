@@ -1,56 +1,29 @@
 <template>
-  <div class="main-content">
 
+  <div>
 
-    <SectionCode name="Process UI Block" :code="ProcessCode">
-      <Process :content="c.Process"></Process>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
-
-
 
 </template>
 
 <script>
-
-  import content from '../../../ui/content/content.json'
-
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
-
-  import Process from "../../../ui/blocks/Process";
-  import ProcessCode from "!raw-loader!../../../ui/blocks/Process";
-
-
+  import Block from '../../../ui/blocks/pages/process'
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- Process',
       }
     },
-    computed: {
-      ProcessCode() {
-        return ProcessCode
-      },
-    },
     components: {
-      SectionTitle,
-      SectionCode,
-      Process,
-    },
-    data(){
-      let obj = {
-        c: content
-      };
-      return obj;
+      Block
     },
     methods:{
     },
 
   }
+
 </script>

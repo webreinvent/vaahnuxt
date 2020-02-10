@@ -21,7 +21,7 @@
         <div class="navbar-start">
 
           <nuxt-link to="/" class="navbar-item">Home</nuxt-link>
-
+          <nuxt-link to="/ui/bulma" class="navbar-item">Bulma</nuxt-link>
           <nuxt-link to="/ui/buefy" class="navbar-item">Buefy</nuxt-link>
           <nuxt-link to="/ui/docs" class="navbar-item">Docs</nuxt-link>
 
@@ -36,9 +36,11 @@
 
             <div class="navbar-dropdown">
               <nuxt-link to="/ui/buefy" class="navbar-item">Buefy</nuxt-link>
+              <nuxt-link to="/ui/bulma" class="navbar-item">Bulma</nuxt-link>
               <nuxt-link to="/ui/docs" class="navbar-item">Docs</nuxt-link>
               <hr class="navbar-divider">
               <nuxt-link to="/ui/blocks" class="navbar-item">Blocks</nuxt-link>
+              <nuxt-link to="/ui/blocks/cheatsheet" class="navbar-item">Cheat Sheet</nuxt-link>
             </div>
           </div>
 

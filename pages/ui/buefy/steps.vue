@@ -1,39 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Steps"
-                  link="https://buefy.org/documentation/steps">
-    </SectionTitle>
-
-
-    <SectionCode name="Steps" :code="StepsCode">
-      <Steps></Steps>
-    </SectionCode>
-
-
-    <SectionCode name="Dynamic" :code="DynamicCode">
-      <Dynamic></Dynamic>
-    </SectionCode>
-
-
-    <SectionCode name="Icons" :code="IconsCode">
-      <Icons></Icons>
-    </SectionCode>
-
-
-    <SectionCode name="Sizes" :code="SizesCode">
-      <Sizes></Sizes>
-    </SectionCode>
-
-
-    <SectionCode name="Types" :code="TypesCode">
-      <Types></Types>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./stepsjs.js"></script>
+<script>
+  import Block from '../../../ui/buefy/pages/steps'
+
+  export default {
+    layout: 'ui',
+    head () {
+      return {
+        title: 'Buefy UI Block - Steps',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

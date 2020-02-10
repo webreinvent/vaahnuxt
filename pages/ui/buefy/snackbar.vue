@@ -1,19 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Snackbar"
-                  link="https://buefy.org/documentation/snackbar">
-    </SectionTitle>
-
-
-    <SectionCode name="Snackbar" :code="SnackbarCode">
-      <Snackbar></Snackbar>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./snackbarjs.js"></script>
+<script>
+  import Block from '../../../ui/buefy/pages/snackbar'
+
+  export default {
+    layout: 'ui',
+    head () {
+      return {
+        title: 'Buefy UI Block - Snackbar',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

@@ -1,24 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Upload"
-                  link="https://buefy.org/documentation/upload/">
-    </SectionTitle>
-
-
-    <SectionCode name="Upload" :code="UploadCode">
-      <Upload></Upload>
-    </SectionCode>
-
-
-    <SectionCode name="Drag And Drop" :code="DragAndDropCode">
-      <DragAndDrop></DragAndDrop>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./uploadjs.js"></script>
+<script>
+  import Block from '../../../../ui/buefy/pages/formcontrol/upload'
+
+  export default {
+    layout: 'ui',
+    head () {
+      return {
+        title: 'Buefy UI Block- Upload',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

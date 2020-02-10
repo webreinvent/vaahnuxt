@@ -1,56 +1,29 @@
 <template>
-  <div class="main-content">
 
+  <div>
 
-    <SectionCode name="ServiceHeader UI Block" :code="ServiceHeaderCode">
-      <ServiceHeader :content="c.ServiceHeader"></ServiceHeader>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
-
-
 
 </template>
 
 <script>
-
-  import content from '../../../ui/content/content.json'
-
-  import SectionTitle from '../../../ui/resuable/SectionTitle'
-
-  import SectionCode from '../../../ui/resuable/SectionCode';
-
-  import ServiceHeader from "../../../ui/blocks/ServiceHeader";
-  import ServiceHeaderCode from "!raw-loader!../../../ui/blocks/ServiceHeader";
-
-
+  import Block from '../../../ui/blocks/pages/forms'
 
   export default {
-    layout: 'ui/blocks',
+    layout: 'ui',
     head () {
       return {
-        title: 'VaahNuxt UI Components',
+        title: 'VaahNuxt UI components- Forms',
       }
     },
-    computed: {
-      ServiceHeaderCode() {
-        return ServiceHeaderCode
-      },
-    },
     components: {
-      SectionTitle,
-      SectionCode,
-      ServiceHeader,
-    },
-    data(){
-      let obj = {
-        c: content
-      };
-      return obj;
+      Block
     },
     methods:{
     },
 
   }
+
 </script>

@@ -1,24 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Menu"
-                  link="https://bulma.io/documentation/components/menu/">
-    </SectionTitle>
-
-
-    <SectionCode name="Menu" :code="MenuCode">
-      <b-notification
-        type="is-warning"
-        aria-close-label="Close notification"
-        role="alert">
-        Need to use menu from the Bulma.
-      </b-notification>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./menujs.js"></script>
+<script>
+  import Block from '../../../ui/buefy/pages/menu'
+
+  export default {
+    layout: 'ui',
+    head () {
+      return {
+        title: 'Buefy UI Block - Menu',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

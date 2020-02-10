@@ -1,28 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Dialog"
-                  link="https://buefy.org/documentation/dialog">
-    </SectionTitle>
-
-
-    <SectionCode name="Alert" :code="AlertCode">
-      <Alert></Alert>
-    </SectionCode>
-
-
-    <SectionCode name="Confirm" :code="ConfirmCode">
-      <Confirm></Confirm>
-    </SectionCode>
-
-
-    <SectionCode name="Prompt" :code="PromptCode">
-      <Prompt></Prompt>
-    </SectionCode>
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./dialogjs.js"></script>
+<script>
+  import Block from '../../../ui/buefy/pages/dialog'
+
+  export default {
+    layout: 'ui',
+    head () {
+      return {
+        title: 'Buefy UI Block - Dialog',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>

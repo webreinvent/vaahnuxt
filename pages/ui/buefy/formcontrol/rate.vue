@@ -1,24 +1,29 @@
 <template>
 
-  <div class="main-content">
+  <div>
 
-    <SectionTitle title="Buefy - Rate"
-                  link="https://buefy.org/documentation/rate/">
-    </SectionTitle>
-
-
-    <SectionCode name="Rate" :code="RateCode">
-      <Rate></Rate>
-    </SectionCode>
-
-
-    <SectionCode name="Custom Rate" :code="CustomRateCode">
-      <CustomRate></CustomRate>
-    </SectionCode>
-
+    <Block></Block>
 
   </div>
 
 </template>
 
-<script src="./ratejs.js"></script>
+<script>
+  import Block from '../../../../ui/buefy/pages/formcontrol/rate'
+
+  export default {
+    layout: 'ui',
+    head () {
+      return {
+        title: 'Buefy UI Block- Rate',
+      }
+    },
+    components: {
+      Block
+    },
+    methods:{
+    },
+
+  }
+
+</script>
