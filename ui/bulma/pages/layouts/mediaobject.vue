@@ -29,14 +29,14 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import MediaObject from "../../components/Layouts/MediaObject/MediaObject";
-  import MediaObjectCode from "!raw-loader!../../components/Layouts/MediaObject/MediaObject";
+  import MediaObject from "./../../components/Layouts/MediaObject/MediaObject";
+  import MediaObjectCode from "!raw-loader!./../../components/Layouts/MediaObject/MediaObject";
 
-  import Nesting from "../../components/Layouts/MediaObject/Nesting";
-  import NestingCode from "!raw-loader!../../components/Layouts/MediaObject/Nesting";
+  import Nesting from "./../../components/Layouts/MediaObject/Nesting";
+  import NestingCode from "!raw-loader!./../../components/Layouts/MediaObject/Nesting";
 
 
 

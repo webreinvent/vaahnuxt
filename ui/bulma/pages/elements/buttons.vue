@@ -69,38 +69,38 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import Button from "../../components/Elements/Buttons/Button";
-  import ButtonCode from "!raw-loader!../../components/Elements/Buttons/Button";
+  import Button from "./../../components/Elements/Buttons/Button";
+  import ButtonCode from "!raw-loader!./../../components/Elements/Buttons/Button";
 
-  import Colors from "../../components/Elements/Buttons/Colors";
-  import ColorsCode from "!raw-loader!../../components/Elements/Buttons/Colors";
+  import Colors from "./../../components/Elements/Buttons/Colors";
+  import ColorsCode from "!raw-loader!./../../components/Elements/Buttons/Colors";
 
-  import Sizes from "../../components/Elements/Buttons/Sizes";
-  import SizesCode from "!raw-loader!../../components/Elements/Buttons/Sizes";
+  import Sizes from "./../../components/Elements/Buttons/Sizes";
+  import SizesCode from "!raw-loader!./../../components/Elements/Buttons/Sizes";
 
-  import Displays from "../../components/Elements/Buttons/Displays";
-  import DisplaysCode from "!raw-loader!../../components/Elements/Buttons/Displays";
+  import Displays from "./../../components/Elements/Buttons/Displays";
+  import DisplaysCode from "!raw-loader!./../../components/Elements/Buttons/Displays";
 
-  import Styles from "../../components/Elements/Buttons/Styles";
-  import StylesCode from "!raw-loader!../../components/Elements/Buttons/Styles";
+  import Styles from "./../../components/Elements/Buttons/Styles";
+  import StylesCode from "!raw-loader!./../../components/Elements/Buttons/Styles";
 
-  import States from "../../components/Elements/Buttons/States";
-  import StatesCode from "!raw-loader!../../components/Elements/Buttons/States";
+  import States from "./../../components/Elements/Buttons/States";
+  import StatesCode from "!raw-loader!./../../components/Elements/Buttons/States";
 
-  import ButtonGroup from "../../components/Elements/Buttons/ButtonGroup";
-  import ButtonGroupCode from "!raw-loader!../../components/Elements/Buttons/ButtonGroup";
+  import ButtonGroup from "./../../components/Elements/Buttons/ButtonGroup";
+  import ButtonGroupCode from "!raw-loader!./../../components/Elements/Buttons/ButtonGroup";
 
-  import ButtonAddons from "../../components/Elements/Buttons/ButtonAddons";
-  import ButtonAddonsCode from "!raw-loader!../../components/Elements/Buttons/ButtonAddons";
+  import ButtonAddons from "./../../components/Elements/Buttons/ButtonAddons";
+  import ButtonAddonsCode from "!raw-loader!./../../components/Elements/Buttons/ButtonAddons";
 
-  import ButtonGroupWithAddons from "../../components/Elements/Buttons/ButtonGroupWithAddons";
-  import ButtonGroupWithAddonsCode from "!raw-loader!../../components/Elements/Buttons/ButtonGroupWithAddons";
+  import ButtonGroupWithAddons from "./../../components/Elements/Buttons/ButtonGroupWithAddons";
+  import ButtonGroupWithAddonsCode from "!raw-loader!./../../components/Elements/Buttons/ButtonGroupWithAddons";
 
-  import ListOfButtons from "../../components/Elements/Buttons/ListOfButtons";
-  import ListOfButtonsCode from "!raw-loader!../../components/Elements/Buttons/ListOfButtons";
+  import ListOfButtons from "./../../components/Elements/Buttons/ListOfButtons";
+  import ListOfButtonsCode from "!raw-loader!./../../components/Elements/Buttons/ListOfButtons";
 
 
 

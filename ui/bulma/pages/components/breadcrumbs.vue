@@ -44,23 +44,23 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import Breadcrumb from "../../components/Components/Breadcrumb/Breadcrumb";
-  import BreadcrumbCode from "!raw-loader!../../components/Components/Breadcrumb/Breadcrumb";
+  import Breadcrumb from "./../../components/Components/Breadcrumb/Breadcrumb";
+  import BreadcrumbCode from "!raw-loader!./../../components/Components/Breadcrumb/Breadcrumb";
 
-  import Alignment from "../../components/Components/Breadcrumb/Alignment";
-  import AlignmentCode from "!raw-loader!../../components/Components/Breadcrumb/Alignment";
+  import Alignment from "./../../components/Components/Breadcrumb/Alignment";
+  import AlignmentCode from "!raw-loader!./../../components/Components/Breadcrumb/Alignment";
 
-  import Icons from "../../components/Components/Breadcrumb/Icons";
-  import IconsCode from "!raw-loader!../../components/Components/Breadcrumb/Icons";
+  import Icons from "./../../components/Components/Breadcrumb/Icons";
+  import IconsCode from "!raw-loader!./../../components/Components/Breadcrumb/Icons";
 
-  import AlternativeSeparators from "../../components/Components/Breadcrumb/AlternativeSeparators";
-  import AlternativeSeparatorsCode from "!raw-loader!../../components/Components/Breadcrumb/AlternativeSeparators";
+  import AlternativeSeparators from "./../../components/Components/Breadcrumb/AlternativeSeparators";
+  import AlternativeSeparatorsCode from "!raw-loader!./../../components/Components/Breadcrumb/AlternativeSeparators";
 
-  import Sizes from "../../components/Components/Breadcrumb/Sizes";
-  import SizesCode from "!raw-loader!../../components/Components/Breadcrumb/Sizes";
+  import Sizes from "./../../components/Components/Breadcrumb/Sizes";
+  import SizesCode from "!raw-loader!./../../components/Components/Breadcrumb/Sizes";
 
 
 

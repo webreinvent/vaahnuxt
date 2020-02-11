@@ -24,11 +24,11 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import Checkbox from "../../components/Forms/Checkbox/Checkbox";
-  import CheckboxCode from "!raw-loader!../../components/Forms/Checkbox/Checkbox";
+  import Checkbox from "./../../components/Forms/Checkbox/Checkbox";
+  import CheckboxCode from "!raw-loader!./../../components/Forms/Checkbox/Checkbox";
 
 
 

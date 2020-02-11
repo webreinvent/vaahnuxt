@@ -1,23 +1,25 @@
-import globalComponents from "../../../../ui/helpers/globalComponents";
-import SideMenu from "../../partials/SideMenu";
+import globalComponents from "./../../../helpers/globalComponents";
+import SideMenu from "./../../partials/SideMenu";
 
-import AutoComplete from '../../../../ui/buefy/components/FormControl/AutoComplete/AutoComplete'
-import AutoCompleteCode from "!raw-loader!../../../../ui/buefy/components/FormControl/AutoComplete/AutoComplete";
+import AutoComplete from './../../components/FormControl/AutoComplete/AutoComplete'
+import AutoCompleteCode from "!raw-loader!./../../components/FormControl/AutoComplete/AutoComplete";
 
-import ObjectArray from '../../../../ui/buefy/components/FormControl/Autocomplete/ObjectArray'
-import ObjectArrayCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Autocomplete/ObjectArray";
+import ObjectArray from './../../components/FormControl/AutoComplete/ObjectArray'
+import ObjectArrayCode from "!raw-loader!./../../components/FormControl/AutoComplete/ObjectArray";
 
-import Header from '../../../../ui/buefy/components/FormControl/Autocomplete/Header'
-import HeaderCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Autocomplete/Header";
+import Header from './../../components/FormControl/AutoComplete/Header'
+import HeaderCode from "!raw-loader!./../../components/FormControl/AutoComplete/Header";
 
-import Footer from '../../../../ui/buefy/components/FormControl/Autocomplete/Footer'
-import FooterCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Autocomplete/Footer";
+import Footer from './../../components/FormControl/AutoComplete/Footer'
+import FooterCode from "!raw-loader!./../../components/FormControl/AutoComplete/Footer";
 
-import AsyncWithCustomTemplate from '../../../../ui/buefy/components/FormControl/Autocomplete/AsyncWithCustomTemplate'
-import AsyncWithCustomTemplateCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Autocomplete/AsyncWithCustomTemplate";
 
-import AsyncWithInfiniteScroll from '../../../../ui/buefy/components/FormControl/Autocomplete/AsyncWithInfiniteScroll'
-import AsyncWithInfiniteScrollCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Autocomplete/AsyncWithInfiniteScroll";
+
+import AsyncWithCustomTemplate from './../../components/FormControl/AutoComplete/AsyncWithCustomTemplate'
+import AsyncWithCustomTemplateCode from "!raw-loader!./../../components/FormControl/AutoComplete/AsyncWithCustomTemplate";
+
+import AsyncWithInfiniteScroll from './../../components/FormControl/AutoComplete/AsyncWithInfiniteScroll'
+import AsyncWithInfiniteScrollCode from "!raw-loader!./../../components/FormControl/AutoComplete/AsyncWithInfiniteScroll";
 
 export default {
   layout: 'ui',

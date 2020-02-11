@@ -34,17 +34,17 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import Notification from "../../components/Elements/Notification/Notification";
-  import NotificationCode from "!raw-loader!../../components/Elements/Notification/Notification";
+  import Notification from "./../../components/Elements/Notification/Notification";
+  import NotificationCode from "!raw-loader!./../../components/Elements/Notification/Notification";
 
-  import Colors from "../../components/Elements/Notification/Colors";
-  import ColorsCode from "!raw-loader!../../components/Elements/Notification/Colors";
+  import Colors from "./../../components/Elements/Notification/Colors";
+  import ColorsCode from "!raw-loader!./../../components/Elements/Notification/Colors";
 
-  import LightColors from "../../components/Elements/Notification/LightColors";
-  import LightColorsCode from "!raw-loader!../../components/Elements/Notification/LightColors";
+  import LightColors from "./../../components/Elements/Notification/LightColors";
+  import LightColorsCode from "!raw-loader!./../../components/Elements/Notification/LightColors";
 
 
 

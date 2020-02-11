@@ -1,23 +1,23 @@
-import globalComponents from "../../../../ui/helpers/globalComponents";
+import globalComponents from "./../../../../ui/helpers/globalComponents";
 import SideMenu from "../../partials/SideMenu";
 
-import Input from '../../../../ui/buefy/components/FormControl/Input/Input'
-import InputCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Input/Input";
+import Input from './../../../../ui/buefy/components/FormControl/Input/Input'
+import InputCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Input/Input";
 
-import TypesAndStates from '../../../../ui/buefy/components/FormControl/Input/TypesAndStates'
-import TypesAndStatesCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Input/TypesAndStates";
+import TypesAndStates from './../../../../ui/buefy/components/FormControl/Input/TypesAndStates'
+import TypesAndStatesCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Input/TypesAndStates";
 
-import Icons from '../../../../ui/buefy/components/FormControl/Input/Icons'
-import IconsCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Input/Icons";
+import Icons from './../../../../ui/buefy/components/FormControl/Input/Icons'
+import IconsCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Input/Icons";
 
-import Validation from '../../../../ui/buefy/components/FormControl/Input/Validation'
-import ValidationCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Input/Validation";
+import Validation from './../../../../ui/buefy/components/FormControl/Input/Validation'
+import ValidationCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Input/Validation";
 
-import Password from '../../../../ui/buefy/components/FormControl/Input/Password'
-import PasswordCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Input/Password";
+import Password from './../../../../ui/buefy/components/FormControl/Input/Password'
+import PasswordCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Input/Password";
 
-import Sizes from '../../../../ui/buefy/components/FormControl/Input/Sizes'
-import SizesCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Input/Sizes";
+import Sizes from './../../../../ui/buefy/components/FormControl/Input/Sizes'
+import SizesCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Input/Sizes";
 
 export default {
   layout: 'ui',

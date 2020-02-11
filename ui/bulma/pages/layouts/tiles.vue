@@ -24,11 +24,11 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import Tiles from "../../components/Layouts/Tiles/Tiles";
-  import TilesCode from "!raw-loader!../../components/Layouts/Tiles/Tiles";
+  import Tiles from "./../../components/Layouts/Tiles/Tiles";
+  import TilesCode from "!raw-loader!./../../components/Layouts/Tiles/Tiles";
 
 
 

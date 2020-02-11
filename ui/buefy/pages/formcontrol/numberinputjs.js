@@ -1,23 +1,23 @@
-import globalComponents from "../../../../ui/helpers/globalComponents";
+import globalComponents from "./../../../../ui/helpers/globalComponents";
 import SideMenu from "../../partials/SideMenu";
 
-import Numberinput from '../../../../ui/buefy/components/FormControl/Numberinput/Numberinput'
-import NumberinputCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Numberinput/Numberinput";
+import Numberinput from './../../../../ui/buefy/components/FormControl/Numberinput/Numberinput'
+import NumberinputCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Numberinput/Numberinput";
 
-import Types from '../../../../ui/buefy/components/FormControl/Numberinput/Types'
-import TypesCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Numberinput/Types";
+import Types from './../../../../ui/buefy/components/FormControl/Numberinput/Types'
+import TypesCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Numberinput/Types";
 
-import MinMax from '../../../../ui/buefy/components/FormControl/Numberinput/MinMax'
-import MinMaxCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Numberinput/MinMax";
+import MinMax from './../../../../ui/buefy/components/FormControl/Numberinput/MinMax'
+import MinMaxCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Numberinput/MinMax";
 
-import Steps from '../../../../ui/buefy/components/FormControl/Numberinput/Steps'
-import StepsCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Numberinput/Steps";
+import Steps from './../../../../ui/buefy/components/FormControl/Numberinput/Steps'
+import StepsCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Numberinput/Steps";
 
-import Sizes from '../../../../ui/buefy/components/FormControl/Numberinput/Sizes'
-import SizesCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Numberinput/Sizes";
+import Sizes from './../../../../ui/buefy/components/FormControl/Numberinput/Sizes'
+import SizesCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Numberinput/Sizes";
 
-import Customization from '../../../../ui/buefy/components/FormControl/Numberinput/Customization'
-import CustomizationCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Numberinput/Customization";
+import Customization from './../../../../ui/buefy/components/FormControl/Numberinput/Customization'
+import CustomizationCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Numberinput/Customization";
 
 export default {
   layout: 'ui',

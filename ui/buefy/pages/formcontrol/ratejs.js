@@ -1,11 +1,11 @@
-import globalComponents from "../../../../ui/helpers/globalComponents";
+import globalComponents from "./../../../../ui/helpers/globalComponents";
 import SideMenu from "../../partials/SideMenu";
 
-import Rate from '../../../../ui/buefy/components/FormControl/Rate/Rate'
-import RateCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Rate/Rate";
+import Rate from './../../../../ui/buefy/components/FormControl/Rate/Rate'
+import RateCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Rate/Rate";
 
-import CustomRate from '../../../../ui/buefy/components/FormControl/Rate/CustomRate'
-import CustomRateCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Rate/CustomRate";
+import CustomRate from './../../../../ui/buefy/components/FormControl/Rate/CustomRate'
+import CustomRateCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Rate/CustomRate";
 
 export default {
   layout: 'ui',

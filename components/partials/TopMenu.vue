@@ -4,7 +4,7 @@
     <div class="navbar-brand">
 
       <nuxt-link to="/" class="navbar-item">
-        <img src="../../assets/images/logo.svg" width="112" height="28">
+        <img src="./../../assets/images/logo.svg" width="112" height="28">
       </nuxt-link>
 
 

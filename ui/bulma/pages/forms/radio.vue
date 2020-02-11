@@ -24,11 +24,11 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import RadioButton from "../../components/Forms/Radio/RadioButton";
-  import RadioButtonCode from "!raw-loader!../../components/Forms/Radio/RadioButton";
+  import RadioButton from "./../../components/Forms/Radio/RadioButton";
+  import RadioButtonCode from "!raw-loader!./../../components/Forms/Radio/RadioButton";
 
 
 

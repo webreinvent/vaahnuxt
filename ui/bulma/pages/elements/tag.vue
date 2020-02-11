@@ -49,26 +49,26 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import Tags from "../../components/Elements/Tags/Tags";
-  import TagsCode from "!raw-loader!../../components/Elements/Tags/Tags";
+  import Tags from "./../../components/Elements/Tags/Tags";
+  import TagsCode from "!raw-loader!./../../components/Elements/Tags/Tags";
 
-  import Colors from "../../components/Elements/Tags/Colors";
-  import ColorsCode from "!raw-loader!../../components/Elements/Tags/Colors";
+  import Colors from "./../../components/Elements/Tags/Colors";
+  import ColorsCode from "!raw-loader!./../../components/Elements/Tags/Colors";
 
-  import Sizes from "../../components/Elements/Tags/Sizes";
-  import SizesCode from "!raw-loader!../../components/Elements/Tags/Sizes";
+  import Sizes from "./../../components/Elements/Tags/Sizes";
+  import SizesCode from "!raw-loader!./../../components/Elements/Tags/Sizes";
 
-  import Modifiers from "../../components/Elements/Tags/Modifiers";
-  import ModifiersCode from "!raw-loader!../../components/Elements/Tags/Modifiers";
+  import Modifiers from "./../../components/Elements/Tags/Modifiers";
+  import ModifiersCode from "!raw-loader!./../../components/Elements/Tags/Modifiers";
 
-  import Combinations from "../../components/Elements/Tags/Combinations";
-  import CombinationsCode from "!raw-loader!../../components/Elements/Tags/Combinations";
+  import Combinations from "./../../components/Elements/Tags/Combinations";
+  import CombinationsCode from "!raw-loader!./../../components/Elements/Tags/Combinations";
 
-  import ListOfTags from "../../components/Elements/Tags/ListOfTags";
-  import ListOfTagsCode from "!raw-loader!../../components/Elements/Tags/ListOfTags";
+  import ListOfTags from "./../../components/Elements/Tags/ListOfTags";
+  import ListOfTagsCode from "!raw-loader!./../../components/Elements/Tags/ListOfTags";
 
 
 

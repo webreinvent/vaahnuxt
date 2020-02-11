@@ -34,17 +34,17 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import Pagination from "../../components/Components/Pagination/Pagination";
-  import PaginationCode from "!raw-loader!../../components/Components/Pagination/Pagination";
+  import Pagination from "./../../components/Components/Pagination/Pagination";
+  import PaginationCode from "!raw-loader!./../../components/Components/Pagination/Pagination";
 
-  import Styles from "../../components/Components/Pagination/Styles";
-  import StylesCode from "!raw-loader!../../components/Components/Pagination/Styles";
+  import Styles from "./../../components/Components/Pagination/Styles";
+  import StylesCode from "!raw-loader!./../../components/Components/Pagination/Styles";
 
-  import Sizes from "../../components/Components/Pagination/Sizes";
-  import SizesCode from "!raw-loader!../../components/Components/Pagination/Sizes";
+  import Sizes from "./../../components/Components/Pagination/Sizes";
+  import SizesCode from "!raw-loader!./../../components/Components/Pagination/Sizes";
 
 
 
