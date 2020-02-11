@@ -54,29 +54,29 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../helpers/globalComponents";
+  import BulmaTopMenu from "./../../../bulma/partials/BulmaTopMenu";
 
-  import Select from "../../components/Forms/Select/Select";
-  import SelectCode from "!raw-loader!../../components/Forms/Select/Select";
+  import Select from "./../../components/Forms/Select/Select";
+  import SelectCode from "!raw-loader!./../../components/Forms/Select/Select";
 
-  import MultipleSelect from "../../components/Forms/Select/MultipleSelect";
-  import MultipleSelectCode from "!raw-loader!../../components/Forms/Select/MultipleSelect";
+  import MultipleSelect from "./../../components/Forms/Select/MultipleSelect";
+  import MultipleSelectCode from "!raw-loader!./../../components/Forms/Select/MultipleSelect";
 
-  import Colors from "../../components/Forms/Select/Colors";
-  import ColorsCode from "!raw-loader!../../components/Forms/Select/Colors";
+  import Colors from "./../../components/Forms/Select/Colors";
+  import ColorsCode from "!raw-loader!./../../components/Forms/Select/Colors";
 
-  import Styles from "../../components/Forms/Select/Styles";
-  import StylesCode from "!raw-loader!../../components/Forms/Select/Styles";
+  import Styles from "./../../components/Forms/Select/Styles";
+  import StylesCode from "!raw-loader!./../../components/Forms/Select/Styles";
 
-  import Sizes from "../../components/Forms/Select/Sizes";
-  import SizesCode from "!raw-loader!../../components/Forms/Select/Sizes";
+  import Sizes from "./../../components/Forms/Select/Sizes";
+  import SizesCode from "!raw-loader!./../../components/Forms/Select/Sizes";
 
-  import States from "../../components/Forms/Select/States";
-  import StatesCode from "!raw-loader!../../components/Forms/Select/States";
+  import States from "./../../components/Forms/Select/States";
+  import StatesCode from "!raw-loader!./../../components/Forms/Select/States";
 
-  import WithIcons from "../../components/Forms/Select/WithIcons";
-  import WithIconsCode from "!raw-loader!../../components/Forms/Select/WithIcons";
+  import WithIcons from "./../../components/Forms/Select/WithIcons";
+  import WithIconsCode from "!raw-loader!./../../components/Forms/Select/WithIcons";
 
 
 

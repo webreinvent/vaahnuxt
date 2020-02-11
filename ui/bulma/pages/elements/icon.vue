@@ -29,14 +29,14 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import Icon from "../../components/Elements/Icon/Icon";
-  import IconCode from "!raw-loader!../../components/Elements/Icon/Icon";
+  import Icon from "./../../components/Elements/Icon/Icon";
+  import IconCode from "!raw-loader!./../../components/Elements/Icon/Icon";
 
-  import Colors from "../../components/Elements/Icon/Colors";
-  import ColorsCode from "!raw-loader!../../components/Elements/Icon/Colors";
+  import Colors from "./../../components/Elements/Icon/Colors";
+  import ColorsCode from "!raw-loader!./../../components/Elements/Icon/Colors";
 
 
 

@@ -39,20 +39,20 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import ProgressBar from "../../components/Elements/ProgressBar/ProgressBar";
-  import ProgressBarCode from "!raw-loader!../../components/Elements/ProgressBar/ProgressBar";
+  import ProgressBar from "./../../components/Elements/ProgressBar/ProgressBar";
+  import ProgressBarCode from "!raw-loader!./../../components/Elements/ProgressBar/ProgressBar";
 
-  import Colors from "../../components/Elements/ProgressBar/Colors";
-  import ColorsCode from "!raw-loader!../../components/Elements/ProgressBar/Colors";
+  import Colors from "./../../components/Elements/ProgressBar/Colors";
+  import ColorsCode from "!raw-loader!./../../components/Elements/ProgressBar/Colors";
 
-  import Sizes from "../../components/Elements/ProgressBar/Sizes";
-  import SizesCode from "!raw-loader!../../components/Elements/ProgressBar/Sizes";
+  import Sizes from "./../../components/Elements/ProgressBar/Sizes";
+  import SizesCode from "!raw-loader!./../../components/Elements/ProgressBar/Sizes";
 
-  import Indeterminate from "../../components/Elements/ProgressBar/Indeterminate";
-  import IndeterminateCode from "!raw-loader!../../components/Elements/ProgressBar/Indeterminate";
+  import Indeterminate from "./../../components/Elements/ProgressBar/Indeterminate";
+  import IndeterminateCode from "!raw-loader!./../../components/Elements/ProgressBar/Indeterminate";
 
 
 

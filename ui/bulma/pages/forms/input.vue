@@ -44,23 +44,23 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import Input from "../../components/Forms/Inputs/Input";
-  import InputCode from "!raw-loader!../../components/Forms/Inputs/Input";
+  import Input from "./../../components/Forms/Inputs/Input";
+  import InputCode from "!raw-loader!./../../components/Forms/Inputs/Input";
 
-  import Colors from "../../components/Forms/Inputs/Colors";
-  import ColorsCode from "!raw-loader!../../components/Forms/Inputs/Colors";
+  import Colors from "./../../components/Forms/Inputs/Colors";
+  import ColorsCode from "!raw-loader!./../../components/Forms/Inputs/Colors";
 
-  import Sizes from "../../components/Forms/Inputs/Sizes";
-  import SizesCode from "!raw-loader!../../components/Forms/Inputs/Sizes";
+  import Sizes from "./../../components/Forms/Inputs/Sizes";
+  import SizesCode from "!raw-loader!./../../components/Forms/Inputs/Sizes";
 
-  import Styles from "../../components/Forms/Inputs/Styles";
-  import StylesCode from "!raw-loader!../../components/Forms/Inputs/Styles";
+  import Styles from "./../../components/Forms/Inputs/Styles";
+  import StylesCode from "!raw-loader!./../../components/Forms/Inputs/Styles";
 
-  import States from "../../components/Forms/Inputs/States";
-  import StatesCode from "!raw-loader!../../components/Forms/Inputs/States";
+  import States from "./../../components/Forms/Inputs/States";
+  import StatesCode from "!raw-loader!./../../components/Forms/Inputs/States";
 
 
 

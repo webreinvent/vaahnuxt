@@ -39,20 +39,20 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import Centered from "../../components/Layouts/Container/Centered";
-  import CenteredCode from "!raw-loader!../../components/Layouts/Container/Centered";
+  import Centered from "./../../components/Layouts/Container/Centered";
+  import CenteredCode from "!raw-loader!./../../components/Layouts/Container/Centered";
 
-  import FluidContainer from "../../components/Layouts/Container/FluidContainer";
-  import FluidContainerCode from "!raw-loader!../../components/Layouts/Container/FluidContainer";
+  import FluidContainer from "./../../components/Layouts/Container/FluidContainer";
+  import FluidContainerCode from "!raw-loader!./../../components/Layouts/Container/FluidContainer";
 
-  import BreakpointContainers from "../../components/Layouts/Container/BreakpointContainers";
-  import BreakpointContainersCode from "!raw-loader!../../components/Layouts/Container/BreakpointContainers";
+  import BreakpointContainers from "./../../components/Layouts/Container/BreakpointContainers";
+  import BreakpointContainersCode from "!raw-loader!./../../components/Layouts/Container/BreakpointContainers";
 
-  import FullWidthContainer from "../../components/Layouts/Container/FullWidthContainer";
-  import FullWidthContainerCode from "!raw-loader!../../components/Layouts/Container/FullWidthContainer";
+  import FullWidthContainer from "./../../components/Layouts/Container/FullWidthContainer";
+  import FullWidthContainerCode from "!raw-loader!./../../components/Layouts/Container/FullWidthContainer";
 
 
 

@@ -1,4 +1,4 @@
-import TopMenu from './../../components/partials/TopMenu'
+import TopMenu from '././../../components/partials/TopMenu'
 import Footer from './../../ui/partials/Footer'
 import PageHeader from '../../ui/resuable/PageHeader'
 import SectionTitle from '../../ui/resuable/SectionTitle'

@@ -49,26 +49,26 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import Hero from "../../components/Layouts/Hero/Hero";
-  import HeroCode from "!raw-loader!../../components/Layouts/Hero/Hero";
+  import Hero from "./../../components/Layouts/Hero/Hero";
+  import HeroCode from "!raw-loader!./../../components/Layouts/Hero/Hero";
 
-  import Colors from "../../components/Layouts/Hero/Colors";
-  import ColorsCode from "!raw-loader!../../components/Layouts/Hero/Colors";
+  import Colors from "./../../components/Layouts/Hero/Colors";
+  import ColorsCode from "!raw-loader!./../../components/Layouts/Hero/Colors";
 
-  import Gradients from "../../components/Layouts/Hero/Gradients";
-  import GradientsCode from "!raw-loader!../../components/Layouts/Hero/Gradients";
+  import Gradients from "./../../components/Layouts/Hero/Gradients";
+  import GradientsCode from "!raw-loader!./../../components/Layouts/Hero/Gradients";
 
-  import Sizes from "../../components/Layouts/Hero/Sizes";
-  import SizesCode from "!raw-loader!../../components/Layouts/Hero/Sizes";
+  import Sizes from "./../../components/Layouts/Hero/Sizes";
+  import SizesCode from "!raw-loader!./../../components/Layouts/Hero/Sizes";
 
-  import FullheightWithNavbar from "../../components/Layouts/Hero/FullheightWithNavbar";
-  import FullheightWithNavbarCode from "!raw-loader!../../components/Layouts/Hero/FullheightWithNavbar";
+  import FullheightWithNavbar from "./../../components/Layouts/Hero/FullheightWithNavbar";
+  import FullheightWithNavbarCode from "!raw-loader!./../../components/Layouts/Hero/FullheightWithNavbar";
 
-  import FullheightHeroIn3parts from "../../components/Layouts/Hero/FullheightHeroIn3parts";
-  import FullheightHeroIn3partsCode from "!raw-loader!../../components/Layouts/Hero/FullheightHeroIn3parts";
+  import FullheightHeroIn3parts from "./../../components/Layouts/Hero/FullheightHeroIn3parts";
+  import FullheightHeroIn3partsCode from "!raw-loader!./../../components/Layouts/Hero/FullheightHeroIn3parts";
 
 
 

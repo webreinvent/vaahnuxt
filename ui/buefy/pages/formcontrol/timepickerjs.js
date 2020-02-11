@@ -1,20 +1,20 @@
-import globalComponents from "../../../../ui/helpers/globalComponents";
+import globalComponents from "./../../../../ui/helpers/globalComponents";
 import SideMenu from "../../partials/SideMenu";
 
-import TimePicker from '../../../../ui/buefy/components/FormControl/Timepicker/TimePicker'
-import TimePickerCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Timepicker/TimePicker";
+import TimePicker from './../../../../ui/buefy/components/FormControl/Timepicker/TimePicker'
+import TimePickerCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Timepicker/TimePicker";
 
-import Editable from '../../../../ui/buefy/components/FormControl/Timepicker/Editable'
-import EditableCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Timepicker/Editable";
+import Editable from './../../../../ui/buefy/components/FormControl/Timepicker/Editable'
+import EditableCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Timepicker/Editable";
 
-import Range from '../../../../ui/buefy/components/FormControl/Timepicker/Range'
-import RangeCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Timepicker/Range";
+import Range from './../../../../ui/buefy/components/FormControl/Timepicker/Range'
+import RangeCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Timepicker/Range";
 
-import Footer from '../../../../ui/buefy/components/FormControl/Timepicker/Footer'
-import FooterCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Timepicker/Footer";
+import Footer from './../../../../ui/buefy/components/FormControl/Timepicker/Footer'
+import FooterCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Timepicker/Footer";
 
-import Inline from '../../../../ui/buefy/components/FormControl/Timepicker/Inline'
-import InlineCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Timepicker/Inline";
+import Inline from './../../../../ui/buefy/components/FormControl/Timepicker/Inline'
+import InlineCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Timepicker/Inline";
 
 export default {
   layout: 'ui',

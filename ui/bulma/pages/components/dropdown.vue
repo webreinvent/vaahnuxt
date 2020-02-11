@@ -44,23 +44,23 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import Dropdown from "../../components/Components/Dropdown/Dropdown";
-  import DropdownCode from "!raw-loader!../../components/Components/Dropdown/Dropdown";
+  import Dropdown from "./../../components/Components/Dropdown/Dropdown";
+  import DropdownCode from "!raw-loader!./../../components/Components/Dropdown/Dropdown";
 
-  import DropdownContent from "../../components/Components/Dropdown/DropdownContent";
-  import DropdownContentCode from "!raw-loader!../../components/Components/Dropdown/DropdownContent";
+  import DropdownContent from "./../../components/Components/Dropdown/DropdownContent";
+  import DropdownContentCode from "!raw-loader!./../../components/Components/Dropdown/DropdownContent";
 
-  import HoverableOrToggable from "../../components/Components/Dropdown/HoverableOrToggable";
-  import HoverableOrToggableCode from "!raw-loader!../../components/Components/Dropdown/HoverableOrToggable";
+  import HoverableOrToggable from "./../../components/Components/Dropdown/HoverableOrToggable";
+  import HoverableOrToggableCode from "!raw-loader!./../../components/Components/Dropdown/HoverableOrToggable";
 
-  import RightAligned from "../../components/Components/Dropdown/RightAligned";
-  import RightAlignedCode from "!raw-loader!../../components/Components/Dropdown/RightAligned";
+  import RightAligned from "./../../components/Components/Dropdown/RightAligned";
+  import RightAlignedCode from "!raw-loader!./../../components/Components/Dropdown/RightAligned";
 
-  import Dropup from "../../components/Components/Dropdown/Dropup";
-  import DropupCode from "!raw-loader!../../components/Components/Dropdown/Dropup";
+  import Dropup from "./../../components/Components/Dropdown/Dropup";
+  import DropupCode from "!raw-loader!./../../components/Components/Dropdown/Dropup";
 
 
 

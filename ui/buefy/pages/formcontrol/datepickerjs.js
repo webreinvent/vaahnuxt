@@ -1,38 +1,38 @@
-import globalComponents from "../../../../ui/helpers/globalComponents";
+import globalComponents from "./../../../../ui/helpers/globalComponents";
 import SideMenu from "../../partials/SideMenu";
 
-import Datepicker from '../../../../ui/buefy/components/FormControl/Datepicker/Datepicker'
-import DatepickerCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Datepicker/Datepicker";
+import Datepicker from './../../../../ui/buefy/components/FormControl/Datepicker/Datepicker'
+import DatepickerCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Datepicker/Datepicker";
 
-import Editable from '../../../../ui/buefy/components/FormControl/Datepicker/Editable'
-import EditableCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Datepicker/Editable";
+import Editable from './../../../../ui/buefy/components/FormControl/Datepicker/Editable'
+import EditableCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Datepicker/Editable";
 
-import Range from '../../../../ui/buefy/components/FormControl/Datepicker/Range'
-import RangeCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Datepicker/Range";
+import Range from './../../../../ui/buefy/components/FormControl/Datepicker/Range'
+import RangeCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Datepicker/Range";
 
-import Footer from '../../../../ui/buefy/components/FormControl/Datepicker/Footer'
-import FooterCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Datepicker/Footer";
+import Footer from './../../../../ui/buefy/components/FormControl/Datepicker/Footer'
+import FooterCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Datepicker/Footer";
 
-import Header from '../../../../ui/buefy/components/FormControl/Datepicker/Header'
-import HeaderCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Datepicker/Header";
+import Header from './../../../../ui/buefy/components/FormControl/Datepicker/Header'
+import HeaderCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Datepicker/Header";
 
-import MonthPicker from '../../../../ui/buefy/components/FormControl/Datepicker/MonthPicker'
-import MonthPickerCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Datepicker/MonthPicker";
+import MonthPicker from './../../../../ui/buefy/components/FormControl/Datepicker/MonthPicker'
+import MonthPickerCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Datepicker/MonthPicker";
 
-import ProgrammaticallyOpening from '../../../../ui/buefy/components/FormControl/Datepicker/ProgrammaticallyOpening'
-import ProgrammaticallyOpeningCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Datepicker/ProgrammaticallyOpening";
+import ProgrammaticallyOpening from './../../../../ui/buefy/components/FormControl/Datepicker/ProgrammaticallyOpening'
+import ProgrammaticallyOpeningCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Datepicker/ProgrammaticallyOpening";
 
-import Inline from '../../../../ui/buefy/components/FormControl/Datepicker/Inline'
-import InlineCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Datepicker/Inline";
+import Inline from './../../../../ui/buefy/components/FormControl/Datepicker/Inline'
+import InlineCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Datepicker/Inline";
 
-import Events from '../../../../ui/buefy/components/FormControl/Datepicker/Events'
-import EventsCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Datepicker/Events";
+import Events from './../../../../ui/buefy/components/FormControl/Datepicker/Events'
+import EventsCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Datepicker/Events";
 
-import SelectARangeOfDates from '../../../../ui/buefy/components/FormControl/Datepicker/SelectARangeOfDates'
-import SelectARangeOfDatesCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Datepicker/SelectARangeOfDates";
+import SelectARangeOfDates from './../../../../ui/buefy/components/FormControl/Datepicker/SelectARangeOfDates'
+import SelectARangeOfDatesCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Datepicker/SelectARangeOfDates";
 
-import SelectMultipleDates from '../../../../ui/buefy/components/FormControl/Datepicker/SelectMultipleDates'
-import SelectMultipleDatesCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Datepicker/SelectMultipleDates";
+import SelectMultipleDates from './../../../../ui/buefy/components/FormControl/Datepicker/SelectMultipleDates'
+import SelectMultipleDatesCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Datepicker/SelectMultipleDates";
 
 export default {
   layout: 'ui',

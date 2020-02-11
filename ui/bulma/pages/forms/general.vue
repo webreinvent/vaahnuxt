@@ -59,32 +59,32 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import CompleteFormExample from "../../components/Forms/General/CompleteFormExample";
-  import CompleteFormExampleCode from "!raw-loader!../../components/Forms/General/CompleteFormExample";
+  import CompleteFormExample from "./../../components/Forms/General/CompleteFormExample";
+  import CompleteFormExampleCode from "!raw-loader!./../../components/Forms/General/CompleteFormExample";
 
-  import FormField from "../../components/Forms/General/FormField";
-  import FormFieldCode from "!raw-loader!../../components/Forms/General/FormField";
+  import FormField from "./../../components/Forms/General/FormField";
+  import FormFieldCode from "!raw-loader!./../../components/Forms/General/FormField";
 
-  import FormControl from "../../components/Forms/General/FormControl";
-  import FormControlCode from "!raw-loader!../../components/Forms/General/FormControl";
+  import FormControl from "./../../components/Forms/General/FormControl";
+  import FormControlCode from "!raw-loader!./../../components/Forms/General/FormControl";
 
-  import WithIcons from "../../components/Forms/General/WithIcons";
-  import WithIconsCode from "!raw-loader!../../components/Forms/General/WithIcons";
+  import WithIcons from "./../../components/Forms/General/WithIcons";
+  import WithIconsCode from "!raw-loader!./../../components/Forms/General/WithIcons";
 
-  import FormAddons from "../../components/Forms/General/FormAddons";
-  import FormAddonsCode from "!raw-loader!../../components/Forms/General/FormAddons";
+  import FormAddons from "./../../components/Forms/General/FormAddons";
+  import FormAddonsCode from "!raw-loader!./../../components/Forms/General/FormAddons";
 
-  import FormGroup from "../../components/Forms/General/FormGroup";
-  import FormGroupCode from "!raw-loader!../../components/Forms/General/FormGroup";
+  import FormGroup from "./../../components/Forms/General/FormGroup";
+  import FormGroupCode from "!raw-loader!./../../components/Forms/General/FormGroup";
 
-  import HorizontalForm from "../../components/Forms/General/HorizontalForm";
-  import HorizontalFormCode from "!raw-loader!../../components/Forms/General/HorizontalForm";
+  import HorizontalForm from "./../../components/Forms/General/HorizontalForm";
+  import HorizontalFormCode from "!raw-loader!./../../components/Forms/General/HorizontalForm";
 
-  import DisabledForm from "../../components/Forms/General/DisabledForm";
-  import DisabledFormCode from "!raw-loader!../../components/Forms/General/DisabledForm";
+  import DisabledForm from "./../../components/Forms/General/DisabledForm";
+  import DisabledFormCode from "!raw-loader!./../../components/Forms/General/DisabledForm";
 
 
 

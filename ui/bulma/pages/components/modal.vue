@@ -34,17 +34,17 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import Modal from "../../components/Components/Modal/Modal";
-  import ModalCode from "!raw-loader!../../components/Components/Modal/Modal";
+  import Modal from "./../../components/Components/Modal/Modal";
+  import ModalCode from "!raw-loader!./../../components/Components/Modal/Modal";
 
-  import ImageModal from "../../components/Components/Modal/ImageModal";
-  import ImageModalCode from "!raw-loader!../../components/Components/Modal/ImageModal";
+  import ImageModal from "./../../components/Components/Modal/ImageModal";
+  import ImageModalCode from "!raw-loader!./../../components/Components/Modal/ImageModal";
 
-  import ModalCard from "../../components/Components/Modal/ModalCard";
-  import ModalCardCode from "!raw-loader!../../components/Components/Modal/ModalCard";
+  import ModalCard from "./../../components/Components/Modal/ModalCard";
+  import ModalCardCode from "!raw-loader!./../../components/Components/Modal/ModalCard";
 
 
 
