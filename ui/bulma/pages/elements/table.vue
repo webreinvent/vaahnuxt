@@ -24,11 +24,11 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import Table from "../../components/Elements/Table/Table";
-  import TableCode from "!raw-loader!../../components/Elements/Table/Table";
+  import Table from "./../../components/Elements/Table/Table";
+  import TableCode from "!raw-loader!./../../components/Elements/Table/Table";
 
 
 

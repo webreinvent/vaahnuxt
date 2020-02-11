@@ -49,26 +49,26 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import Tabs from "../../components/Components/Tabs/Tabs";
-  import TabsCode from "!raw-loader!../../components/Components/Tabs/Tabs";
+  import Tabs from "./../../components/Components/Tabs/Tabs";
+  import TabsCode from "!raw-loader!./../../components/Components/Tabs/Tabs";
 
-  import Alignment from "../../components/Components/Tabs/Alignment";
-  import AlignmentCode from "!raw-loader!../../components/Components/Tabs/Alignment";
+  import Alignment from "./../../components/Components/Tabs/Alignment";
+  import AlignmentCode from "!raw-loader!./../../components/Components/Tabs/Alignment";
 
-  import Icons from "../../components/Components/Tabs/Icons";
-  import IconsCode from "!raw-loader!../../components/Components/Tabs/Icons";
+  import Icons from "./../../components/Components/Tabs/Icons";
+  import IconsCode from "!raw-loader!./../../components/Components/Tabs/Icons";
 
-  import Sizes from "../../components/Components/Tabs/Sizes";
-  import SizesCode from "!raw-loader!../../components/Components/Tabs/Sizes";
+  import Sizes from "./../../components/Components/Tabs/Sizes";
+  import SizesCode from "!raw-loader!./../../components/Components/Tabs/Sizes";
 
-  import Styles from "../../components/Components/Tabs/Styles";
-  import StylesCode from "!raw-loader!../../components/Components/Tabs/Styles";
+  import Styles from "./../../components/Components/Tabs/Styles";
+  import StylesCode from "!raw-loader!./../../components/Components/Tabs/Styles";
 
-  import Combining from "../../components/Components/Tabs/Combining";
-  import CombiningCode from "!raw-loader!../../components/Components/Tabs/Combining";
+  import Combining from "./../../components/Components/Tabs/Combining";
+  import CombiningCode from "!raw-loader!./../../components/Components/Tabs/Combining";
 
 
 

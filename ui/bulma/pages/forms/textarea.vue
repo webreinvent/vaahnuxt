@@ -39,20 +39,20 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../helpers/globalComponents";
+  import BulmaTopMenu from "./../../../bulma/partials/BulmaTopMenu";
 
-  import Textarea from "../../components/Forms/Textarea/Textarea";
-  import TextareaCode from "!raw-loader!../../components/Forms/Textarea/Textarea";
+  import Textarea from "./../../components/Forms/TextArea/Textarea";
+  import TextareaCode from "!raw-loader!./../../components/Forms/TextArea/Textarea";
 
-  import Colors from "../../components/Forms/Textarea/Colors";
-  import ColorsCode from "!raw-loader!../../components/Forms/Textarea/Colors";
+  import Colors from "./../../components/Forms/TextArea/Colors";
+  import ColorsCode from "!raw-loader!./../../components/Forms/TextArea/Colors";
 
-  import Sizes from "../../components/Forms/Textarea/Sizes";
-  import SizesCode from "!raw-loader!../../components/Forms/Textarea/Sizes";
+  import Sizes from "./../../components/Forms/TextArea/Sizes";
+  import SizesCode from "!raw-loader!./../../components/Forms/TextArea/Sizes";
 
-  import States from "../../components/Forms/Textarea/States";
-  import StatesCode from "!raw-loader!../../components/Forms/Textarea/States";
+  import States from "./../../components/Forms/TextArea/States";
+  import StatesCode from "!raw-loader!./../../components/Forms/TextArea/States";
 
 
 

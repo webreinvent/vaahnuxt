@@ -1,26 +1,26 @@
-import globalComponents from "../../../../ui/helpers/globalComponents";
+import globalComponents from "./../../../../ui/helpers/globalComponents";
 import SideMenu from "../../partials/SideMenu";
 
-import Slider from '../../../../ui/buefy/components/FormControl/Slider/Slider'
-import SliderCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Slider/Slider";
+import Slider from './../../../../ui/buefy/components/FormControl/Slider/Slider'
+import SliderCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Slider/Slider";
 
-import Sizes from '../../../../ui/buefy/components/FormControl/Slider/Sizes'
-import SizesCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Slider/Sizes";
+import Sizes from './../../../../ui/buefy/components/FormControl/Slider/Sizes'
+import SizesCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Slider/Sizes";
 
-import Types from '../../../../ui/buefy/components/FormControl/Slider/Types'
-import TypesCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Slider/Types";
+import Types from './../../../../ui/buefy/components/FormControl/Slider/Types'
+import TypesCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Slider/Types";
 
-import Customization from '../../../../ui/buefy/components/FormControl/Slider/Customization'
-import CustomizationCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Slider/Customization";
+import Customization from './../../../../ui/buefy/components/FormControl/Slider/Customization'
+import CustomizationCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Slider/Customization";
 
-import TickAndLabel from '../../../../ui/buefy/components/FormControl/Slider/TickAndLabel'
-import TickAndLabelCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Slider/TickAndLabel";
+import TickAndLabel from './../../../../ui/buefy/components/FormControl/Slider/TickAndLabel'
+import TickAndLabelCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Slider/TickAndLabel";
 
-import RangeSlider from '../../../../ui/buefy/components/FormControl/Slider/RangeSlider'
-import RangeSliderCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Slider/RangeSlider";
+import RangeSlider from './../../../../ui/buefy/components/FormControl/Slider/RangeSlider'
+import RangeSliderCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Slider/RangeSlider";
 
-import LazyUpdate from '../../../../ui/buefy/components/FormControl/Slider/LazyUpdate'
-import LazyUpdateCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Slider/LazyUpdate";
+import LazyUpdate from './../../../../ui/buefy/components/FormControl/Slider/LazyUpdate'
+import LazyUpdateCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Slider/LazyUpdate";
 
 export default {
   layout: 'ui',

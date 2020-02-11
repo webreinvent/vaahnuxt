@@ -39,20 +39,20 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import Message from "../../components/Components/Message/Message";
-  import MessageCode from "!raw-loader!../../components/Components/Message/Message";
+  import Message from "./../../components/Components/Message/Message";
+  import MessageCode from "!raw-loader!./../../components/Components/Message/Message";
 
-  import Colors from "../../components/Components/Message/Colors";
-  import ColorsCode from "!raw-loader!../../components/Components/Message/Colors";
+  import Colors from "./../../components/Components/Message/Colors";
+  import ColorsCode from "!raw-loader!./../../components/Components/Message/Colors";
 
-  import MessageBodyOnly from "../../components/Components/Message/MessageBodyOnly";
-  import MessageBodyOnlyCode from "!raw-loader!../../components/Components/Message/MessageBodyOnly";
+  import MessageBodyOnly from "./../../components/Components/Message/MessageBodyOnly";
+  import MessageBodyOnlyCode from "!raw-loader!./../../components/Components/Message/MessageBodyOnly";
 
-  import Sizes from "../../components/Components/Message/Sizes";
-  import SizesCode from "!raw-loader!../../components/Components/Message/Sizes";
+  import Sizes from "./../../components/Components/Message/Sizes";
+  import SizesCode from "!raw-loader!./../../components/Components/Message/Sizes";
 
 
 

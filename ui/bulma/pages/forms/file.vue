@@ -44,23 +44,23 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import FileUpload from "../../components/Forms/File/FileUpload";
-  import FileUploadCode from "!raw-loader!../../components/Forms/File/FileUpload";
+  import FileUpload from "./../../components/Forms/File/FileUpload";
+  import FileUploadCode from "!raw-loader!./../../components/Forms/File/FileUpload";
 
-  import Modifiers from "../../components/Forms/File/Modifiers";
-  import ModifiersCode from "!raw-loader!../../components/Forms/File/Modifiers";
+  import Modifiers from "./../../components/Forms/File/Modifiers";
+  import ModifiersCode from "!raw-loader!./../../components/Forms/File/Modifiers";
 
-  import Colors from "../../components/Forms/File/Colors";
-  import ColorsCode from "!raw-loader!../../components/Forms/File/Colors";
+  import Colors from "./../../components/Forms/File/Colors";
+  import ColorsCode from "!raw-loader!./../../components/Forms/File/Colors";
 
-  import Sizes from "../../components/Forms/File/Sizes";
-  import SizesCode from "!raw-loader!../../components/Forms/File/Sizes";
+  import Sizes from "./../../components/Forms/File/Sizes";
+  import SizesCode from "!raw-loader!./../../components/Forms/File/Sizes";
 
-  import Alignment from "../../components/Forms/File/Alignment";
-  import AlignmentCode from "!raw-loader!../../components/Forms/File/Alignment";
+  import Alignment from "./../../components/Forms/File/Alignment";
+  import AlignmentCode from "!raw-loader!./../../components/Forms/File/Alignment";
 
 
 

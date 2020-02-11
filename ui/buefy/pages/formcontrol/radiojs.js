@@ -1,17 +1,17 @@
-import globalComponents from "../../../../ui/helpers/globalComponents";
+import globalComponents from "./../../../../ui/helpers/globalComponents";
 import SideMenu from "../../partials/SideMenu";
 
-import Radio from '../../../../ui/buefy/components/FormControl/Radio/Radio'
-import RadioCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Radio/Radio";
+import Radio from './../../../../ui/buefy/components/FormControl/Radio/Radio'
+import RadioCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Radio/Radio";
 
-import Sizes from '../../../../ui/buefy/components/FormControl/Radio/Sizes'
-import SizesCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Radio/Sizes";
+import Sizes from './../../../../ui/buefy/components/FormControl/Radio/Sizes'
+import SizesCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Radio/Sizes";
 
-import Types from '../../../../ui/buefy/components/FormControl/Radio/Types'
-import TypesCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Radio/Types";
+import Types from './../../../../ui/buefy/components/FormControl/Radio/Types'
+import TypesCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Radio/Types";
 
-import RadioButton from '../../../../ui/buefy/components/FormControl/Radio/RadioButton'
-import RadioButtonCode from "!raw-loader!../../../../ui/buefy/components/FormControl/Radio/RadioButton";
+import RadioButton from './../../../../ui/buefy/components/FormControl/Radio/RadioButton'
+import RadioButtonCode from "!raw-loader!./../../../../ui/buefy/components/FormControl/Radio/RadioButton";
 
 export default {
   layout: 'ui',

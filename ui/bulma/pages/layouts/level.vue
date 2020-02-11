@@ -34,17 +34,17 @@
 
 <script>
 
-  import globalComponents from "../../../../ui/helpers/globalComponents";
-  import BulmaTopMenu from "../../../../ui/bulma/partials/BulmaTopMenu";
+  import globalComponents from "./../../../../ui/helpers/globalComponents";
+  import BulmaTopMenu from "./../../../../ui/bulma/partials/BulmaTopMenu";
 
-  import LevelSnippet from "../../components/Layouts/Level/LevelSnippet";
-  import LevelSnippetCode from "!raw-loader!../../components/Layouts/Level/LevelSnippet";
+  import LevelSnippet from "./../../components/Layouts/Level/LevelSnippet";
+  import LevelSnippetCode from "!raw-loader!./../../components/Layouts/Level/LevelSnippet";
 
-  import CenteredLevel from "../../components/Layouts/Level/CenteredLevel";
-  import CenteredLevelCode from "!raw-loader!../../components/Layouts/Level/CenteredLevel";
+  import CenteredLevel from "./../../components/Layouts/Level/CenteredLevel";
+  import CenteredLevelCode from "!raw-loader!./../../components/Layouts/Level/CenteredLevel";
 
-  import MobileLevel from "../../components/Layouts/Level/MobileLevel";
-  import MobileLevelCode from "!raw-loader!../../components/Layouts/Level/MobileLevel";
+  import MobileLevel from "./../../components/Layouts/Level/MobileLevel";
+  import MobileLevelCode from "!raw-loader!./../../components/Layouts/Level/MobileLevel";
 
 
 
