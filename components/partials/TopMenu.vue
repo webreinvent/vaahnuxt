@@ -18,16 +18,13 @@
       </div>
 
       <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
 
-          <nuxt-link to="/" class="navbar-item">Home</nuxt-link>
-          <nuxt-link to="/ui/bulma" class="navbar-item">Bulma</nuxt-link>
-          <nuxt-link to="/ui/buefy" class="navbar-item">Buefy</nuxt-link>
-          <nuxt-link to="/ui/docs" class="navbar-item">Docs</nuxt-link>
-
-        </div>
 
         <div class="navbar-end">
+
+          <a href="https://demo.nuxt.vaah.dev"
+             class="navbar-item"
+             target="_blank">Demo</a>
 
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">
@@ -35,12 +32,25 @@
             </a>
 
             <div class="navbar-dropdown">
-              <nuxt-link to="/ui/buefy" class="navbar-item">Buefy</nuxt-link>
-              <nuxt-link to="/ui/bulma" class="navbar-item">Bulma</nuxt-link>
-              <nuxt-link to="/ui/docs" class="navbar-item">Docs</nuxt-link>
+              <a href="https://demo.nuxt.vaah.dev/ui/buefy"
+                 target="_blank"
+                 class="navbar-item">Buefy</a>
+              <a href="https://demo.nuxt.vaah.dev/ui/bulma"
+                 target="_blank"
+                 class="navbar-item">Bulma</a>
+              <a href="https://demo.nuxt.vaah.dev/ui/docs"
+                 target="_blank"
+                 class="navbar-item">Docs</a>
               <hr class="navbar-divider">
-              <nuxt-link to="/ui/blocks" class="navbar-item">Blocks</nuxt-link>
-              <nuxt-link to="/ui/blocks/cheatsheet" class="navbar-item">Cheat Sheet</nuxt-link>
+
+              <a href="https://demo.nuxt.vaah.dev/ui/blocks"
+                 target="_blank"
+                 class="navbar-item">Blocks</a>
+
+
+              <a href="https://demo.nuxt.vaah.dev/ui/blocks/cheatsheet"
+                 target="_blank"
+                 class="navbar-item">Cheat Sheet</a>
             </div>
           </div>
 
