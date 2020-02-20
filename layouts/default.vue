@@ -13,7 +13,7 @@
 <script>
 
 import TopMenu from './../components/partials/TopMenu'
-import UIFooter from './../ui/partials/Footer'
+import UIFooter from './../vaahnuxt/partials/Footer'
 
 export default {
     components:{
