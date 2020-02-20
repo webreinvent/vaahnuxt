@@ -2,7 +2,6 @@
 
 > Boilerplate of NuxtJs+Buefy+Laravel Authentication
 
-- Demo: https://demo.nuxt.vaah.dev
 
 ## List of commands:
 - `vaah nuxt:install` : To install the vaahnuxt

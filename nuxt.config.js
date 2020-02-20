@@ -1,7 +1,7 @@
 let fs = require('fs');
 let path = require('path');
 
-import config from './vaah.config';
+import config from './vaahnuxt/vaah.config';
 
 
 let ENV_DEV = true;
@@ -22,12 +22,13 @@ let https = false;
 */
 if(ENV_DEV==false)
 {
-  host = 'domain.com';
+  port = 49100;
+  host = 'demo.nuxt.vaah.dev';
   https =  {
     key: fs.readFileSync(path.resolve(__dirname,
-      'ssl-key-path-file.key')),
+      './../../ssl/keys/c2417_1f2fd_8afdda87bd501f83e37582a98aa48669.key')),
     cert: fs.readFileSync(path.resolve(__dirname,
-      'ssl-crt-path-file.crt'))
+      './../../ssl/certs/demo_nuxt_vaah_dev_c2417_1f2fd_1589155199_d395bdedcb18f8578f62575590e53aaa.crt'))
   };
 }
 
@@ -55,18 +56,6 @@ config.head = {
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
   ]
 };
-
-
-/*
-|--------------------------------------------------------------------------
-| NuxtJs CSS
-|--------------------------------------------------------------------------
-*/
-
-let css = [];
-
-config.css.concat(css);
-
 
 /*
 |--------------------------------------------------------------------------
