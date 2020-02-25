@@ -57,6 +57,18 @@ config.head = {
   ]
 };
 
+
+/*
+|--------------------------------------------------------------------------
+| NuxtJs CSS
+|--------------------------------------------------------------------------
+*/
+
+let css = [];
+
+config.css = config.css.concat(css);
+
+
 /*
 |--------------------------------------------------------------------------
 | NuxtJs Loading
@@ -85,7 +97,7 @@ config.server = {
 */
 let plugins = [];
 
-config.plugins.concat(plugins);
+config.plugins = config.plugins.concat(plugins);
 
 
 /*
@@ -95,7 +107,7 @@ config.plugins.concat(plugins);
 */
 let modules = [];
 
-config.modules.concat(modules);
+config.modules = config.modules.concat(modules);
 
 
 /*
@@ -105,7 +117,7 @@ config.modules.concat(modules);
 */
 let buildModules = [];
 
-config.buildModules.concat(buildModules);
+config.buildModules = config.buildModules.concat(buildModules);
 
 
 /*
@@ -114,6 +126,7 @@ config.buildModules.concat(buildModules);
 |--------------------------------------------------------------------------
 */
 config.build = {
+  extractCSS: true,
   /*
   ** You can extend webpack config here
   */
