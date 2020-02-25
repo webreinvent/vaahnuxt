@@ -18,7 +18,7 @@
 <script>
 
   export default {
-    props: ['data'],
+    props: ['data', 'label'],
     components:{
     },
     data(){
