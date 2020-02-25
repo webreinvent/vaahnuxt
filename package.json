@@ -1,6 +1,6 @@
 {
   "name": "vaahnuxt",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Boilerplate of NuxtJs+Buefy+Laravel Authentication",
   "author": "Pradeep",
   "private": true,
@@ -21,6 +21,7 @@
     "@nuxtjs/redirect-module": "^0.3.1",
     "@nuxtjs/sentry": "^3.0.1",
     "bulma-helpers": "^0.3.10",
+    "fuse.js": "^3.4.6",
     "highlight.js": "^9.18.0",
     "markdown-it-attrs": "^3.0.1",
     "markdown-it-div": "^1.1.0",
