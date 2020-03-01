@@ -26,9 +26,9 @@ if(ENV_DEV==false)
   host = 'demo.nuxt.vaah.dev';
   https =  {
     key: fs.readFileSync(path.resolve(__dirname,
-      './../../ssl/keys/c2417_1f2fd_8afdda87bd501f83e37582a98aa48669.key')),
+      'path-to-ssl.key')),
     cert: fs.readFileSync(path.resolve(__dirname,
-      './../../ssl/certs/demo_nuxt_vaah_dev_c2417_1f2fd_1589155199_d395bdedcb18f8578f62575590e53aaa.crt'))
+      'path-to-ssl.crt'))
   };
 }
 
@@ -64,10 +64,9 @@ config.head = {
 |--------------------------------------------------------------------------
 */
 
-let css = [];
+let css = ["@/assets/themes/default/scss/style.scss"];
 
 config.css = config.css.concat(css);
-
 
 /*
 |--------------------------------------------------------------------------
@@ -108,6 +107,34 @@ config.plugins = config.plugins.concat(plugins);
 let modules = [];
 
 config.modules = config.modules.concat(modules);
+
+config.webfontloader = {
+  google: {
+    families: ['Poppins:300,400,500,600,700,800&display=swap'] //Loads Poppins font containing weights 400 to 700
+  }
+};
+
+config.markdownit = {
+  "preset": "default",
+    "linkify": true,
+    "html": true,
+    "breaks": true,
+    "use": [
+    "markdown-it-div",
+    "markdown-it-attrs",
+    "markdown-it-highlightjs"
+  ]
+};
+
+config.fontawesome = {
+  imports: [
+    //import whole set
+    {
+      set: '@fortawesome/free-solid-svg-icons',
+      icons: ['fas']
+    },
+  ]
+};
 
 
 /*
