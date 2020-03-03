@@ -2,11 +2,13 @@
 
   <b-button type="is-text" size="is-small">
 
-    <b-icon size="is-small" icon="content-copy"></b-icon>
+    <b-icon size="is-small"
+            v-if="hide_icon === false"
+            icon="content-copy"></b-icon>
 
     <vh-copy
       :data="data"
-      :label="'copy'"
+      :label="copy_label"
       :confirm_dialog="'buefy'"
       class="content has-text-right ">
     </vh-copy>
@@ -18,14 +20,23 @@
 <script>
 
   export default {
-    props: ['data', 'label'],
+    props: ['data', 'label', 'hide_icon'],
     components:{
     },
     data(){
 
-      let obj = {};
+      let obj = {
+        copy_label: "copy"
+      };
 
       return obj;
+
+    },
+    mounted() {
+
+      if(this.label){
+        this.copy_label = this.label;
+      }
 
     }
   }

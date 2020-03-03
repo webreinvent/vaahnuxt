@@ -5,13 +5,13 @@
     <article class="message">
       <div class="message-body has-padding-10">
 
-        <div class="level">
+        <div class="level is-flex">
 
           <div class="level-left">
             {{command}}
           </div>
 
-          <div class="level-right">
+          <div class="level-right is-top-marginless">
             <b-button type="is-text" size="is-small">
 
 
