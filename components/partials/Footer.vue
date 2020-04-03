@@ -9,12 +9,12 @@
         <div class="level">
 
           <div class="level-item has-text-centered">
-            <div>
+            <!--<div>
               <vaah-link to="/ui/buefy">Buefy</vaah-link>
               | <vaah-link to="/ui/bulma">Bulma</vaah-link>
               | <vaah-link to="/ui/docs">Docs</vaah-link>
               | <vaah-link to="/ui/blocks">Blocks</vaah-link>
-            </div>
+            </div>-->
           </div>
 
         </div>
@@ -28,6 +28,7 @@
         </div>
 
       </div>
+
     </div>
 
 
@@ -37,21 +38,23 @@
 </template>
 
 <script>
+  import globalComponents from '../../vaahnuxt/helpers/globalComponents'
   import pkg from './../../package';
   import buefy from './../../node_modules/buefy/package';
   import bulma from './../../node_modules/bulma/package';
-  import globalComponents from '../helpers/globalComponents';
+
   export default {
     data(){
       let obj = {
         pkg: pkg,
         buefy: buefy,
         bulma: bulma,
-      }
+      };
       return obj;
     },
     components:{
-      ...globalComponents,
+      ...globalComponents
+
     },
   }
 </script>

@@ -5,7 +5,7 @@
 
     <nuxt />
 
-    <UIFooter></UIFooter>
+    <Footer></Footer>
 
   </div>
 </template>
@@ -13,12 +13,12 @@
 <script>
 
 import TopMenu from './../components/partials/TopMenu'
-import UIFooter from './../vaahnuxt/partials/Footer'
+import Footer from './../components/partials/Footer'
 
 export default {
     components:{
       TopMenu,
-      UIFooter,
+      Footer,
     },
 
     data () {
