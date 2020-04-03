@@ -25,10 +25,8 @@ if(ENV_DEV==false)
   port = 49100;
   host = 'demo.nuxt.vaah.dev';
   https =  {
-    key: fs.readFileSync(path.resolve(__dirname,
-      'path-to-ssl.key')),
-    cert: fs.readFileSync(path.resolve(__dirname,
-      'path-to-ssl.crt'))
+    key: '/path/to/ssl.key',
+    cert: '/path/to/ssl.key.crt'
   };
 }
 
@@ -67,6 +65,7 @@ config.head = {
 let css = ["@/assets/themes/default/scss/style.scss"];
 
 config.css = config.css.concat(css);
+
 
 /*
 |--------------------------------------------------------------------------
@@ -126,6 +125,12 @@ config.markdownit = {
   ]
 };
 
+config.buefy = {
+  materialDesignIcons: false,
+  defaultIconPack: 'fas',
+  defaultIconComponent: 'font-awesome-icon'
+};
+
 config.fontawesome = {
   imports: [
     //import whole set
@@ -135,6 +140,8 @@ config.fontawesome = {
     },
   ]
 };
+
+
 
 
 /*
