@@ -6,9 +6,9 @@ import config from './vaahnuxt/vaah.config';
 
 let ENV;
 
-//ENV = 'localhost';
+ENV = 'localhost';
 //ENV = 'develop';
-ENV = 'production';
+//ENV = 'production';
 
 /*
 |--------------------------------------------------------------------------
@@ -31,27 +31,27 @@ if(ENV == 'localhost')
 if(ENV == 'develop')
 {
 
+  //EDIT FOLLOWING SETTING
   port = 48100;
-  host = 'nuxt.resolved.io';
+  host = 'develop.domain.com';
   https =  {
-    key: fs.readFileSync(path.resolve(__dirname,
-      './../../ssl/keys/c9ae0_d0625_d8d7614520a58c0aaa05f4c415c5ee5d.key')),
-    cert: fs.readFileSync(path.resolve(__dirname,
-      './../../ssl/certs/nuxt_resolved_io_c9ae0_d0625_1605052799_178e3da64299f379fc627e6200b80516.crt'))
+    key: '/path/to/ssl.key',
+    cert: '/path/to/ssl.key.crt'
   };
 }
 
 
 if(ENV=='production')
 {
+
+  //EDIT FOLLOWING SETTING
   port = 49100;
-  host = 'demo.nuxt.vaah.dev';
+  host = 'domain.com';
   https =  {
-    key: fs.readFileSync(path.resolve(__dirname,
-      './../../ssl/keys/c1ee7_870a9_16a80049e439f98a71c4aa9c0f821074.key')),
-    cert: fs.readFileSync(path.resolve(__dirname,
-      './../../ssl/certs/demo_nuxt_vaah_dev_c1ee7_870a9_1605311999_0c8f6f8c878b47c251d9da3f75b32935.crt'))
+    key: '/path/to/ssl.key',
+    cert: '/path/to/ssl.key.crt'
   };
+
 }
 
 /*
