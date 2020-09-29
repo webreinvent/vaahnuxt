@@ -4,29 +4,53 @@ let path = require('path');
 import config from './vaahnuxt/vaah.config';
 
 
-let ENV_DEV = true;
+let ENV;
+
+//ENV = 'localhost';
+//ENV = 'develop';
+ENV = 'production';
 
 /*
 |--------------------------------------------------------------------------
-| NuxtJs Development Configurations
+| NuxtJs Configurations
 |--------------------------------------------------------------------------
 */
-let port = 3000;
-let host = 'localhost';
-let https = false;
 
-/*
-|--------------------------------------------------------------------------
-| NuxtJs Production Configurations
-|--------------------------------------------------------------------------
-*/
-if(ENV_DEV==false)
+let port;
+let host;
+let https;
+
+if(ENV == 'localhost')
+{
+
+  port = 3000;
+  host = 'localhost';
+  https = false;
+}
+
+if(ENV == 'develop')
+{
+
+  port = 48100;
+  host = 'nuxt.resolved.io';
+  https =  {
+    key: fs.readFileSync(path.resolve(__dirname,
+      './../../ssl/keys/c9ae0_d0625_d8d7614520a58c0aaa05f4c415c5ee5d.key')),
+    cert: fs.readFileSync(path.resolve(__dirname,
+      './../../ssl/certs/nuxt_resolved_io_c9ae0_d0625_1605052799_178e3da64299f379fc627e6200b80516.crt'))
+  };
+}
+
+
+if(ENV=='production')
 {
   port = 49100;
   host = 'demo.nuxt.vaah.dev';
   https =  {
-    key: '/path/to/ssl.key',
-    cert: '/path/to/ssl.key.crt'
+    key: fs.readFileSync(path.resolve(__dirname,
+      './../../ssl/keys/c1ee7_870a9_16a80049e439f98a71c4aa9c0f821074.key')),
+    cert: fs.readFileSync(path.resolve(__dirname,
+      './../../ssl/certs/demo_nuxt_vaah_dev_c1ee7_870a9_1605311999_0c8f6f8c878b47c251d9da3f75b32935.crt'))
   };
 }
 
@@ -62,7 +86,11 @@ config.head = {
 |--------------------------------------------------------------------------
 */
 
-let css = ["@/assets/themes/default/scss/style.scss"];
+let css = [
+  "~/node_modules/highlight.js/styles/github.css",
+  "~/node_modules/bulma-helpers/bulma-helpers.sass",
+  "@/assets/themes/scss/site.scss"
+];
 
 config.css = config.css.concat(css);
 
@@ -115,10 +143,10 @@ config.webfontloader = {
 
 config.markdownit = {
   "preset": "default",
-    "linkify": true,
-    "html": true,
-    "breaks": true,
-    "use": [
+  "linkify": true,
+  "html": true,
+  "breaks": true,
+  "use": [
     "markdown-it-div",
     "markdown-it-attrs",
     "markdown-it-highlightjs"
@@ -137,6 +165,10 @@ config.fontawesome = {
     {
       set: '@fortawesome/free-solid-svg-icons',
       icons: ['fas']
+    },
+    {
+      set: '@fortawesome/free-brands-svg-icons',
+      icons: ['fab']
     },
   ]
 };

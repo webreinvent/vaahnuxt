@@ -1,0 +1,17 @@
+@import "customize/vaah";
+
+.columns{
+  flex-wrap: wrap !important;
+}
+
+.level-left, .level-right{
+  flex-shrink: 1 !important;
+  display: block;
+}
+
+.side-menu{
+  .menu{
+    max-height: 600px;
+    overflow: auto;
+  }
+}

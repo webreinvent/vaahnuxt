@@ -1,5 +1,6 @@
 export const state = () => ({
   link_type: 'nuxt', //nuxt or vue
+  link_tag: 'nuxt-link', //nuxt or vue
 });
 
 //=========================================================================
