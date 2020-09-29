@@ -4,30 +4,54 @@ let path = require('path');
 import config from './vaahnuxt/vaah.config';
 
 
-let ENV_DEV = true;
+let ENV;
+
+ENV = 'localhost';
+//ENV = 'develop';
+//ENV = 'production';
 
 /*
 |--------------------------------------------------------------------------
-| NuxtJs Development Configurations
+| NuxtJs Configurations
 |--------------------------------------------------------------------------
 */
-let port = 3000;
-let host = 'localhost';
-let https = false;
 
-/*
-|--------------------------------------------------------------------------
-| NuxtJs Production Configurations
-|--------------------------------------------------------------------------
-*/
-if(ENV_DEV==false)
+let port;
+let host;
+let https;
+
+if(ENV == 'localhost')
 {
-  port = 49100;
-  host = 'demo.nuxt.vaah.dev';
+
+  port = 3000;
+  host = 'localhost';
+  https = false;
+}
+
+if(ENV == 'develop')
+{
+
+  //EDIT FOLLOWING SETTING
+  port = 48100;
+  host = 'develop.domain.com';
   https =  {
     key: '/path/to/ssl.key',
     cert: '/path/to/ssl.key.crt'
   };
+}
+
+
+if(ENV=='production')
+{
+
+  //EDIT FOLLOWING SETTING
+  port = 49100;
+  host = 'domain.com';
+  https =  {
+    key: '/path/to/ssl.key',
+    cert: '/path/to/ssl.key.crt'
+  };
+
 }
 
 /*
@@ -62,7 +86,11 @@ config.head = {
 |--------------------------------------------------------------------------
 */
 
-let css = ["@/assets/themes/default/scss/style.scss"];
+let css = [
+  "~/node_modules/highlight.js/styles/github.css",
+  "~/node_modules/bulma-helpers/bulma-helpers.sass",
+  "@/assets/themes/scss/site.scss"
+];
 
 config.css = config.css.concat(css);
 
@@ -115,10 +143,10 @@ config.webfontloader = {
 
 config.markdownit = {
   "preset": "default",
-    "linkify": true,
-    "html": true,
-    "breaks": true,
-    "use": [
+  "linkify": true,
+  "html": true,
+  "breaks": true,
+  "use": [
     "markdown-it-div",
     "markdown-it-attrs",
     "markdown-it-highlightjs"
@@ -137,6 +165,10 @@ config.fontawesome = {
     {
       set: '@fortawesome/free-solid-svg-icons',
       icons: ['fas']
+    },
+    {
+      set: '@fortawesome/free-brands-svg-icons',
+      icons: ['fab']
     },
   ]
 };
